@@ -6,6 +6,7 @@ import { Route, withRouter, Switch } from 'react-router-dom';
 
 import LoginPage from './containers/LoginPage';
 import MainPage from './containers/MainPage';
+import { CLIENT_RENEG_LIMIT } from 'tls';
 
 class App extends Component {
   render() {
@@ -15,7 +16,8 @@ class App extends Component {
           <Route exact path='/main' component={MainPage}/>
           <Route exact path='/login' component={LoginPage}/>
           <Route exact path='/main/:username' render={({ match }) => {
-            return <MainPage />
+            console.log('match obj:', match.params.username)
+            return <MainPage username={match.params.username}/>
           }} />
           <Route exact path='/' component={LoginPage}/>
         </Switch>

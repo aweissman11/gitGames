@@ -7,6 +7,7 @@ class MainPage extends Component {
     return (
       <div className="main-page">
         <h1>Main Page</h1>
+        <h2>{this.props.username}</h2>
       </div>
     );
   }
