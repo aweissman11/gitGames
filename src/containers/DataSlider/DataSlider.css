@@ -1,0 +1,32 @@
+.slide-btn-left,
+.slide-btn-right {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  transition: ease-in;
+  transition-duration: 5s;
+  background: white;
+}
+
+.slide-btn-left {
+  left: 0;
+}
+
+.slide-btn-right {
+  right: 0;
+}
+
+.slide-btn-left:hover {
+  background: rgb(182,182,182);
+  background: linear-gradient(90deg, rgba(182,182,182,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.slide-btn-right:hover {
+  background: rgb(182,182,182);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(182,182,182,1) 100%);
+}
+
