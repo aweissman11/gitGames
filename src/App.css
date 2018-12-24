@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  object-fit: contain;
+}
+
 .App {
   text-align: center;
 }
