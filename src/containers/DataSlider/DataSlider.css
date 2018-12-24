@@ -1,5 +1,14 @@
+.data-slider {
+  position: relative;
+  height: calc(100vh - 70px);
+  width: 100vw;
+  margin-top: 70px;
+}
+
 .slide-btn-left,
 .slide-btn-right {
+  transition-duration: 5s;
+  transition: ease-in;
   height: 100vh;
   position: absolute;
   top: 0;
@@ -7,9 +16,8 @@
   align-items: center;
   justify-content: center;
   width: 15vw;
-  transition: ease-in;
-  transition-duration: 5s;
   background: white;
+  z-index: 10;
 }
 
 .slide-btn-left {
@@ -30,3 +38,79 @@
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(182,182,182,1) 100%);
 }
 
+.slide-btn-right:active {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(120,120,120,1) 100%);
+}
+
+.slide-btn-left:active {
+  background: linear-gradient(90deg, rgba(120,120,120,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.graph-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 300px;
+  height: 20px;
+  left: calc(50% - 150px);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.current-graph-dot,
+.graph-dot {
+  width: 20px;
+  border-radius: 100%;
+}
+
+.current-graph-dot {
+  background: black;
+}
+
+.graph-dot {
+  background: lightgray;
+}
+
+.graphs {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.graph-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 100%);
+  position: relative;
+  transition: .5s;
+}
+
+.graph {
+  width: 800px;
+  height: 500px;
+  align-self: center;
+  margin: 0px auto;
+  border: solid 1px lightgray;
+}
+
+.hide-slide-btn {
+  display: none;
+}
+
+.position-1 {
+  right: 0;
+}
+
+.position-2 {
+  right: 100%;
+}
+
+.position-3 {
+  right: 200%;
+}
+
+.position-4 {
+  right: 300%;
+}
+
+.position-5 {
+  right: 400%;
+}
