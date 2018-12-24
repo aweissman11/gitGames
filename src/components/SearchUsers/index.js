@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 // import { Route, withRouter, Switch } from 'react-router-dom';
 
+import './SearchUsers.css';
+
 class LoginPage extends Component {
   constructor(props) {
     super(props)
