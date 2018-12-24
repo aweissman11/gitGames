@@ -17,7 +17,7 @@ class App extends Component {
           <Route exact path='/main/:username' render={({ match }) => {
             return <MainPage username={match.params.username}/>
           }} />
-          <Route exact path='/' component={LoginPage}/>
+          <Route exact path='/' component={MainPage}/>
         </Switch>
       </div>
     );
