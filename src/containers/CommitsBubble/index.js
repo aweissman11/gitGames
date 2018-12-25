@@ -4,6 +4,8 @@ import { MockBubbleData } from './__mocks__/MockBubbleData';
 
 import { ResponsiveBubbleHtml } from '@nivo/circle-packing';
 
+import './CommitsBubble.css';
+
 class CommitsBubble extends Component {
 
   componentDidMount() {
