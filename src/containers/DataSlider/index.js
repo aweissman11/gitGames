@@ -5,6 +5,10 @@ import { connect } from 'react-redux';
 import CommitsWordCloud from '../CommitsWordCloud';
 import CommitsBubble from '../CommitsBubble';
 
+import { ReactComponent as LeftSlideBtn } from '../../components/LeftSlideBtn/LeftSlideBtn.svg';
+import { ReactComponent as RightSlideBtn } from '../../components/RightSlideBtn/RightSlideBtn.svg';
+// import RightSlideBtn from '../../components/RightSlideBtn';
+
 import './DataSlider.css';
 
 class DataSlider extends Component {
@@ -113,14 +117,18 @@ class DataSlider extends Component {
           onClick={() => this.triggerSlideBtn(0)}
           value='left'
         >
-          <button className='slide-left'>LEFT</button>
+          <div className='slide-btn'>
+            <LeftSlideBtn />
+          </div>
         </div>
         <div 
           className={`slide-btn-right ${this.state.rightClass}`}
           onClick={() => this.triggerSlideBtn(1)}
           value='right'
         >
-          <button className='slide-right'>RIGHT</button>
+          <div className='slide-btn'>
+            <RightSlideBtn />
+          </div>
         </div>
         <div className='graph-dots'>
           <div className={`${this.state.dot1}`}></div>

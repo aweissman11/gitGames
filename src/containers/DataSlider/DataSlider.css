@@ -5,13 +5,26 @@
   margin-top: 70px;
 }
 
+
 .slide-btn-left,
 .slide-btn-right {
-  transition-duration: 5s;
-  transition: ease-in;
   height: 100vh;
   position: absolute;
   top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  background: white;
+  z-index: 10;
+  cursor: pointer;
+}
+
+
+.slide-btn {
+  height: 220px;
+  position: absolute;
+  top: calc(50% - 110px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,6 +32,7 @@
   background: white;
   z-index: 10;
   cursor: pointer;
+  border-radius: 100%;
 }
 
 .slide-btn-left {
@@ -29,22 +43,22 @@
   right: 0;
 }
 
-.slide-btn-left:hover {
+.slide-btn-left:hover .slide-btn {
   background: rgb(182,182,182);
-  background: linear-gradient(90deg, rgba(182,182,182,1) 0%, rgba(255,255,255,1) 100%);
+  background: radial-gradient(closest-side, #8f9ca1, #d0d7d8, #ffff);
 }
 
-.slide-btn-right:hover {
+.slide-btn-right:hover .slide-btn {
   background: rgb(182,182,182);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(182,182,182,1) 100%);
+  background: radial-gradient(closest-side, #8f9ca1, #d0d7d8, #ffff);
 }
 
-.slide-btn-right:active {
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(120,120,120,1) 100%);
+.slide-btn-right:active .slide-btn {
+  background: radial-gradient(closest-side, #747b7e, #b5c0c2, #ffff);
 }
 
-.slide-btn-left:active {
-  background: linear-gradient(90deg, rgba(120,120,120,1) 0%, rgba(255,255,255,1) 100%);
+.slide-btn-left:active .slide-btn {
+  background: radial-gradient(closest-side, #747b7e, #b5c0c2, #ffff);
 }
 
 .graph-dots {
@@ -89,7 +103,7 @@
   height: 500px;
   align-self: center;
   margin: 0px auto;
-  border: solid 1px lightgray;
+  /* border: solid 1px lightgray; */
 }
 
 .hide-slide-btn {
@@ -114,4 +128,64 @@
 
 .position-5 {
   right: 400%;
+}
+
+
+
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slide-btn svg {
+  width: 50px;
+  height: auto;
+  margin: 0 2rem;
+  cursor: pointer;
+  overflow: visible;
+  fill: gray;
+}
+.slide-btn-right svg polygon, .slide-btn svg path,
+.slide-btn-left svg polygon, .slide-btn svg path {
+  transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.slide-btn-right:hover svg polygon, .slide-btn-right:hover path,
+.slide-btn-left:hover polygon, .slide-btn-left:hover path {
+  transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+  fill: blueviolet;
+}
+.slide-btn-right:hover .arrow,
+.slide-btn-left:hover .arrow {
+  animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.slide-btn-right:hover .arrow-fixed,
+.slide-btn-left:hover .arrow-fixed {
+  animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+@keyframes arrow-anim {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  5% {
+    transform: translateX(-0.1rem);
+  }
+  100% {
+    transform: translateX(1rem);
+    opacity: 0;
+  }
+}
+@keyframes arrow-fixed-anim {
+  5% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
 }
