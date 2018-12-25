@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@nivo/circle-packing": "^0.52.0",
+    "nivo": "^0.31.0",
+    "randomcolor": "^0.5.3",
+    "react-tag-cloud": "^1.2.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.0",
