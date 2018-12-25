@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15vw;
+  width: 10vw;
   background: white;
   z-index: 10;
   cursor: pointer;
@@ -103,7 +103,7 @@
   height: 500px;
   align-self: center;
   margin: 0px auto;
-  border: solid 1px lightgray;
+  /* border: solid 1px lightgray; */
 }
 
 .hide-slide-btn {
@@ -140,7 +140,7 @@
   transform: translate(-50%, -50%);
 }
 .slide-btn svg {
-  width: 100px;
+  width: 50px;
   height: auto;
   margin: 0 2rem;
   cursor: pointer;
