@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 // import { Route, withRouter, Switch } from 'react-router-dom';
 
+import CommitsWordCloud from '../CommitsWordCloud';
+import CommitsBubble from '../CommitsBubble';
+
 import './DataSlider.css';
 
 class DataSlider extends Component {
@@ -28,9 +31,6 @@ class DataSlider extends Component {
       newClass--;
       let currentDot = 'dot' + (newClass);
       
-      console.log('gridClass:', gridClass);
-      console.log('newClass:', newClass);
-      console.log('currentDot:', currentDot);
       this.setState({ 
         gridClass: newClass,
         rightClass: '',
@@ -46,9 +46,6 @@ class DataSlider extends Component {
       direction === 0 ? (newClass-=1) : newClass++;
       let currentDot = 'dot' + (newClass);
       
-      console.log('gridClass:', gridClass);
-      console.log('newClass:', newClass);
-      console.log('currentDot:', currentDot);
       this.setState({ 
         gridClass: newClass,
         leftClass: '',
@@ -64,9 +61,6 @@ class DataSlider extends Component {
       newClass++
       let currentDot = 'dot' + (newClass);
       
-      console.log('gridClass:', gridClass);
-      console.log('newClass:', newClass);
-      console.log('currentDot:', currentDot);
       this.setState({ 
         gridClass: newClass,
         rightClass: 'hide-slide-btn',
@@ -82,9 +76,6 @@ class DataSlider extends Component {
       newClass--
       let currentDot = 'dot' + (newClass);
       
-      console.log('gridClass:', gridClass);
-      console.log('newClass:', newClass);
-      console.log('currentDot:', currentDot);
       this.setState({ 
         gridClass: newClass,
         rightClass: '',
@@ -100,9 +91,6 @@ class DataSlider extends Component {
       newClass--;
       let currentDot = 'dot' + (newClass);
       
-      console.log('gridClass:', gridClass);
-      console.log('newClass:', newClass);
-      console.log('currentDot:', currentDot);
       this.setState({ 
         gridClass: newClass,
         rightClass: '',
@@ -144,10 +132,10 @@ class DataSlider extends Component {
         <section className='graphs'>
           <div className={`graph-grid position-${this.state.gridClass}`}>
             <article className='graph'>
-              <h1>GRAPH 1</h1>
+              <CommitsBubble />
             </article>
             <article className='graph'>
-              <h1>GRAPH 2</h1>
+              <CommitsWordCloud />
             </article>
             <article className='graph'>
               <h1>GRAPH 3</h1>
