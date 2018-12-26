@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import Slider from "react-slick";
 // import { Route, withRouter, Switch } from 'react-router-dom';
 
 import CommitsWordCloud from '../CommitsWordCloud';
@@ -12,107 +13,118 @@ import { ReactComponent as RightSlideBtn } from '../../components/RightSlideBtn/
 import './DataSlider.css';
 
 class DataSlider extends Component {
-  constructor(props) {
-    super(props)
+  // constructor(props) {
+  //   super(props)
 
-    this.state = {
-      gridClass: 1,
-      rightClass: '',
-      leftClass: 'hide-slide-btn',
-      dot1: 'current-graph-dot',
-      dot2: 'graph-dot',
-      dot3: 'graph-dot',
-      dot4: 'graph-dot',
-      dot5: 'graph-dot',
-    }
-  }
+  //   this.state = {
+  //     gridClass: 1,
+  //     rightClass: '',
+  //     leftClass: 'hide-slide-btn',
+  //     dot1: 'current-graph-dot',
+  //     dot2: 'graph-dot',
+  //     dot3: 'graph-dot',
+  //     dot4: 'graph-dot',
+  //     dot5: 'graph-dot',
+  //   }
+  // }
 
-  triggerSlideBtn = direction => {
-    const { gridClass } = this.state;
-    let newClass = gridClass;
+  // triggerSlideBtn = direction => {
+  //   const { gridClass } = this.state;
+  //   let newClass = gridClass;
 
-    if (gridClass === 2 && direction === 0) {
-      newClass--;
-      let currentDot = 'dot' + (newClass);
+  //   if (gridClass === 2 && direction === 0) {
+  //     newClass--;
+  //     let currentDot = 'dot' + (newClass);
       
-      this.setState({ 
-        gridClass: newClass,
-        rightClass: '',
-        leftClass: 'hide-slide-btn',
-        dot1: 'graph-dot',
-        dot2: 'graph-dot',
-        dot3: 'graph-dot',
-        dot4: 'graph-dot',
-        dot5: 'graph-dot',
-        [currentDot]: 'current-graph-dot' 
-      })
-    } else if (gridClass < 4 && gridClass >= 1) {
-      direction === 0 ? (newClass-=1) : newClass++;
-      let currentDot = 'dot' + (newClass);
+  //     this.setState({ 
+  //       gridClass: newClass,
+  //       rightClass: '',
+  //       leftClass: 'hide-slide-btn',
+  //       dot1: 'graph-dot',
+  //       dot2: 'graph-dot',
+  //       dot3: 'graph-dot',
+  //       dot4: 'graph-dot',
+  //       dot5: 'graph-dot',
+  //       [currentDot]: 'current-graph-dot' 
+  //     })
+  //   } else if (gridClass < 4 && gridClass >= 1) {
+  //     direction === 0 ? (newClass-=1) : newClass++;
+  //     let currentDot = 'dot' + (newClass);
       
-      this.setState({ 
-        gridClass: newClass,
-        leftClass: '',
-        rightClass: '',
-        dot1: 'graph-dot',
-        dot2: 'graph-dot',
-        dot3: 'graph-dot',
-        dot4: 'graph-dot',
-        dot5: 'graph-dot',
-        [currentDot]: 'current-graph-dot' 
-      })
-    } else if (gridClass === 4 && direction === 1) {
-      newClass++
-      let currentDot = 'dot' + (newClass);
+  //     this.setState({ 
+  //       gridClass: newClass,
+  //       leftClass: '',
+  //       rightClass: '',
+  //       dot1: 'graph-dot',
+  //       dot2: 'graph-dot',
+  //       dot3: 'graph-dot',
+  //       dot4: 'graph-dot',
+  //       dot5: 'graph-dot',
+  //       [currentDot]: 'current-graph-dot' 
+  //     })
+  //   } else if (gridClass === 4 && direction === 1) {
+  //     newClass++
+  //     let currentDot = 'dot' + (newClass);
       
-      this.setState({ 
-        gridClass: newClass,
-        rightClass: 'hide-slide-btn',
-        leftClass: '',
-        dot1: 'graph-dot',
-        dot2: 'graph-dot',
-        dot3: 'graph-dot',
-        dot4: 'graph-dot',
-        dot5: 'graph-dot',
-        [currentDot]: 'current-graph-dot' 
-      })
-    } else if (gridClass === 4 && direction === 0) {
-      newClass--
-      let currentDot = 'dot' + (newClass);
+  //     this.setState({ 
+  //       gridClass: newClass,
+  //       rightClass: 'hide-slide-btn',
+  //       leftClass: '',
+  //       dot1: 'graph-dot',
+  //       dot2: 'graph-dot',
+  //       dot3: 'graph-dot',
+  //       dot4: 'graph-dot',
+  //       dot5: 'graph-dot',
+  //       [currentDot]: 'current-graph-dot' 
+  //     })
+  //   } else if (gridClass === 4 && direction === 0) {
+  //     newClass--
+  //     let currentDot = 'dot' + (newClass);
       
-      this.setState({ 
-        gridClass: newClass,
-        rightClass: '',
-        leftClass: '',
-        dot1: 'graph-dot',
-        dot2: 'graph-dot',
-        dot3: 'graph-dot',
-        dot4: 'graph-dot',
-        dot5: 'graph-dot',
-        [currentDot]: 'current-graph-dot' 
-      })
-    } else if (gridClass === 5) {
-      newClass--;
-      let currentDot = 'dot' + (newClass);
+  //     this.setState({ 
+  //       gridClass: newClass,
+  //       rightClass: '',
+  //       leftClass: '',
+  //       dot1: 'graph-dot',
+  //       dot2: 'graph-dot',
+  //       dot3: 'graph-dot',
+  //       dot4: 'graph-dot',
+  //       dot5: 'graph-dot',
+  //       [currentDot]: 'current-graph-dot' 
+  //     })
+  //   } else if (gridClass === 5) {
+  //     newClass--;
+  //     let currentDot = 'dot' + (newClass);
       
-      this.setState({ 
-        gridClass: newClass,
-        rightClass: '',
-        leftClass: '',
-        dot1: 'graph-dot',
-        dot2: 'graph-dot',
-        dot3: 'graph-dot',
-        dot4: 'graph-dot',
-        dot5: 'graph-dot',
-        [currentDot]: 'current-graph-dot' 
-      })
-    }
-  };
+  //     this.setState({ 
+  //       gridClass: newClass,
+  //       rightClass: '',
+  //       leftClass: '',
+  //       dot1: 'graph-dot',
+  //       dot2: 'graph-dot',
+  //       dot3: 'graph-dot',
+  //       dot4: 'graph-dot',
+  //       dot5: 'graph-dot',
+  //       [currentDot]: 'current-graph-dot' 
+  //     })
+  //   }
+  // };
 
   render() {
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      slide: 'article',
+      nextArrow: <RightSlideBtn />,
+      prevArrow: <LeftSlideBtn />
+    };
+
     return (
       <div className='data-slider'>
-        <div 
+        {/* <div 
           className={`slide-btn-left ${this.state.leftClass}`}
           onClick={() => this.triggerSlideBtn(0)}
           value='left'
@@ -136,26 +148,26 @@ class DataSlider extends Component {
           <div className={`${this.state.dot3}`}></div>
           <div className={`${this.state.dot4}`}></div>
           <div className={`${this.state.dot5}`}></div>
-        </div>
-        <section className='graphs'>
-          <div className={`graph-grid position-${this.state.gridClass}`}>
-            <article className='graph'>
+        </div> */}
+        {/* <section className='slider-graphs'> */}
+          <Slider {...settings} >
+            <article className='slider-graph'>
               <CommitsBubble />
             </article>
-            <article className='graph'>
+            <article className='slider-graph'>
               <CommitsWordCloud />
             </article>
-            <article className='graph'>
-              <h1>GRAPH 3</h1>
+            <article className='slider-graph'>
+              <h1>slider-GRAPH 3</h1>
             </article>
-            <article className='graph'>
-              <h1>GRAPH 4</h1>
+            <article className='slider-graph'>
+              <h1>slider-GRAPH 4</h1>
             </article>
-            <article className='graph'>
-              <h1>GRAPH 5</h1>
+            <article className='slider-graph'>
+              <h1>slider-GRAPH 5</h1>
             </article>
-          </div>
-        </section>
+          </Slider>
+        {/* </section> */}
       </div>
     );
   }
