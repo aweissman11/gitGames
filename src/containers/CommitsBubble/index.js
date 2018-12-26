@@ -13,7 +13,7 @@ class CommitsBubble extends Component {
   }
   render() {
     return (
-      <div className="commits-bubble" style={{height: 500, width: 500 }}>
+      <div className="commits-bubble" style={{height: '100%', width: '100%' }}>
         <ResponsiveBubbleHtml
           data={MockBubbleData}
           root={MockBubbleData}
