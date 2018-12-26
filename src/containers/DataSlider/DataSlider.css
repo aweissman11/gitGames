@@ -3,165 +3,64 @@
   height: calc(100vh - 70px);
   width: 100vw;
   margin-top: 70px;
+  background: -moz-linear-gradient(top, rgba(255,255,255,0.1) 0%, rgba(242,148,38,0.1) 61%, rgba(234,135,14,0.55) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0.1) 0%,rgba(242,148,38,0.1) 61%,rgba(234,135,14,0.55) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(242,148,38,0.1) 61%,rgba(234,135,14,0.55) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1affa84c', endColorstr='#8cea870e',GradientType=0 ); /* IE6-9 */}
+
+.slider-graph {
+  width: 80vw;
+  max-width: 500px;
+  height: 500px;
 }
 
-
-.slide-btn-left,
-.slide-btn-right {
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 10vw;
-  background: white;
-  z-index: 10;
-  cursor: pointer;
+.slick-arrow {
+  width: 100px;
+  height: 35px;
 }
 
-
-.slide-btn {
-  height: 220px;
-  position: absolute;
-  top: calc(50% - 110px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 15vw;
-  background: white;
-  z-index: 10;
-  cursor: pointer;
-  border-radius: 100%;
-}
-
-.slide-btn-left {
+.slick-prev {
+  z-index: 100;
   left: 0;
 }
 
-.slide-btn-right {
+.slick-next {
   right: 0;
 }
 
-.slide-btn-left:hover .slide-btn {
+.slick-prev:hover .slide-btn {
   background: rgb(182,182,182);
   background: radial-gradient(closest-side, #8f9ca1, #d0d7d8, #ffff);
 }
 
-.slide-btn-right:hover .slide-btn {
+.slick-next:hover .slide-btn {
   background: rgb(182,182,182);
   background: radial-gradient(closest-side, #8f9ca1, #d0d7d8, #ffff);
 }
 
-.slide-btn-right:active .slide-btn {
+.slick-next:active .slide-btn {
   background: radial-gradient(closest-side, #747b7e, #b5c0c2, #ffff);
 }
 
-.slide-btn-left:active .slide-btn {
+.slick-prev:active .slide-btn {
   background: radial-gradient(closest-side, #747b7e, #b5c0c2, #ffff);
 }
 
-.graph-dots {
-  position: absolute;
-  bottom: 10px;
-  width: 300px;
-  height: 20px;
-  left: calc(50% - 150px);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.current-graph-dot,
-.graph-dot {
-  width: 20px;
-  border-radius: 100%;
-}
-
-.current-graph-dot {
-  background: black;
-}
-
-.graph-dot {
-  background: lightgray;
-}
-
-.graphs {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.graph-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 100%);
-  position: relative;
-  transition: .5s;
-}
-
-.graph {
-  width: 800px;
-  height: 500px;
-  align-self: center;
-  margin: 0px auto;
-  /* border: solid 1px lightgray; */
-}
-
-.hide-slide-btn {
-  display: none;
-}
-
-.position-1 {
-  right: 0;
-}
-
-.position-2 {
-  right: 100%;
-}
-
-.position-3 {
-  right: 200%;
-}
-
-.position-4 {
-  right: 300%;
-}
-
-.position-5 {
-  right: 400%;
-}
-
-
-
-
-.slide-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.slide-btn svg {
-  width: 50px;
-  height: auto;
-  margin: 0 2rem;
-  cursor: pointer;
-  overflow: visible;
-  fill: gray;
-}
-.slide-btn-right svg polygon, .slide-btn svg path,
-.slide-btn-left svg polygon, .slide-btn svg path {
+.slick-next svg polygon, .slide-btn svg path,
+.slick-prev svg polygon, .slide-btn svg path {
   transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
 }
-.slide-btn-right:hover svg polygon, .slide-btn-right:hover path,
-.slide-btn-left:hover polygon, .slide-btn-left:hover path {
+.slick-next:hover svg polygon, .slick-next:hover path,
+.slick-prev:hover polygon, .slick-prev:hover path {
   transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
   fill: blueviolet;
 }
-.slide-btn-right:hover .arrow,
-.slide-btn-left:hover .arrow {
+.slick-next:hover .arrow,
+.slick-prev:hover .arrow {
   animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
 }
-.slide-btn-right:hover .arrow-fixed,
-.slide-btn-left:hover .arrow-fixed {
+.slick-next:hover .arrow-fixed,
+.slick-prev:hover .arrow-fixed {
   animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
 }
 
@@ -187,5 +86,12 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+
+@media (max-width: 630px) {
+  .slick-arrow {
+    display: none !important;
   }
 }
