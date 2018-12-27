@@ -27,7 +27,7 @@ class MainPage extends Component {
 }
 
 export const mapDispatchToProps = (dispatch) => ({
-  getUserData: (username) => dispatch(getUserData(username))
+  getUserData: (user) => dispatch(getUserData(user))
 })
 
 export default connect(null, mapDispatchToProps)(MainPage);
