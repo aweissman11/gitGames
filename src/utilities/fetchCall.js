@@ -1,4 +1,4 @@
-const fetchCall = async (url) => {
+export const fetchCall = async (url) => {
   const response = await fetch(url);
   if (!response.ok) {
     return Error(response.statusText);

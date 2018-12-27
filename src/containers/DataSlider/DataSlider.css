@@ -1,17 +1,21 @@
 .data-slider {
   position: relative;
-  height: calc(100vh - 70px);
+  min-height: 100vh;
   width: 100vw;
-  margin-top: 70px;
-  background: -moz-linear-gradient(top, rgba(255,255,255,0.1) 0%, rgba(242,148,38,0.1) 61%, rgba(234,135,14,0.55) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0.1) 0%,rgba(242,148,38,0.1) 61%,rgba(234,135,14,0.55) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(242,148,38,0.1) 61%,rgba(234,135,14,0.55) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1affa84c', endColorstr='#8cea870e',GradientType=0 ); /* IE6-9 */}
+  padding-top: 70px;
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 .slider-graph {
   width: 80vw;
   max-width: 500px;
   height: 500px;
+}
+
+.slider-graph div {
+  outline: none;
 }
 
 .slick-arrow {
@@ -22,38 +26,30 @@
 .slick-prev {
   z-index: 100;
   left: 0;
+  fill: #d8daeb;
 }
 
 .slick-next {
   right: 0;
+  z-index: 100;
+  fill: #d8daeb;
 }
 
-.slick-prev:hover .slide-btn {
-  background: rgb(182,182,182);
-  background: radial-gradient(closest-side, #8f9ca1, #d0d7d8, #ffff);
-}
-
-.slick-next:hover .slide-btn {
-  background: rgb(182,182,182);
-  background: radial-gradient(closest-side, #8f9ca1, #d0d7d8, #ffff);
-}
-
-.slick-next:active .slide-btn {
-  background: radial-gradient(closest-side, #747b7e, #b5c0c2, #ffff);
-}
-
-.slick-prev:active .slide-btn {
-  background: radial-gradient(closest-side, #747b7e, #b5c0c2, #ffff);
-}
-
-.slick-next svg polygon, .slide-btn svg path,
-.slick-prev svg polygon, .slide-btn svg path {
+.slick-next polygon, .slide-btn path,
+.slick-prev polygon, .slide-btn path {
   transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+  fill: #d8daeb;
 }
-.slick-next:hover svg polygon, .slick-next:hover path,
+.slick-next:hover polygon, .slick-next:hover path {
+  fill: #fca743;
+}
+.slick-prev:hover polygon, .slick-prev:hover path {
+  fill: #8a39ae;
+}
+
+.slick-next:hover polygon, .slick-next:hover path,
 .slick-prev:hover polygon, .slick-prev:hover path {
   transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
-  fill: blueviolet;
 }
 .slick-next:hover .arrow,
 .slick-prev:hover .arrow {
@@ -62,6 +58,10 @@
 .slick-next:hover .arrow-fixed,
 .slick-prev:hover .arrow-fixed {
   animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+.slick-dots {
+  position: static;
 }
 
 @keyframes arrow-anim {

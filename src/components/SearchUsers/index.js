@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-// import { Route, withRouter, Switch } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
+
+import { getUserData } from '../../actions/thunks/getUserData';
 
 import './SearchUsers.css';
 
-class LoginPage extends Component {
+class SearchUsers extends Component {
   constructor(props) {
     super(props)
 
@@ -14,7 +16,8 @@ class LoginPage extends Component {
       boxWidth: '',
       inputWidth: '',
       formWidth: '',
-      svgToggled: ''
+      svgToggled: '',
+      searchUsers: false
     }
   }
   
@@ -46,26 +49,20 @@ class LoginPage extends Component {
 
   submitSearch = (event) => {
     event.preventDefault();
-    this.setState({ query: '' })
-    console.log('Submit User Search')
-    console.log('query entry:', this.state.query);
+    this.props.getUserData({ username: this.state.query })
+    this.setState({
+      searchUsers: true
+    })
   }
 
   render() {
+    if (this.state.searchUsers === true) {
+      return <Redirect to={`/main/${this.state.query}`} />
+    }
+
     return (
-      // <form 
-      //   className='search-form'
-      //   onSubmit={this.submitSearch}
-      // >
-      //   <input 
-      //     className='search-input'
-      //     placeholder='search users'
-      //     value={this.state.query}
-      //     onChange={this.handleSearchChange}
-      //   ></input>
-      // </form>
       <div className={`search-box ${this.state.boxWidth}`}>
-        <form onClick={this.submitSearch} className={`search-form ${this.state.formWidth}`}>
+        <form onSubmit={this.submitSearch} className={`search-form ${this.state.formWidth}`}>
           <input 
             className={`search-input ${this.state.inputWidth}`}
             placeholder="Search GitHub Users..."
@@ -89,7 +86,9 @@ class LoginPage extends Component {
   }
 }
 
-export default LoginPage;
 
+export const mapDispatchToProps = (dispatch) => ({
+  getUserData: (username) => dispatch(getUserData(username))
+})
 
-// style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" 
+export default connect(null, mapDispatchToProps)(SearchUsers);

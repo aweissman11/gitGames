@@ -9,7 +9,7 @@ import './CommitsBubble.css';
 class CommitsBubble extends Component {
 
   componentDidMount() {
-    console.log('mock bubble data:', MockBubbleData);
+    // console.log('mock bubble data:', MockBubbleData);
   }
   render() {
     return (

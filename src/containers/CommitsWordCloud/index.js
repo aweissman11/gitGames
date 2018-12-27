@@ -6,7 +6,7 @@ import randomColor from 'randomcolor';
 class CommitsWordCloud extends Component {
 
   componentDidMount() {
-    console.log('First word cloud mounted');
+    // console.log('First word cloud mounted');
   }
 
   getWordCloud = () => {
@@ -29,17 +29,17 @@ class CommitsWordCloud extends Component {
         <div className='react-hover'>react</div>
         <div>tag</div>
         <div>cloud</div>
-        <div>TEXT</div>
-        <div>TEXT</div>
-        <div>TEXT</div>
-        <div>TEXT</div>
-        <div>TEXT</div>
-        <div>TEXT</div>
-        <div>TEXT</div>
-        <div>TEXT</div>
-        <div>TEXT</div>
-        <div>TEXT</div>
-        <div>TEXT</div>
+        <div>TEXT1</div>
+        <div>TEXT2</div>
+        <div>TEXT3</div>
+        <div>TEXT4</div>
+        <div>TEXT5</div>
+        <div>TEXT6</div>
+        <div>TEXT7</div>
+        <div>TEXT8</div>
+        <div>TEXT9</div>
+        <div>TEXT10</div>
+        <div>TEXT11</div>
       </TagCloud>
     );
   }
