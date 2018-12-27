@@ -1,0 +1,7 @@
+.username {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin: auto;
+  color: #d8daeb;
+}
