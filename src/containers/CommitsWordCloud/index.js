@@ -1,48 +1,44 @@
 import React, { Component } from 'react';
 import TagCloud from 'react-tag-cloud';
 import randomColor from 'randomcolor';
+import { connect } from 'react-redux';
+
 
 
 class CommitsWordCloud extends Component {
-
-  componentDidMount() {
-    // console.log('First word cloud mounted');
-  }
-
-  getWordCloud = () => {
-
+  getFontSize = (instances) => {
+    if (instances < 5) {
+      return 2
+    } else if (instances < 15 && instances > 5) {
+      return 3
+    } else {
+      return (instances/3)
+    }
   }
 
   render() {
-    return (
+    return(
       <TagCloud 
         style={{
           fontFamily: 'sans-serif',
-          fontSize: 30,
-          fontWeight: 'bold',
-          fontStyle: 'italic',
           color: () => randomColor({ hue: 'purple'}),
           padding: 5,
           width: '100%',
           height: '100%'
         }}>
-        <div className='react-hover'>react</div>
-        <div>tag</div>
-        <div>cloud</div>
-        <div>TEXT1</div>
-        <div>TEXT2</div>
-        <div>TEXT3</div>
-        <div>TEXT4</div>
-        <div>TEXT5</div>
-        <div>TEXT6</div>
-        <div>TEXT7</div>
-        <div>TEXT8</div>
-        <div>TEXT9</div>
-        <div>TEXT10</div>
-        <div>TEXT11</div>
+        {
+          Object.keys(this.props.cloudData).map( word => {
+            return (
+              <div style={{ fontSize: `${this.getFontSize(this.props.cloudData[word])}` }}>{word}</div>
+            )
+          })
+        }
       </TagCloud>
-    );
+
+    )
   }
 }
 
-export default CommitsWordCloud;
+export const mapStateToProps = ({ cloudData }) => ({ cloudData })
+
+export default connect(mapStateToProps, null)(CommitsWordCloud);

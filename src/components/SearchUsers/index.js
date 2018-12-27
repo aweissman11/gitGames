@@ -57,6 +57,7 @@ class SearchUsers extends Component {
 
   render() {
     if (this.state.searchUsers === true) {
+      this.setState({ searchUsers: false, query: '' })
       return <Redirect to={`/main/${this.state.query}`} />
     }
 

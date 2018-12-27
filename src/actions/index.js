@@ -5,6 +5,13 @@ export const setUserData = (userData) => {
   }
 }
 
+export const setCloudData = (cloudData) => {
+  return {
+    type: 'SET_WORD_DATA',
+    cloudData
+  }
+}
+
 export const isLoading = (message, isLoading) => {
   return {
     type: 'LOADING',
