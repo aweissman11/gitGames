@@ -10,8 +10,8 @@
 
 .slider-graph {
   width: 80vw;
-  max-width: 500px;
-  height: 500px;
+  max-width: 800px;
+  height: calc(80vh - 110px);
 }
 
 .slider-graph div {
