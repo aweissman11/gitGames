@@ -3,33 +3,72 @@ import TagCloud from 'react-tag-cloud';
 import randomColor from 'randomcolor';
 import { connect } from 'react-redux';
 
+import './CommitsWordCloud.css';
+
+import { mockCloudData } from './__mocks__/mockCloudData';
+import { CloudItem } from '../../components/CloudItem';
 
 
 class CommitsWordCloud extends Component {
-  getFontSize = (instances) => {
-    if (instances < 5) {
-      return 2
-    } else if (instances < 15 && instances > 5) {
-      return 3
-    } else {
-      return (instances/3)
+  componentDidMount() {
+  //   setInterval(() => {
+  //     this.forceUpdate();
+  //   }, 3000);
+
+}
+
+getFontSize = (instances) => {
+  const styles = {
+    small: {
+      fontSize: 14,
+      opacity: 0.7
+    },
+    medium: {
+      fontSize: 22,
+    },
+    big: {
+      fontSize: 30,
+    },
+    huge: {
+      fontSize: 50,
+      fontWeight: 'bold'
     }
   }
+  
+  if (instances < 3) {
+    return styles.small
+  } else if (instances < 8) {
+    return styles.medium
+  } else if (instances < 20) {
+    return styles.big
+  } else {
+    return styles.huge
+  }
+  
+}
 
-  render() {
-    return(
-      <TagCloud 
+render() {
+  return(
+      <TagCloud
+        onClick={() => this.forceUpdate()}
+        className='tag-cloud'
         style={{
           fontFamily: 'sans-serif',
           color: () => randomColor({ hue: 'purple'}),
           padding: 5,
           width: '100%',
-          height: '100%'
+          height: '100%',
+          fontSize: 22
         }}>
         {
+          // change the mockCloudData[s] below back to this.props.cloudData
           Object.keys(this.props.cloudData).map( word => {
             return (
-              <div style={{ fontSize: `${this.getFontSize(this.props.cloudData[word])}` }}>{word}</div>
+              <CloudItem 
+                text={word}
+                instances={this.props.cloudData[word]}
+                style={this.getFontSize(this.props.cloudData[word])}
+              >{word}</CloudItem>
             )
           })
         }
