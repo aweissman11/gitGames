@@ -19,6 +19,14 @@
     "redux-thunk": "^2.3.0",
     "slick-carousel": "^1.8.1"
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js",
+      "!src/serviceWorker.js",
+      "!src/setupTests.js"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

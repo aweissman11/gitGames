@@ -8,7 +8,7 @@ import './UserData.css';
 
 const UserData = (props) => {
     return (
-      <div className="login-page">
+      <div className="user-data">
         <h1 className="username"><span>{
             props.isLoading.isLoading ? <ReactLoading type={'spokes'} color={'blueviolet'} height={40} width={40} /> : props.userData.login
           }</span>

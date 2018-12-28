@@ -1,6 +1,7 @@
 import { fetchCall } from '../../utilities/fetchCall';
 
-import { isLoading, hasErrored, setUserData, setCloudData } from '../'
+import { isLoading, hasErrored, setUserData } from '../'
+import { getCloudData } from './getCloudData';
 
 export const getUserData = (user) => {
   return async (dispatch) => {
@@ -10,13 +11,12 @@ export const getUserData = (user) => {
     try {
       const userUrl = `https://cors-anywhere.herokuapp.com/gitgames.herokuapp.com/api/v1/users?username=${user.username}`
       userData = await fetchCall(userUrl)
-      const cloudUrl = `https://cors-anywhere.herokuapp.com/gitgames.herokuapp.com/api/v1/commit_messages?username=${user.username}`
-      wordCloudData = await fetchCall(cloudUrl)
     } catch(error) {
-      dispatch(hasErrored(error.message, true))
+      dispatch(hasErrored('User data fetch failed', true))
       return;
     }
-    dispatch(setCloudData(wordCloudData))
+
+    dispatch(getCloudData(user))
     dispatch(setUserData(userData));
     dispatch(isLoading('User data retrieved', false))
   }

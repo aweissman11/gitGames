@@ -18,11 +18,18 @@ class MainPage extends Component {
 
   render() {
     return (
+
+      !(this.props.pageNotFound) ?
       <div className="main-page">
         <SearchBar />
         <DataSlider />
       </div>
-    );
+    :
+    <div>
+      <SearchBar />
+      <h1>Page Not Found</h1>
+    </div>
+    )
   }
 }
 

@@ -1,7 +1,7 @@
 export const fetchCall = async (url) => {
   const response = await fetch(url);
   if (!response.ok) {
-    return Error(response.statusText);
+    throw Error(response.statusText);
   }
   return await response.json();
 }
