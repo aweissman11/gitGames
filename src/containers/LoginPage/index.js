@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import SearchUsers from '../../components/SearchUsers';
 
-class LoginPage extends Component {
+export class LoginPage extends Component {
   render() {
     return (
       <div className="login-page">
