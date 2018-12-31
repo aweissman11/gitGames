@@ -56,7 +56,7 @@ class ForceBubbles extends Component {
         var p1 = d3.mouse(this);
         root.fx = p1[0];
         root.fy = p1[1];
-        force.alphaTarget(0.5).restart();//reheat the simulation
+        force.alphaTarget(0.5).restart();
     });
 }
 
