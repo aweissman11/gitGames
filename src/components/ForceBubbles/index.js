@@ -7,13 +7,6 @@ import './ForceBubbles.css';
 
 
 class ForceBubbles extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      data: []
-    }
-  }
 
   componentDidMount() {
 		const width = 960
