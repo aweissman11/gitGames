@@ -1,0 +1,11 @@
+.force-container {
+  position: relative;
+}
+
+.force-box {
+  position: absolute;
+  top: 0;
+  left: -10%;
+  overflow: unset;
+  z-index: 99999999999;
+}

@@ -2,6 +2,7 @@ import { fetchCall } from '../../utilities/fetchCall';
 
 import { isLoading, hasErrored, setUserData } from '../'
 import { getCloudData } from './getCloudData';
+import { getLanguageData } from './getLanguageData';
 
 export const getUserData = (user) => {
   return async (dispatch) => {
@@ -17,6 +18,7 @@ export const getUserData = (user) => {
     }
 
     dispatch(getCloudData(user))
+    dispatch(getLanguageData(user))
     dispatch(setUserData(userData));
     dispatch(isLoading('User data retrieved', false))
   }

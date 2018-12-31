@@ -5,8 +5,10 @@ import Slider from "react-slick";
 // Still might use these
 // import { Route, withRouter, Switch } from 'react-router-dom';
 
+import ForceBubbles from '../../components/ForceBubbles';
 import CommitsWordCloud from '../CommitsWordCloud';
 import CommitsBubble from '../CommitsBubble';
+import LanguageBarChart from '../LanguageBarChart';
 import UserData from '../UserData';
 
 import { ReactComponent as LeftSlideBtn } from '../../components/LeftSlideBtn/LeftSlideBtn.svg';
@@ -33,16 +35,16 @@ class DataSlider extends Component {
         <UserData />
         <Slider {...settings} >
           <article className='slider-graph'>
-            <CommitsBubble />
+            <ForceBubbles />
           </article>
           <article className='slider-graph'>
             <CommitsWordCloud />
           </article>
           <article className='slider-graph'>
-            <h1>slider-GRAPH 3</h1>
+            <LanguageBarChart />
           </article>
           <article className='slider-graph'>
-            <h1>slider-GRAPH 4</h1>
+            <CommitsBubble />
           </article>
           <article className='slider-graph'>
             <h1>slider-GRAPH 5</h1>

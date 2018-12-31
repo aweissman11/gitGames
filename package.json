@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@nivo/bar": "^0.52.0",
     "@nivo/circle-packing": "^0.52.0",
+    "d3": "^5.7.0",
     "nivo": "^0.31.0",
     "randomcolor": "^0.5.3",
     "react": "^16.6.3",
