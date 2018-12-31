@@ -12,6 +12,13 @@ export const setCloudData = (cloudData) => {
   }
 }
 
+export const setLanguageData = (languageData) => {
+  return {
+    type: 'SET_LANGUAGE_DATA',
+    languageData
+  }
+}
+
 export const isLoading = (message, isLoading) => {
   return {
     type: 'LOADING',
