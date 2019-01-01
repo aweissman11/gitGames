@@ -1,0 +1,19 @@
+.slider-loading {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-loading-text {
+  display: flex;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+  color: #d8daeb;
+}
+
+.slider-loading-spinner {
+  margin-right: 15px;
+}
