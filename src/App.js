@@ -24,7 +24,7 @@ export class App extends Component {
             return <LoginPage loginPage={true} />
           }} />
           <Route path='/' render={({ match }) => {
-            return <MainPage pageNotFound={true} />
+            return <LoginPage loginPage={true} pageNotFound={true} />
           }} />
         </Switch>
       </div>
