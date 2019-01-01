@@ -9,6 +9,12 @@
   z-index: 9999999;
 }
 
+.site-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .git-games {
   display: flex;
   justify-content: left;
