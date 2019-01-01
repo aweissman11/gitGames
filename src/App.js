@@ -11,12 +11,18 @@ export class App extends Component {
     return (
       <div className="App"> 
         <Switch>
-          <Route exact path='/main' component={MainPage}/>
-          <Route exact path='/login' component={LoginPage}/>
           <Route exact path='/main/:username' render={({ match }) => {
             return <MainPage username={match.params.username}/>
           }} />
-          <Route exact path='/' component={MainPage}/>
+          <Route exact path='/main' render={({ match }) => {
+            return <LoginPage loginPage={true} />
+          }} />
+          <Route exact path='/login' render={({ match }) => {
+            return <LoginPage loginPage={true} />
+          }} />
+          <Route exact path='/' render={({ match }) => {
+            return <LoginPage loginPage={true} />
+          }} />
           <Route path='/' render={({ match }) => {
             return <MainPage pageNotFound={true} />
           }} />
