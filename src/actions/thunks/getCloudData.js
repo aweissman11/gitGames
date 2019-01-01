@@ -10,11 +10,6 @@ export const getCloudData = (user) => {
     try {
       const cloudUrl = `https://cors-anywhere.herokuapp.com/gitgames.herokuapp.com/api/v1/commit_messages?username=${user.username}`
       wordCloudData = await fetchCall(cloudUrl)
-      if (wordCloudData.error) {
-        dispatch(hasErrored(wordCloudData.error, true))
-        dispatch(loadingWordCloud('Word cloud data has errored', false))
-        return;
-      }
     } catch(error) {
       dispatch(hasErrored('Cloud data fetch failed', true))
       return;
