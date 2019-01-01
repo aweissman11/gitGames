@@ -5,6 +5,9 @@ import { userData } from './userData';
 import { cloudData } from './cloudData';
 import { languageData } from './languageData';
 import { hasErrored } from './hasErrored';
+import { loadingUser } from './loadingUser';
+import { loadingLanguages } from './loadingLanguages';
+import { loadingWordCloud } from './loadingWordCloud';
 
 
 export const rootReducer = combineReducers({
@@ -12,5 +15,8 @@ export const rootReducer = combineReducers({
   userData,
   hasErrored,
   cloudData,
-  languageData
+  languageData,
+  loadingWordCloud,
+  loadingLanguages,
+  loadingUser,
 })
