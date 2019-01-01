@@ -1,11 +1,36 @@
 .username {
   display: flex;
   justify-content: space-around;
-  width: 400px;
+  min-width: 130px;
+  max-width: 100%;
   margin: auto;
   color: #d8daeb;
 }
 
 .user-data {
+  height: 100%;
+  padding-top: 11px;
+  margin-left: 10px;
+}
+
+.loading-span {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.loading-spinner-username {
+  width: 40px;
   height: 40px;
+  position: absolute;
+  top: 7px;
+  right: -32px;
+}
+
+.username-link {
+  text-decoration: none;
+}
+
+.username-link span{
+  color: #d8daeb;
 }
