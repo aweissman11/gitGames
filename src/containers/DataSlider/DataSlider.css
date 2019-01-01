@@ -9,7 +9,7 @@
 }
 
 .slider-graph {
-  width: 80vw;
+  width: 100%;
   max-width: 800px;
   height: calc(80vh - 110px);
 }

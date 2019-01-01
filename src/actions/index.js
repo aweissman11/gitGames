@@ -27,6 +27,30 @@ export const isLoading = (message, isLoading) => {
   }
 }
 
+export const loadingUser = (message, loadingUser) => {
+  return {
+    type: 'LOADING_USER',
+    message,
+    loadingUser
+  }
+}
+
+export const loadingLanguages = (message, loadingLanguages) => {
+  return {
+    type: 'LOADING_LANGUAGES',
+    message,
+    loadingLanguages
+  }
+}
+
+export const loadingWordCloud = (message, loadingWordCloud) => {
+  return {
+    type: 'LOADING_WORD_CLOUD',
+    message,
+    loadingWordCloud
+  }
+}
+
 export const hasErrored = (message, hasErrored) => {
   return {
     type: 'HAS_ERRORED',

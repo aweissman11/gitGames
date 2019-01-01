@@ -9,7 +9,6 @@ import ForceBubbles from '../../components/ForceBubbles';
 import CommitsWordCloud from '../CommitsWordCloud';
 import CommitsBubble from '../CommitsBubble';
 import LanguageBarChart from '../LanguageBarChart';
-import UserData from '../UserData';
 
 import { ReactComponent as LeftSlideBtn } from '../../components/LeftSlideBtn/LeftSlideBtn.svg';
 import { ReactComponent as RightSlideBtn } from '../../components/RightSlideBtn/RightSlideBtn.svg';
@@ -32,7 +31,6 @@ class DataSlider extends Component {
 
     return (
       <div className='data-slider'>
-        <UserData />
         <Slider {...settings} >
           <article className='slider-graph'>
             <ForceBubbles />

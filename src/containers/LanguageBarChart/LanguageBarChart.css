@@ -1,0 +1,13 @@
+.bar-holder {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+text {
+  font-size: 16px !important;
+  fill: white !important;
+  font-weight: bold;
+  width: 50px;
+}

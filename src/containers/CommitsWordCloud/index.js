@@ -3,6 +3,8 @@ import TagCloud from 'react-tag-cloud';
 import randomColor from 'randomcolor';
 import { connect } from 'react-redux';
 
+import SliderLoading from '../../components/SliderLoading';
+
 import './CommitsWordCloud.css';
 
 import { mockCloudData } from './__mocks__/mockCloudData';
@@ -49,6 +51,8 @@ getFontSize = (instances) => {
 
 render() {
   return(
+
+    this.props.loadingWordCloud.loadingWordCloud ? <SliderLoading msg='Grabbing commits data' /> :
       <TagCloud
         onClick={() => this.forceUpdate()}
         className='tag-cloud'
@@ -64,7 +68,8 @@ render() {
           // change the mockCloudData[s] below back to this.props.cloudData
           Object.keys(this.props.cloudData).map( word => {
             return (
-              <CloudItem 
+              <CloudItem
+                key={word} 
                 text={word}
                 instances={this.props.cloudData[word]}
                 style={this.getFontSize(this.props.cloudData[word])}
@@ -78,6 +83,6 @@ render() {
   }
 }
 
-export const mapStateToProps = ({ cloudData }) => ({ cloudData })
+export const mapStateToProps = ({ cloudData, loadingWordCloud }) => ({ cloudData, loadingWordCloud })
 
 export default connect(mapStateToProps, null)(CommitsWordCloud);

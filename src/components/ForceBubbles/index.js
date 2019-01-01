@@ -5,16 +5,7 @@ import * as d3 from 'd3';
 
 import './ForceBubbles.css';
 
-
 class ForceBubbles extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      data: []
-    }
-  }
-
   componentDidMount() {
 		const width = 960
     const height = 600
@@ -63,10 +54,9 @@ class ForceBubbles extends Component {
         var p1 = d3.mouse(this);
         root.fx = p1[0];
         root.fy = p1[1];
-        force.alphaTarget(0.5).restart();//reheat the simulation
+        force.alphaTarget(0.5).restart();
     });
 }
-
 
   render() {
     return (
