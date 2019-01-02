@@ -1,5 +1,7 @@
 .force-container {
   position: relative;
+  width: 100%;
+  
 }
 
 .force-box {
