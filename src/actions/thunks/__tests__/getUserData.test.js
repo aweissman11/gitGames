@@ -1,6 +1,6 @@
 import { getUserData } from '../getUserData';
 
-import { isLoading, hasErrored, setCloudData, setUserData } from '../../index';
+import { isLoading, hasErrored, setCloudData, setUserData, loadingUser } from '../../index';
 
 import { getCloudData } from '../getCloudData';
 
@@ -21,7 +21,7 @@ describe('getUserData', () => {
 
     thunk(mockDispatch);
 
-    expect(mockDispatch).toHaveBeenCalledWith(isLoading('Getting User Data', true))
+    expect(mockDispatch).toHaveBeenCalledWith(loadingUser('Getting User Data', true))
   })
 
   it('should dispatch Error if the response is not ok', async () => {
@@ -63,7 +63,7 @@ describe('getUserData', () => {
 
     await thunk(mockDispatch)
 
-    expect(mockDispatch).toHaveBeenCalledWith(isLoading('User data retrieved', false))
+    expect(mockDispatch).toHaveBeenCalledWith(loadingUser('User data retrieved', false))
   })
 
 

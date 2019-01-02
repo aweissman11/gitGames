@@ -19,24 +19,24 @@ ShallowWrapper {
     "props": Object {
       "children": <Switch>
         <Route
-          component={[Function]}
-          exact={true}
-          path="/main"
-        />
-        <Route
-          component={[Function]}
-          exact={true}
-          path="/login"
-        />
-        <Route
           exact={true}
           path="/main/:username"
           render={[Function]}
         />
         <Route
-          component={[Function]}
+          exact={true}
+          path="/main"
+          render={[Function]}
+        />
+        <Route
+          exact={true}
+          path="/login"
+          render={[Function]}
+        />
+        <Route
           exact={true}
           path="/"
+          render={[Function]}
         />
         <Route
           path="/"
@@ -53,24 +53,24 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Route
-            component={[Function]}
-            exact={true}
-            path="/main"
-          />,
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/login"
-          />,
-          <Route
             exact={true}
             path="/main/:username"
             render={[Function]}
           />,
           <Route
-            component={[Function]}
+            exact={true}
+            path="/main"
+            render={[Function]}
+          />,
+          <Route
+            exact={true}
+            path="/login"
+            render={[Function]}
+          />,
+          <Route
             exact={true}
             path="/"
+            render={[Function]}
           />,
           <Route
             path="/"
@@ -80,32 +80,6 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "component": [Function],
-            "exact": true,
-            "path": "/main",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "component": [Function],
-            "exact": true,
-            "path": "/login",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
         Object {
           "instance": null,
           "key": undefined,
@@ -124,9 +98,35 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "component": [Function],
+            "exact": true,
+            "path": "/main",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "exact": true,
+            "path": "/login",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
             "exact": true,
             "path": "/",
+            "render": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -157,24 +157,24 @@ ShallowWrapper {
       "props": Object {
         "children": <Switch>
           <Route
-            component={[Function]}
-            exact={true}
-            path="/main"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/login"
-          />
-          <Route
             exact={true}
             path="/main/:username"
             render={[Function]}
           />
           <Route
-            component={[Function]}
+            exact={true}
+            path="/main"
+            render={[Function]}
+          />
+          <Route
+            exact={true}
+            path="/login"
+            render={[Function]}
+          />
+          <Route
             exact={true}
             path="/"
+            render={[Function]}
           />
           <Route
             path="/"
@@ -191,24 +191,24 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Route
-              component={[Function]}
-              exact={true}
-              path="/main"
-            />,
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/login"
-            />,
-            <Route
               exact={true}
               path="/main/:username"
               render={[Function]}
             />,
             <Route
-              component={[Function]}
+              exact={true}
+              path="/main"
+              render={[Function]}
+            />,
+            <Route
+              exact={true}
+              path="/login"
+              render={[Function]}
+            />,
+            <Route
               exact={true}
               path="/"
+              render={[Function]}
             />,
             <Route
               path="/"
@@ -218,32 +218,6 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "component": [Function],
-              "exact": true,
-              "path": "/main",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "component": [Function],
-              "exact": true,
-              "path": "/login",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
           Object {
             "instance": null,
             "key": undefined,
@@ -262,9 +236,35 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "component": [Function],
+              "exact": true,
+              "path": "/main",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "exact": true,
+              "path": "/login",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
               "exact": true,
               "path": "/",
+              "render": [Function],
             },
             "ref": null,
             "rendered": null,
