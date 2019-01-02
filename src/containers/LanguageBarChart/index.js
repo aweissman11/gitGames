@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import ReactLoading from 'react-loading';
 import { ResponsiveBar } from '@nivo/bar'
 
 import './LanguageBarChart.css';
