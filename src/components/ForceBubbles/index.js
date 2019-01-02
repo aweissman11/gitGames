@@ -8,7 +8,7 @@ import './ForceBubbles.css';
 class ForceBubbles extends Component {
   componentDidMount() {
 		const width = 960
-    const height = 600
+    const height = this.props.customHeight
     const nodes = d3.range(400).map(function() { return {r: Math.random() * 12 + 4, s:"hello"}; }),
         root = nodes[0];
     

@@ -2,15 +2,23 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 // import { Route, withRouter, Switch } from 'react-router-dom';
 
-import SearchUsers from '../../components/SearchUsers';
+import ForceBubbles from '../../components/ForceBubbles';
+import SearchBar from '../../components/SearchBar';
+
+import './LoginPage.css';
 
 export class LoginPage extends Component {
   render() {
     return (
-      <div className="login-page">
-        <h1>Login Page</h1>
+      <div className="login-container">
         <div className='login-search'>
-          <SearchUsers />
+          <SearchBar loginPage={this.props.loginPage}/>
+        </div>
+        <ForceBubbles customHeight={window.innerHeight - 70}/>
+        <div className='big-box'>
+          {
+            this.props.pageNotFound ? <h1 className='page-not-found'>Page Not Found</h1> : <h1></h1>
+          }
         </div>
       </div>
     );

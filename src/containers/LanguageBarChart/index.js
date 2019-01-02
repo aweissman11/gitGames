@@ -16,30 +16,22 @@ export class LanguageBarChart extends Component {
   }
 
   cleanedUpData = () => {
-    const { languageData } = this.props
-    // if (languageData) {
-    //   return
-    // }
-    
-    // let languageData = {
-    //   Ruby: 0.24484571666549726,
-    //   JavaScript: 0.6944900264136509,
-    //   CSS: 0.00669960639812411,
-    //   HTML: 0.053904953860987696,
-    //   CoffeeScript: 0.00005969666174004169
-    // }
+    if (this.props.languageData.Overall) {
 
-    let data = Object.keys(languageData).reduce( (acc, lan) => {
-      acc = {
-        ...acc,
-        [lan]: (languageData[lan] * 100).toFixed(2),
-        hover: 'percent used'
-      }
+      const { languageData } = this.props
       
+      let data = Object.keys(languageData.Overall).reduce( (acc, lan) => {
+        acc = {
+          ...acc,
+          [lan]: (languageData.Overall[lan] * 100).toFixed(2),
+          hover: 'percent used'
+        }
+        
       return acc;
     }, {})
-
+    
     return data;
+  }
     // return {
     //   "HTML": "0.47",
     //   "hover": "percent used",
@@ -57,7 +49,7 @@ export class LanguageBarChart extends Component {
     return (
       this.props.loadingLanguages.loadingLanguages ? <SliderLoading msg='Looking up language usage' /> :
         <div className='bar-holder'>
-          <div style={{margin: 'auto', width: '90%', height: '300px', fontSize: '1em'}}>
+          <div style={{margin: 'auto', width: '70%', height: '300px', fontSize: '1em'}}>
             <ResponsiveBar
                 className='responsive-bar'
                 data={[data]}

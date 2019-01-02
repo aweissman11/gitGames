@@ -33,7 +33,7 @@ class DataSlider extends Component {
       <div className='data-slider'>
         <Slider {...settings} >
           <article className='slider-graph'>
-            <ForceBubbles />
+            <ForceBubbles customHeight={600} />
           </article>
           <article className='slider-graph'>
             <CommitsWordCloud />
