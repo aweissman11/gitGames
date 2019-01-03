@@ -1,9 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import randomColor from 'randomcolor';
-
-
 import { CommitsWordCloud } from '../index';
 import { mapStateToProps } from '../index';
 
@@ -45,9 +42,11 @@ describe('CommitsWordCloud', () => {
   })
   
   // it('should get a randomColor', () => {
-  //   // randomColor = jest.fn();
+  //   const spy = spyOn(wrapper.instance(), 'getRandomColor')
+  //   wrapper.instance().forceUpdate()
+  //   wrapper.update()
   //   wrapper.find('.tag-cloud').simulate('click')
-  //   expect(randomColor).toHaveBeenCalled()
+  //   expect(spy).toHaveBeenCalled()
   // })
 
   describe('getFontSize', () => {

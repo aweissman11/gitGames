@@ -10,7 +10,7 @@ import DataSlider from '../DataSlider';
 
 import { getUserData } from '../../actions/thunks/getUserData';
 
-class MainPage extends Component {
+export class MainPage extends Component {
   componentDidMount() {
     const username = this.props;
     if (username) {

@@ -48,6 +48,8 @@ getFontSize = (instances) => {
   
 }
 
+getRandomColor = (info) => randomColor(info);
+
 render() {
   return(
 
@@ -57,7 +59,7 @@ render() {
         className='tag-cloud'
         style={{
           fontFamily: 'sans-serif',
-          color: () => randomColor({ hue: 'purple'}),
+          color: () => this.getRandomColor({ hue: 'purple'}),
           padding: 5,
           width: '100%',
           height: '100%',

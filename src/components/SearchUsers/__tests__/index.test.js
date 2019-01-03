@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 import { SearchUsers } from '../index';
-import { getUserData } from '../../../actions/thunks/getUserData';
+// import { getUserData } from '../../../actions/thunks/getUserData';
 
 import { mapDispatchToProps } from '../index';
 
