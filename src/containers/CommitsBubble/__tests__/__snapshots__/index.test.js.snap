@@ -1,0 +1,4811 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommitsBubble should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CommitsBubble />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ResponsiveBubbleHtml
+        animate={true}
+        borderColor="inherit:darker(0.3)"
+        colorBy="depth"
+        colors="purple_orange"
+        data={
+          Object {
+            "branch": "nivo",
+            "children": Array [
+              Object {
+                "branch": "viz",
+                "children": Array [
+                  Object {
+                    "branch": "stack",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "commits": 650,
+                        "hello": "xxx(238, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "xAxis",
+                        "commits": 689,
+                        "hello": "xxx(165, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "yAxis",
+                        "commits": 572,
+                        "hello": "xxx(112, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "layers",
+                        "commits": 1349,
+                        "hello": "xxx(304, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(127, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pie",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "children": Array [
+                          Object {
+                            "branch": "pie",
+                            "children": Array [
+                              Object {
+                                "branch": "outline",
+                                "children": Array [
+                                  Object {
+                                    "branch": "nested",
+                                    "children": Array [
+                                      Object {
+                                        "branch": "further",
+                                        "children": Array [
+                                          Object {
+                                            "branch": "furtherStill",
+                                            "children": Array [
+                                              Object {
+                                                "branch": "oneMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "twoMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "threeMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "fourMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                            ],
+                                            "hello": "askdkjhkjhfg",
+                                          },
+                                        ],
+                                        "commits": 99999,
+                                        "hello": "asdfa",
+                                      },
+                                    ],
+                                    "hello": "xxx(33, 34, 33)",
+                                  },
+                                ],
+                                "hello": "xxx(231, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "slices",
+                                "commits": 1995,
+                                "hello": "hsl(256, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "bbox",
+                                "commits": 812,
+                                "hello": "hsl(152, 70%, 50%)",
+                              },
+                            ],
+                            "hello": "xxx(85, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "donut",
+                            "commits": 813,
+                            "hello": "hsl(222, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "gauge",
+                            "commits": 1876,
+                            "hello": "hsl(250, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "xxx(172, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "legends",
+                        "commits": 1244,
+                        "hello": "hsl(336, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(338, 70%, 50%)",
+                  },
+                ],
+                "hello": "xxx(183, 70%, 50%)",
+              },
+              Object {
+                "branch": "vizTheSecond",
+                "children": Array [
+                  Object {
+                    "branch": "stack",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "commits": 650,
+                        "hello": "xxx(238, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "xAxis",
+                        "commits": 689,
+                        "hello": "xxx(165, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "yAxis",
+                        "commits": 572,
+                        "hello": "xxx(112, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "layers",
+                        "commits": 1349,
+                        "hello": "xxx(304, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(127, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pie",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "children": Array [
+                          Object {
+                            "branch": "pie",
+                            "children": Array [
+                              Object {
+                                "branch": "outline",
+                                "children": Array [
+                                  Object {
+                                    "branch": "nested",
+                                    "children": Array [
+                                      Object {
+                                        "branch": "further",
+                                        "children": Array [
+                                          Object {
+                                            "branch": "furtherStill",
+                                            "children": Array [
+                                              Object {
+                                                "branch": "oneMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "twoMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "threeMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "fourMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                            ],
+                                            "hello": "askdkjhkjhfg",
+                                          },
+                                        ],
+                                        "commits": 99999,
+                                        "hello": "asdfa",
+                                      },
+                                    ],
+                                    "hello": "xxx(33, 34, 33)",
+                                  },
+                                ],
+                                "hello": "xxx(231, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "slices",
+                                "commits": 1995,
+                                "hello": "hsl(256, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "bbox",
+                                "commits": 812,
+                                "hello": "hsl(152, 70%, 50%)",
+                              },
+                            ],
+                            "hello": "xxx(85, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "donut",
+                            "commits": 813,
+                            "hello": "hsl(222, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "gauge",
+                            "commits": 1876,
+                            "hello": "hsl(250, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "xxx(172, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "legends",
+                        "commits": 1244,
+                        "hello": "hsl(336, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(338, 70%, 50%)",
+                  },
+                ],
+                "hello": "xxx(183, 70%, 50%)",
+              },
+              Object {
+                "branch": "hellos",
+                "children": Array [
+                  Object {
+                    "branch": "rgb",
+                    "commits": 108,
+                    "hello": "hsl(303, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "hsl",
+                    "commits": 1031,
+                    "hello": "hsl(86, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(169, 70%, 50%)",
+              },
+              Object {
+                "branch": "utils",
+                "children": Array [
+                  Object {
+                    "branch": "randomize",
+                    "commits": 1026,
+                    "hello": "hsl(95, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "resetClock",
+                    "commits": 104,
+                    "hello": "hsl(32, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "noop",
+                    "commits": 1150,
+                    "hello": "hsl(345, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "tick",
+                    "commits": 954,
+                    "hello": "hsl(190, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "forceGC",
+                    "commits": 1985,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "stackTrace",
+                    "commits": 140,
+                    "hello": "hsl(58, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "dbg",
+                    "commits": 1600,
+                    "hello": "hsl(174, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(37, 70%, 50%)",
+              },
+              Object {
+                "branch": "generators",
+                "children": Array [
+                  Object {
+                    "branch": "address",
+                    "commits": 514,
+                    "hello": "hsl(359, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "city",
+                    "commits": 884,
+                    "hello": "hsl(167, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "animal",
+                    "commits": 1677,
+                    "hello": "hsl(23, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "movie",
+                    "commits": 1848,
+                    "hello": "hsl(292, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "user",
+                    "commits": 1876,
+                    "hello": "hsl(138, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(151, 70%, 50%)",
+              },
+              Object {
+                "branch": "set",
+                "children": Array [
+                  Object {
+                    "branch": "clone",
+                    "commits": 1505,
+                    "hello": "hsl(77, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "intersect",
+                    "commits": 193,
+                    "hello": "hsl(187, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "merge",
+                    "commits": 165,
+                    "hello": "hsl(350, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "reverse",
+                    "commits": 1761,
+                    "hello": "hsl(208, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "toArray",
+                    "commits": 48,
+                    "hello": "hsl(230, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "toObject",
+                    "commits": 329,
+                    "hello": "hsl(181, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "fromCSV",
+                    "commits": 1508,
+                    "hello": "hsl(142, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "slice",
+                    "commits": 1392,
+                    "hello": "hsl(261, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "append",
+                    "commits": 786,
+                    "hello": "hsl(60, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "prepend",
+                    "commits": 102,
+                    "hello": "hsl(67, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "shuffle",
+                    "commits": 548,
+                    "hello": "hsl(200, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pick",
+                    "commits": 1329,
+                    "hello": "hsl(148, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "plouc",
+                    "commits": 514,
+                    "hello": "hsl(339, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(166, 70%, 50%)",
+              },
+              Object {
+                "branch": "text",
+                "children": Array [
+                  Object {
+                    "branch": "trim",
+                    "commits": 1053,
+                    "hello": "hsl(276, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "slugify",
+                    "commits": 840,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "snakeCase",
+                    "commits": 1526,
+                    "hello": "hsl(225, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "camelCase",
+                    "commits": 648,
+                    "hello": "hsl(169, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "repeat",
+                    "commits": 690,
+                    "hello": "hsl(44, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "padLeft",
+                    "commits": 146,
+                    "hello": "hsl(155, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "padRight",
+                    "commits": 270,
+                    "hello": "hsl(28, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "sanitize",
+                    "commits": 502,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "ploucify",
+                    "commits": 554,
+                    "hello": "hsl(131, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(243, 70%, 50%)",
+              },
+              Object {
+                "branch": "misc",
+                "children": Array [
+                  Object {
+                    "branch": "whatever",
+                    "children": Array [
+                      Object {
+                        "branch": "hey",
+                        "commits": 1275,
+                        "hello": "hsl(83, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "WTF",
+                        "commits": 88,
+                        "hello": "hsl(124, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "lol",
+                        "commits": 474,
+                        "hello": "hsl(6, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "IMHO",
+                        "commits": 644,
+                        "hello": "hsl(163, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "hsl(245, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "other",
+                    "commits": 16720,
+                    "hello": "hsl(357, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "crap",
+                    "children": Array [
+                      Object {
+                        "branch": "crapA",
+                        "commits": 1663,
+                        "hello": "hsl(310, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "crapB",
+                        "children": Array [
+                          Object {
+                            "branch": "crapB1",
+                            "commits": 1280,
+                            "hello": "hsl(219, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB2",
+                            "commits": 1899,
+                            "hello": "hsl(59, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB3",
+                            "commits": 786,
+                            "hello": "hsl(124, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB4",
+                            "commits": 1115,
+                            "hello": "hsl(360, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "hsl(191, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "crapC",
+                        "children": Array [
+                          Object {
+                            "branch": "crapC1",
+                            "commits": 768,
+                            "hello": "hsl(57, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC2",
+                            "commits": 1297,
+                            "hello": "hsl(75, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC3",
+                            "commits": 1468,
+                            "hello": "hsl(229, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC4",
+                            "commits": 1145,
+                            "hello": "hsl(78, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC5",
+                            "commits": 773,
+                            "hello": "hsl(201, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC6",
+                            "commits": 1299,
+                            "hello": "hsl(177, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC7",
+                            "commits": 562,
+                            "hello": "hsl(271, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC8",
+                            "commits": 1118,
+                            "hello": "hsl(208, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC9",
+                            "commits": 1021,
+                            "hello": "hsl(19, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "hsl(37, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "hsl(236, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(133, 70%, 50%)",
+              },
+            ],
+            "hello": "hsl(58, 70%, 50%)",
+          }
+        }
+        identity="branch"
+        labelSkipRadius={10}
+        labelTextColor="inherit:darker(0.8)"
+        margin={
+          Object {
+            "bottom": 20,
+            "left": 20,
+            "right": 20,
+            "top": 20,
+          }
+        }
+        motionDamping={12}
+        motionStiffness={90}
+        root={
+          Object {
+            "branch": "nivo",
+            "children": Array [
+              Object {
+                "branch": "viz",
+                "children": Array [
+                  Object {
+                    "branch": "stack",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "commits": 650,
+                        "hello": "xxx(238, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "xAxis",
+                        "commits": 689,
+                        "hello": "xxx(165, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "yAxis",
+                        "commits": 572,
+                        "hello": "xxx(112, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "layers",
+                        "commits": 1349,
+                        "hello": "xxx(304, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(127, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pie",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "children": Array [
+                          Object {
+                            "branch": "pie",
+                            "children": Array [
+                              Object {
+                                "branch": "outline",
+                                "children": Array [
+                                  Object {
+                                    "branch": "nested",
+                                    "children": Array [
+                                      Object {
+                                        "branch": "further",
+                                        "children": Array [
+                                          Object {
+                                            "branch": "furtherStill",
+                                            "children": Array [
+                                              Object {
+                                                "branch": "oneMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "twoMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "threeMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "fourMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                            ],
+                                            "hello": "askdkjhkjhfg",
+                                          },
+                                        ],
+                                        "commits": 99999,
+                                        "hello": "asdfa",
+                                      },
+                                    ],
+                                    "hello": "xxx(33, 34, 33)",
+                                  },
+                                ],
+                                "hello": "xxx(231, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "slices",
+                                "commits": 1995,
+                                "hello": "hsl(256, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "bbox",
+                                "commits": 812,
+                                "hello": "hsl(152, 70%, 50%)",
+                              },
+                            ],
+                            "hello": "xxx(85, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "donut",
+                            "commits": 813,
+                            "hello": "hsl(222, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "gauge",
+                            "commits": 1876,
+                            "hello": "hsl(250, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "xxx(172, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "legends",
+                        "commits": 1244,
+                        "hello": "hsl(336, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(338, 70%, 50%)",
+                  },
+                ],
+                "hello": "xxx(183, 70%, 50%)",
+              },
+              Object {
+                "branch": "vizTheSecond",
+                "children": Array [
+                  Object {
+                    "branch": "stack",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "commits": 650,
+                        "hello": "xxx(238, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "xAxis",
+                        "commits": 689,
+                        "hello": "xxx(165, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "yAxis",
+                        "commits": 572,
+                        "hello": "xxx(112, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "layers",
+                        "commits": 1349,
+                        "hello": "xxx(304, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(127, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pie",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "children": Array [
+                          Object {
+                            "branch": "pie",
+                            "children": Array [
+                              Object {
+                                "branch": "outline",
+                                "children": Array [
+                                  Object {
+                                    "branch": "nested",
+                                    "children": Array [
+                                      Object {
+                                        "branch": "further",
+                                        "children": Array [
+                                          Object {
+                                            "branch": "furtherStill",
+                                            "children": Array [
+                                              Object {
+                                                "branch": "oneMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "twoMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "threeMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "fourMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                            ],
+                                            "hello": "askdkjhkjhfg",
+                                          },
+                                        ],
+                                        "commits": 99999,
+                                        "hello": "asdfa",
+                                      },
+                                    ],
+                                    "hello": "xxx(33, 34, 33)",
+                                  },
+                                ],
+                                "hello": "xxx(231, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "slices",
+                                "commits": 1995,
+                                "hello": "hsl(256, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "bbox",
+                                "commits": 812,
+                                "hello": "hsl(152, 70%, 50%)",
+                              },
+                            ],
+                            "hello": "xxx(85, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "donut",
+                            "commits": 813,
+                            "hello": "hsl(222, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "gauge",
+                            "commits": 1876,
+                            "hello": "hsl(250, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "xxx(172, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "legends",
+                        "commits": 1244,
+                        "hello": "hsl(336, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(338, 70%, 50%)",
+                  },
+                ],
+                "hello": "xxx(183, 70%, 50%)",
+              },
+              Object {
+                "branch": "hellos",
+                "children": Array [
+                  Object {
+                    "branch": "rgb",
+                    "commits": 108,
+                    "hello": "hsl(303, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "hsl",
+                    "commits": 1031,
+                    "hello": "hsl(86, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(169, 70%, 50%)",
+              },
+              Object {
+                "branch": "utils",
+                "children": Array [
+                  Object {
+                    "branch": "randomize",
+                    "commits": 1026,
+                    "hello": "hsl(95, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "resetClock",
+                    "commits": 104,
+                    "hello": "hsl(32, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "noop",
+                    "commits": 1150,
+                    "hello": "hsl(345, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "tick",
+                    "commits": 954,
+                    "hello": "hsl(190, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "forceGC",
+                    "commits": 1985,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "stackTrace",
+                    "commits": 140,
+                    "hello": "hsl(58, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "dbg",
+                    "commits": 1600,
+                    "hello": "hsl(174, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(37, 70%, 50%)",
+              },
+              Object {
+                "branch": "generators",
+                "children": Array [
+                  Object {
+                    "branch": "address",
+                    "commits": 514,
+                    "hello": "hsl(359, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "city",
+                    "commits": 884,
+                    "hello": "hsl(167, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "animal",
+                    "commits": 1677,
+                    "hello": "hsl(23, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "movie",
+                    "commits": 1848,
+                    "hello": "hsl(292, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "user",
+                    "commits": 1876,
+                    "hello": "hsl(138, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(151, 70%, 50%)",
+              },
+              Object {
+                "branch": "set",
+                "children": Array [
+                  Object {
+                    "branch": "clone",
+                    "commits": 1505,
+                    "hello": "hsl(77, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "intersect",
+                    "commits": 193,
+                    "hello": "hsl(187, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "merge",
+                    "commits": 165,
+                    "hello": "hsl(350, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "reverse",
+                    "commits": 1761,
+                    "hello": "hsl(208, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "toArray",
+                    "commits": 48,
+                    "hello": "hsl(230, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "toObject",
+                    "commits": 329,
+                    "hello": "hsl(181, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "fromCSV",
+                    "commits": 1508,
+                    "hello": "hsl(142, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "slice",
+                    "commits": 1392,
+                    "hello": "hsl(261, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "append",
+                    "commits": 786,
+                    "hello": "hsl(60, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "prepend",
+                    "commits": 102,
+                    "hello": "hsl(67, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "shuffle",
+                    "commits": 548,
+                    "hello": "hsl(200, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pick",
+                    "commits": 1329,
+                    "hello": "hsl(148, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "plouc",
+                    "commits": 514,
+                    "hello": "hsl(339, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(166, 70%, 50%)",
+              },
+              Object {
+                "branch": "text",
+                "children": Array [
+                  Object {
+                    "branch": "trim",
+                    "commits": 1053,
+                    "hello": "hsl(276, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "slugify",
+                    "commits": 840,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "snakeCase",
+                    "commits": 1526,
+                    "hello": "hsl(225, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "camelCase",
+                    "commits": 648,
+                    "hello": "hsl(169, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "repeat",
+                    "commits": 690,
+                    "hello": "hsl(44, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "padLeft",
+                    "commits": 146,
+                    "hello": "hsl(155, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "padRight",
+                    "commits": 270,
+                    "hello": "hsl(28, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "sanitize",
+                    "commits": 502,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "ploucify",
+                    "commits": 554,
+                    "hello": "hsl(131, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(243, 70%, 50%)",
+              },
+              Object {
+                "branch": "misc",
+                "children": Array [
+                  Object {
+                    "branch": "whatever",
+                    "children": Array [
+                      Object {
+                        "branch": "hey",
+                        "commits": 1275,
+                        "hello": "hsl(83, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "WTF",
+                        "commits": 88,
+                        "hello": "hsl(124, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "lol",
+                        "commits": 474,
+                        "hello": "hsl(6, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "IMHO",
+                        "commits": 644,
+                        "hello": "hsl(163, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "hsl(245, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "other",
+                    "commits": 16720,
+                    "hello": "hsl(357, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "crap",
+                    "children": Array [
+                      Object {
+                        "branch": "crapA",
+                        "commits": 1663,
+                        "hello": "hsl(310, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "crapB",
+                        "children": Array [
+                          Object {
+                            "branch": "crapB1",
+                            "commits": 1280,
+                            "hello": "hsl(219, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB2",
+                            "commits": 1899,
+                            "hello": "hsl(59, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB3",
+                            "commits": 786,
+                            "hello": "hsl(124, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB4",
+                            "commits": 1115,
+                            "hello": "hsl(360, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "hsl(191, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "crapC",
+                        "children": Array [
+                          Object {
+                            "branch": "crapC1",
+                            "commits": 768,
+                            "hello": "hsl(57, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC2",
+                            "commits": 1297,
+                            "hello": "hsl(75, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC3",
+                            "commits": 1468,
+                            "hello": "hsl(229, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC4",
+                            "commits": 1145,
+                            "hello": "hsl(78, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC5",
+                            "commits": 773,
+                            "hello": "hsl(201, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC6",
+                            "commits": 1299,
+                            "hello": "hsl(177, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC7",
+                            "commits": 562,
+                            "hello": "hsl(271, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC8",
+                            "commits": 1118,
+                            "hello": "hsl(208, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC9",
+                            "commits": 1021,
+                            "hello": "hsl(19, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "hsl(37, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "hsl(236, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(133, 70%, 50%)",
+              },
+            ],
+            "hello": "hsl(58, 70%, 50%)",
+          }
+        }
+        value="commits"
+      />,
+      "className": "commits-bubble",
+      "style": Object {
+        "height": "100%",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "animate": true,
+        "borderColor": "inherit:darker(0.3)",
+        "colorBy": "depth",
+        "colors": "purple_orange",
+        "data": Object {
+          "branch": "nivo",
+          "children": Array [
+            Object {
+              "branch": "viz",
+              "children": Array [
+                Object {
+                  "branch": "stack",
+                  "children": Array [
+                    Object {
+                      "branch": "chart",
+                      "commits": 650,
+                      "hello": "xxx(238, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "xAxis",
+                      "commits": 689,
+                      "hello": "xxx(165, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "yAxis",
+                      "commits": 572,
+                      "hello": "xxx(112, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "layers",
+                      "commits": 1349,
+                      "hello": "xxx(304, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(127, 70%, 50%)",
+                },
+                Object {
+                  "branch": "pie",
+                  "children": Array [
+                    Object {
+                      "branch": "chart",
+                      "children": Array [
+                        Object {
+                          "branch": "pie",
+                          "children": Array [
+                            Object {
+                              "branch": "outline",
+                              "children": Array [
+                                Object {
+                                  "branch": "nested",
+                                  "children": Array [
+                                    Object {
+                                      "branch": "further",
+                                      "children": Array [
+                                        Object {
+                                          "branch": "furtherStill",
+                                          "children": Array [
+                                            Object {
+                                              "branch": "oneMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "twoMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "threeMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "fourMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                          ],
+                                          "hello": "askdkjhkjhfg",
+                                        },
+                                      ],
+                                      "commits": 99999,
+                                      "hello": "asdfa",
+                                    },
+                                  ],
+                                  "hello": "xxx(33, 34, 33)",
+                                },
+                              ],
+                              "hello": "xxx(231, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "slices",
+                              "commits": 1995,
+                              "hello": "hsl(256, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "bbox",
+                              "commits": 812,
+                              "hello": "hsl(152, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "xxx(85, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "donut",
+                          "commits": 813,
+                          "hello": "hsl(222, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "gauge",
+                          "commits": 1876,
+                          "hello": "hsl(250, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(172, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "legends",
+                      "commits": 1244,
+                      "hello": "hsl(336, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(338, 70%, 50%)",
+                },
+              ],
+              "hello": "xxx(183, 70%, 50%)",
+            },
+            Object {
+              "branch": "vizTheSecond",
+              "children": Array [
+                Object {
+                  "branch": "stack",
+                  "children": Array [
+                    Object {
+                      "branch": "chart",
+                      "commits": 650,
+                      "hello": "xxx(238, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "xAxis",
+                      "commits": 689,
+                      "hello": "xxx(165, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "yAxis",
+                      "commits": 572,
+                      "hello": "xxx(112, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "layers",
+                      "commits": 1349,
+                      "hello": "xxx(304, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(127, 70%, 50%)",
+                },
+                Object {
+                  "branch": "pie",
+                  "children": Array [
+                    Object {
+                      "branch": "chart",
+                      "children": Array [
+                        Object {
+                          "branch": "pie",
+                          "children": Array [
+                            Object {
+                              "branch": "outline",
+                              "children": Array [
+                                Object {
+                                  "branch": "nested",
+                                  "children": Array [
+                                    Object {
+                                      "branch": "further",
+                                      "children": Array [
+                                        Object {
+                                          "branch": "furtherStill",
+                                          "children": Array [
+                                            Object {
+                                              "branch": "oneMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "twoMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "threeMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "fourMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                          ],
+                                          "hello": "askdkjhkjhfg",
+                                        },
+                                      ],
+                                      "commits": 99999,
+                                      "hello": "asdfa",
+                                    },
+                                  ],
+                                  "hello": "xxx(33, 34, 33)",
+                                },
+                              ],
+                              "hello": "xxx(231, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "slices",
+                              "commits": 1995,
+                              "hello": "hsl(256, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "bbox",
+                              "commits": 812,
+                              "hello": "hsl(152, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "xxx(85, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "donut",
+                          "commits": 813,
+                          "hello": "hsl(222, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "gauge",
+                          "commits": 1876,
+                          "hello": "hsl(250, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(172, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "legends",
+                      "commits": 1244,
+                      "hello": "hsl(336, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(338, 70%, 50%)",
+                },
+              ],
+              "hello": "xxx(183, 70%, 50%)",
+            },
+            Object {
+              "branch": "hellos",
+              "children": Array [
+                Object {
+                  "branch": "rgb",
+                  "commits": 108,
+                  "hello": "hsl(303, 70%, 50%)",
+                },
+                Object {
+                  "branch": "hsl",
+                  "commits": 1031,
+                  "hello": "hsl(86, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(169, 70%, 50%)",
+            },
+            Object {
+              "branch": "utils",
+              "children": Array [
+                Object {
+                  "branch": "randomize",
+                  "commits": 1026,
+                  "hello": "hsl(95, 70%, 50%)",
+                },
+                Object {
+                  "branch": "resetClock",
+                  "commits": 104,
+                  "hello": "hsl(32, 70%, 50%)",
+                },
+                Object {
+                  "branch": "noop",
+                  "commits": 1150,
+                  "hello": "hsl(345, 70%, 50%)",
+                },
+                Object {
+                  "branch": "tick",
+                  "commits": 954,
+                  "hello": "hsl(190, 70%, 50%)",
+                },
+                Object {
+                  "branch": "forceGC",
+                  "commits": 1985,
+                  "hello": "hsl(22, 70%, 50%)",
+                },
+                Object {
+                  "branch": "stackTrace",
+                  "commits": 140,
+                  "hello": "hsl(58, 70%, 50%)",
+                },
+                Object {
+                  "branch": "dbg",
+                  "commits": 1600,
+                  "hello": "hsl(174, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(37, 70%, 50%)",
+            },
+            Object {
+              "branch": "generators",
+              "children": Array [
+                Object {
+                  "branch": "address",
+                  "commits": 514,
+                  "hello": "hsl(359, 70%, 50%)",
+                },
+                Object {
+                  "branch": "city",
+                  "commits": 884,
+                  "hello": "hsl(167, 70%, 50%)",
+                },
+                Object {
+                  "branch": "animal",
+                  "commits": 1677,
+                  "hello": "hsl(23, 70%, 50%)",
+                },
+                Object {
+                  "branch": "movie",
+                  "commits": 1848,
+                  "hello": "hsl(292, 70%, 50%)",
+                },
+                Object {
+                  "branch": "user",
+                  "commits": 1876,
+                  "hello": "hsl(138, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(151, 70%, 50%)",
+            },
+            Object {
+              "branch": "set",
+              "children": Array [
+                Object {
+                  "branch": "clone",
+                  "commits": 1505,
+                  "hello": "hsl(77, 70%, 50%)",
+                },
+                Object {
+                  "branch": "intersect",
+                  "commits": 193,
+                  "hello": "hsl(187, 70%, 50%)",
+                },
+                Object {
+                  "branch": "merge",
+                  "commits": 165,
+                  "hello": "hsl(350, 70%, 50%)",
+                },
+                Object {
+                  "branch": "reverse",
+                  "commits": 1761,
+                  "hello": "hsl(208, 70%, 50%)",
+                },
+                Object {
+                  "branch": "toArray",
+                  "commits": 48,
+                  "hello": "hsl(230, 70%, 50%)",
+                },
+                Object {
+                  "branch": "toObject",
+                  "commits": 329,
+                  "hello": "hsl(181, 70%, 50%)",
+                },
+                Object {
+                  "branch": "fromCSV",
+                  "commits": 1508,
+                  "hello": "hsl(142, 70%, 50%)",
+                },
+                Object {
+                  "branch": "slice",
+                  "commits": 1392,
+                  "hello": "hsl(261, 70%, 50%)",
+                },
+                Object {
+                  "branch": "append",
+                  "commits": 786,
+                  "hello": "hsl(60, 70%, 50%)",
+                },
+                Object {
+                  "branch": "prepend",
+                  "commits": 102,
+                  "hello": "hsl(67, 70%, 50%)",
+                },
+                Object {
+                  "branch": "shuffle",
+                  "commits": 548,
+                  "hello": "hsl(200, 70%, 50%)",
+                },
+                Object {
+                  "branch": "pick",
+                  "commits": 1329,
+                  "hello": "hsl(148, 70%, 50%)",
+                },
+                Object {
+                  "branch": "plouc",
+                  "commits": 514,
+                  "hello": "hsl(339, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(166, 70%, 50%)",
+            },
+            Object {
+              "branch": "text",
+              "children": Array [
+                Object {
+                  "branch": "trim",
+                  "commits": 1053,
+                  "hello": "hsl(276, 70%, 50%)",
+                },
+                Object {
+                  "branch": "slugify",
+                  "commits": 840,
+                  "hello": "hsl(22, 70%, 50%)",
+                },
+                Object {
+                  "branch": "snakeCase",
+                  "commits": 1526,
+                  "hello": "hsl(225, 70%, 50%)",
+                },
+                Object {
+                  "branch": "camelCase",
+                  "commits": 648,
+                  "hello": "hsl(169, 70%, 50%)",
+                },
+                Object {
+                  "branch": "repeat",
+                  "commits": 690,
+                  "hello": "hsl(44, 70%, 50%)",
+                },
+                Object {
+                  "branch": "padLeft",
+                  "commits": 146,
+                  "hello": "hsl(155, 70%, 50%)",
+                },
+                Object {
+                  "branch": "padRight",
+                  "commits": 270,
+                  "hello": "hsl(28, 70%, 50%)",
+                },
+                Object {
+                  "branch": "sanitize",
+                  "commits": 502,
+                  "hello": "hsl(22, 70%, 50%)",
+                },
+                Object {
+                  "branch": "ploucify",
+                  "commits": 554,
+                  "hello": "hsl(131, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(243, 70%, 50%)",
+            },
+            Object {
+              "branch": "misc",
+              "children": Array [
+                Object {
+                  "branch": "whatever",
+                  "children": Array [
+                    Object {
+                      "branch": "hey",
+                      "commits": 1275,
+                      "hello": "hsl(83, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "WTF",
+                      "commits": 88,
+                      "hello": "hsl(124, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "lol",
+                      "commits": 474,
+                      "hello": "hsl(6, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "IMHO",
+                      "commits": 644,
+                      "hello": "hsl(163, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(245, 70%, 50%)",
+                },
+                Object {
+                  "branch": "other",
+                  "commits": 16720,
+                  "hello": "hsl(357, 70%, 50%)",
+                },
+                Object {
+                  "branch": "crap",
+                  "children": Array [
+                    Object {
+                      "branch": "crapA",
+                      "commits": 1663,
+                      "hello": "hsl(310, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "crapB",
+                      "children": Array [
+                        Object {
+                          "branch": "crapB1",
+                          "commits": 1280,
+                          "hello": "hsl(219, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapB2",
+                          "commits": 1899,
+                          "hello": "hsl(59, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapB3",
+                          "commits": 786,
+                          "hello": "hsl(124, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapB4",
+                          "commits": 1115,
+                          "hello": "hsl(360, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "hsl(191, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "crapC",
+                      "children": Array [
+                        Object {
+                          "branch": "crapC1",
+                          "commits": 768,
+                          "hello": "hsl(57, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC2",
+                          "commits": 1297,
+                          "hello": "hsl(75, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC3",
+                          "commits": 1468,
+                          "hello": "hsl(229, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC4",
+                          "commits": 1145,
+                          "hello": "hsl(78, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC5",
+                          "commits": 773,
+                          "hello": "hsl(201, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC6",
+                          "commits": 1299,
+                          "hello": "hsl(177, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC7",
+                          "commits": 562,
+                          "hello": "hsl(271, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC8",
+                          "commits": 1118,
+                          "hello": "hsl(208, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC9",
+                          "commits": 1021,
+                          "hello": "hsl(19, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "hsl(37, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(236, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(133, 70%, 50%)",
+            },
+          ],
+          "hello": "hsl(58, 70%, 50%)",
+        },
+        "identity": "branch",
+        "labelSkipRadius": 10,
+        "labelTextColor": "inherit:darker(0.8)",
+        "margin": Object {
+          "bottom": 20,
+          "left": 20,
+          "right": 20,
+          "top": 20,
+        },
+        "motionDamping": 12,
+        "motionStiffness": 90,
+        "root": Object {
+          "branch": "nivo",
+          "children": Array [
+            Object {
+              "branch": "viz",
+              "children": Array [
+                Object {
+                  "branch": "stack",
+                  "children": Array [
+                    Object {
+                      "branch": "chart",
+                      "commits": 650,
+                      "hello": "xxx(238, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "xAxis",
+                      "commits": 689,
+                      "hello": "xxx(165, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "yAxis",
+                      "commits": 572,
+                      "hello": "xxx(112, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "layers",
+                      "commits": 1349,
+                      "hello": "xxx(304, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(127, 70%, 50%)",
+                },
+                Object {
+                  "branch": "pie",
+                  "children": Array [
+                    Object {
+                      "branch": "chart",
+                      "children": Array [
+                        Object {
+                          "branch": "pie",
+                          "children": Array [
+                            Object {
+                              "branch": "outline",
+                              "children": Array [
+                                Object {
+                                  "branch": "nested",
+                                  "children": Array [
+                                    Object {
+                                      "branch": "further",
+                                      "children": Array [
+                                        Object {
+                                          "branch": "furtherStill",
+                                          "children": Array [
+                                            Object {
+                                              "branch": "oneMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "twoMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "threeMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "fourMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                          ],
+                                          "hello": "askdkjhkjhfg",
+                                        },
+                                      ],
+                                      "commits": 99999,
+                                      "hello": "asdfa",
+                                    },
+                                  ],
+                                  "hello": "xxx(33, 34, 33)",
+                                },
+                              ],
+                              "hello": "xxx(231, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "slices",
+                              "commits": 1995,
+                              "hello": "hsl(256, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "bbox",
+                              "commits": 812,
+                              "hello": "hsl(152, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "xxx(85, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "donut",
+                          "commits": 813,
+                          "hello": "hsl(222, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "gauge",
+                          "commits": 1876,
+                          "hello": "hsl(250, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(172, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "legends",
+                      "commits": 1244,
+                      "hello": "hsl(336, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(338, 70%, 50%)",
+                },
+              ],
+              "hello": "xxx(183, 70%, 50%)",
+            },
+            Object {
+              "branch": "vizTheSecond",
+              "children": Array [
+                Object {
+                  "branch": "stack",
+                  "children": Array [
+                    Object {
+                      "branch": "chart",
+                      "commits": 650,
+                      "hello": "xxx(238, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "xAxis",
+                      "commits": 689,
+                      "hello": "xxx(165, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "yAxis",
+                      "commits": 572,
+                      "hello": "xxx(112, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "layers",
+                      "commits": 1349,
+                      "hello": "xxx(304, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(127, 70%, 50%)",
+                },
+                Object {
+                  "branch": "pie",
+                  "children": Array [
+                    Object {
+                      "branch": "chart",
+                      "children": Array [
+                        Object {
+                          "branch": "pie",
+                          "children": Array [
+                            Object {
+                              "branch": "outline",
+                              "children": Array [
+                                Object {
+                                  "branch": "nested",
+                                  "children": Array [
+                                    Object {
+                                      "branch": "further",
+                                      "children": Array [
+                                        Object {
+                                          "branch": "furtherStill",
+                                          "children": Array [
+                                            Object {
+                                              "branch": "oneMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "twoMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "threeMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                            Object {
+                                              "branch": "fourMOre",
+                                              "commits": 999,
+                                              "hello": "rtoiuwproit",
+                                            },
+                                          ],
+                                          "hello": "askdkjhkjhfg",
+                                        },
+                                      ],
+                                      "commits": 99999,
+                                      "hello": "asdfa",
+                                    },
+                                  ],
+                                  "hello": "xxx(33, 34, 33)",
+                                },
+                              ],
+                              "hello": "xxx(231, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "slices",
+                              "commits": 1995,
+                              "hello": "hsl(256, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "bbox",
+                              "commits": 812,
+                              "hello": "hsl(152, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "xxx(85, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "donut",
+                          "commits": 813,
+                          "hello": "hsl(222, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "gauge",
+                          "commits": 1876,
+                          "hello": "hsl(250, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(172, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "legends",
+                      "commits": 1244,
+                      "hello": "hsl(336, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(338, 70%, 50%)",
+                },
+              ],
+              "hello": "xxx(183, 70%, 50%)",
+            },
+            Object {
+              "branch": "hellos",
+              "children": Array [
+                Object {
+                  "branch": "rgb",
+                  "commits": 108,
+                  "hello": "hsl(303, 70%, 50%)",
+                },
+                Object {
+                  "branch": "hsl",
+                  "commits": 1031,
+                  "hello": "hsl(86, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(169, 70%, 50%)",
+            },
+            Object {
+              "branch": "utils",
+              "children": Array [
+                Object {
+                  "branch": "randomize",
+                  "commits": 1026,
+                  "hello": "hsl(95, 70%, 50%)",
+                },
+                Object {
+                  "branch": "resetClock",
+                  "commits": 104,
+                  "hello": "hsl(32, 70%, 50%)",
+                },
+                Object {
+                  "branch": "noop",
+                  "commits": 1150,
+                  "hello": "hsl(345, 70%, 50%)",
+                },
+                Object {
+                  "branch": "tick",
+                  "commits": 954,
+                  "hello": "hsl(190, 70%, 50%)",
+                },
+                Object {
+                  "branch": "forceGC",
+                  "commits": 1985,
+                  "hello": "hsl(22, 70%, 50%)",
+                },
+                Object {
+                  "branch": "stackTrace",
+                  "commits": 140,
+                  "hello": "hsl(58, 70%, 50%)",
+                },
+                Object {
+                  "branch": "dbg",
+                  "commits": 1600,
+                  "hello": "hsl(174, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(37, 70%, 50%)",
+            },
+            Object {
+              "branch": "generators",
+              "children": Array [
+                Object {
+                  "branch": "address",
+                  "commits": 514,
+                  "hello": "hsl(359, 70%, 50%)",
+                },
+                Object {
+                  "branch": "city",
+                  "commits": 884,
+                  "hello": "hsl(167, 70%, 50%)",
+                },
+                Object {
+                  "branch": "animal",
+                  "commits": 1677,
+                  "hello": "hsl(23, 70%, 50%)",
+                },
+                Object {
+                  "branch": "movie",
+                  "commits": 1848,
+                  "hello": "hsl(292, 70%, 50%)",
+                },
+                Object {
+                  "branch": "user",
+                  "commits": 1876,
+                  "hello": "hsl(138, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(151, 70%, 50%)",
+            },
+            Object {
+              "branch": "set",
+              "children": Array [
+                Object {
+                  "branch": "clone",
+                  "commits": 1505,
+                  "hello": "hsl(77, 70%, 50%)",
+                },
+                Object {
+                  "branch": "intersect",
+                  "commits": 193,
+                  "hello": "hsl(187, 70%, 50%)",
+                },
+                Object {
+                  "branch": "merge",
+                  "commits": 165,
+                  "hello": "hsl(350, 70%, 50%)",
+                },
+                Object {
+                  "branch": "reverse",
+                  "commits": 1761,
+                  "hello": "hsl(208, 70%, 50%)",
+                },
+                Object {
+                  "branch": "toArray",
+                  "commits": 48,
+                  "hello": "hsl(230, 70%, 50%)",
+                },
+                Object {
+                  "branch": "toObject",
+                  "commits": 329,
+                  "hello": "hsl(181, 70%, 50%)",
+                },
+                Object {
+                  "branch": "fromCSV",
+                  "commits": 1508,
+                  "hello": "hsl(142, 70%, 50%)",
+                },
+                Object {
+                  "branch": "slice",
+                  "commits": 1392,
+                  "hello": "hsl(261, 70%, 50%)",
+                },
+                Object {
+                  "branch": "append",
+                  "commits": 786,
+                  "hello": "hsl(60, 70%, 50%)",
+                },
+                Object {
+                  "branch": "prepend",
+                  "commits": 102,
+                  "hello": "hsl(67, 70%, 50%)",
+                },
+                Object {
+                  "branch": "shuffle",
+                  "commits": 548,
+                  "hello": "hsl(200, 70%, 50%)",
+                },
+                Object {
+                  "branch": "pick",
+                  "commits": 1329,
+                  "hello": "hsl(148, 70%, 50%)",
+                },
+                Object {
+                  "branch": "plouc",
+                  "commits": 514,
+                  "hello": "hsl(339, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(166, 70%, 50%)",
+            },
+            Object {
+              "branch": "text",
+              "children": Array [
+                Object {
+                  "branch": "trim",
+                  "commits": 1053,
+                  "hello": "hsl(276, 70%, 50%)",
+                },
+                Object {
+                  "branch": "slugify",
+                  "commits": 840,
+                  "hello": "hsl(22, 70%, 50%)",
+                },
+                Object {
+                  "branch": "snakeCase",
+                  "commits": 1526,
+                  "hello": "hsl(225, 70%, 50%)",
+                },
+                Object {
+                  "branch": "camelCase",
+                  "commits": 648,
+                  "hello": "hsl(169, 70%, 50%)",
+                },
+                Object {
+                  "branch": "repeat",
+                  "commits": 690,
+                  "hello": "hsl(44, 70%, 50%)",
+                },
+                Object {
+                  "branch": "padLeft",
+                  "commits": 146,
+                  "hello": "hsl(155, 70%, 50%)",
+                },
+                Object {
+                  "branch": "padRight",
+                  "commits": 270,
+                  "hello": "hsl(28, 70%, 50%)",
+                },
+                Object {
+                  "branch": "sanitize",
+                  "commits": 502,
+                  "hello": "hsl(22, 70%, 50%)",
+                },
+                Object {
+                  "branch": "ploucify",
+                  "commits": 554,
+                  "hello": "hsl(131, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(243, 70%, 50%)",
+            },
+            Object {
+              "branch": "misc",
+              "children": Array [
+                Object {
+                  "branch": "whatever",
+                  "children": Array [
+                    Object {
+                      "branch": "hey",
+                      "commits": 1275,
+                      "hello": "hsl(83, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "WTF",
+                      "commits": 88,
+                      "hello": "hsl(124, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "lol",
+                      "commits": 474,
+                      "hello": "hsl(6, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "IMHO",
+                      "commits": 644,
+                      "hello": "hsl(163, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(245, 70%, 50%)",
+                },
+                Object {
+                  "branch": "other",
+                  "commits": 16720,
+                  "hello": "hsl(357, 70%, 50%)",
+                },
+                Object {
+                  "branch": "crap",
+                  "children": Array [
+                    Object {
+                      "branch": "crapA",
+                      "commits": 1663,
+                      "hello": "hsl(310, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "crapB",
+                      "children": Array [
+                        Object {
+                          "branch": "crapB1",
+                          "commits": 1280,
+                          "hello": "hsl(219, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapB2",
+                          "commits": 1899,
+                          "hello": "hsl(59, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapB3",
+                          "commits": 786,
+                          "hello": "hsl(124, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapB4",
+                          "commits": 1115,
+                          "hello": "hsl(360, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "hsl(191, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "crapC",
+                      "children": Array [
+                        Object {
+                          "branch": "crapC1",
+                          "commits": 768,
+                          "hello": "hsl(57, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC2",
+                          "commits": 1297,
+                          "hello": "hsl(75, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC3",
+                          "commits": 1468,
+                          "hello": "hsl(229, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC4",
+                          "commits": 1145,
+                          "hello": "hsl(78, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC5",
+                          "commits": 773,
+                          "hello": "hsl(201, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC6",
+                          "commits": 1299,
+                          "hello": "hsl(177, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC7",
+                          "commits": 562,
+                          "hello": "hsl(271, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC8",
+                          "commits": 1118,
+                          "hello": "hsl(208, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC9",
+                          "commits": 1021,
+                          "hello": "hsl(19, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "hsl(37, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(236, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(133, 70%, 50%)",
+            },
+          ],
+          "hello": "hsl(58, 70%, 50%)",
+        },
+        "value": "commits",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ResponsiveBubbleHtml
+          animate={true}
+          borderColor="inherit:darker(0.3)"
+          colorBy="depth"
+          colors="purple_orange"
+          data={
+            Object {
+              "branch": "nivo",
+              "children": Array [
+                Object {
+                  "branch": "viz",
+                  "children": Array [
+                    Object {
+                      "branch": "stack",
+                      "children": Array [
+                        Object {
+                          "branch": "chart",
+                          "commits": 650,
+                          "hello": "xxx(238, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "xAxis",
+                          "commits": 689,
+                          "hello": "xxx(165, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "yAxis",
+                          "commits": 572,
+                          "hello": "xxx(112, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "layers",
+                          "commits": 1349,
+                          "hello": "xxx(304, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(127, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "pie",
+                      "children": Array [
+                        Object {
+                          "branch": "chart",
+                          "children": Array [
+                            Object {
+                              "branch": "pie",
+                              "children": Array [
+                                Object {
+                                  "branch": "outline",
+                                  "children": Array [
+                                    Object {
+                                      "branch": "nested",
+                                      "children": Array [
+                                        Object {
+                                          "branch": "further",
+                                          "children": Array [
+                                            Object {
+                                              "branch": "furtherStill",
+                                              "children": Array [
+                                                Object {
+                                                  "branch": "oneMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "twoMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "threeMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "fourMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                              ],
+                                              "hello": "askdkjhkjhfg",
+                                            },
+                                          ],
+                                          "commits": 99999,
+                                          "hello": "asdfa",
+                                        },
+                                      ],
+                                      "hello": "xxx(33, 34, 33)",
+                                    },
+                                  ],
+                                  "hello": "xxx(231, 70%, 50%)",
+                                },
+                                Object {
+                                  "branch": "slices",
+                                  "commits": 1995,
+                                  "hello": "hsl(256, 70%, 50%)",
+                                },
+                                Object {
+                                  "branch": "bbox",
+                                  "commits": 812,
+                                  "hello": "hsl(152, 70%, 50%)",
+                                },
+                              ],
+                              "hello": "xxx(85, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "donut",
+                              "commits": 813,
+                              "hello": "hsl(222, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "gauge",
+                              "commits": 1876,
+                              "hello": "hsl(250, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "xxx(172, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "legends",
+                          "commits": 1244,
+                          "hello": "hsl(336, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(338, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(183, 70%, 50%)",
+                },
+                Object {
+                  "branch": "vizTheSecond",
+                  "children": Array [
+                    Object {
+                      "branch": "stack",
+                      "children": Array [
+                        Object {
+                          "branch": "chart",
+                          "commits": 650,
+                          "hello": "xxx(238, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "xAxis",
+                          "commits": 689,
+                          "hello": "xxx(165, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "yAxis",
+                          "commits": 572,
+                          "hello": "xxx(112, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "layers",
+                          "commits": 1349,
+                          "hello": "xxx(304, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(127, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "pie",
+                      "children": Array [
+                        Object {
+                          "branch": "chart",
+                          "children": Array [
+                            Object {
+                              "branch": "pie",
+                              "children": Array [
+                                Object {
+                                  "branch": "outline",
+                                  "children": Array [
+                                    Object {
+                                      "branch": "nested",
+                                      "children": Array [
+                                        Object {
+                                          "branch": "further",
+                                          "children": Array [
+                                            Object {
+                                              "branch": "furtherStill",
+                                              "children": Array [
+                                                Object {
+                                                  "branch": "oneMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "twoMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "threeMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "fourMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                              ],
+                                              "hello": "askdkjhkjhfg",
+                                            },
+                                          ],
+                                          "commits": 99999,
+                                          "hello": "asdfa",
+                                        },
+                                      ],
+                                      "hello": "xxx(33, 34, 33)",
+                                    },
+                                  ],
+                                  "hello": "xxx(231, 70%, 50%)",
+                                },
+                                Object {
+                                  "branch": "slices",
+                                  "commits": 1995,
+                                  "hello": "hsl(256, 70%, 50%)",
+                                },
+                                Object {
+                                  "branch": "bbox",
+                                  "commits": 812,
+                                  "hello": "hsl(152, 70%, 50%)",
+                                },
+                              ],
+                              "hello": "xxx(85, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "donut",
+                              "commits": 813,
+                              "hello": "hsl(222, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "gauge",
+                              "commits": 1876,
+                              "hello": "hsl(250, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "xxx(172, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "legends",
+                          "commits": 1244,
+                          "hello": "hsl(336, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(338, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(183, 70%, 50%)",
+                },
+                Object {
+                  "branch": "hellos",
+                  "children": Array [
+                    Object {
+                      "branch": "rgb",
+                      "commits": 108,
+                      "hello": "hsl(303, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "hsl",
+                      "commits": 1031,
+                      "hello": "hsl(86, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(169, 70%, 50%)",
+                },
+                Object {
+                  "branch": "utils",
+                  "children": Array [
+                    Object {
+                      "branch": "randomize",
+                      "commits": 1026,
+                      "hello": "hsl(95, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "resetClock",
+                      "commits": 104,
+                      "hello": "hsl(32, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "noop",
+                      "commits": 1150,
+                      "hello": "hsl(345, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "tick",
+                      "commits": 954,
+                      "hello": "hsl(190, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "forceGC",
+                      "commits": 1985,
+                      "hello": "hsl(22, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "stackTrace",
+                      "commits": 140,
+                      "hello": "hsl(58, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "dbg",
+                      "commits": 1600,
+                      "hello": "hsl(174, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(37, 70%, 50%)",
+                },
+                Object {
+                  "branch": "generators",
+                  "children": Array [
+                    Object {
+                      "branch": "address",
+                      "commits": 514,
+                      "hello": "hsl(359, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "city",
+                      "commits": 884,
+                      "hello": "hsl(167, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "animal",
+                      "commits": 1677,
+                      "hello": "hsl(23, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "movie",
+                      "commits": 1848,
+                      "hello": "hsl(292, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "user",
+                      "commits": 1876,
+                      "hello": "hsl(138, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(151, 70%, 50%)",
+                },
+                Object {
+                  "branch": "set",
+                  "children": Array [
+                    Object {
+                      "branch": "clone",
+                      "commits": 1505,
+                      "hello": "hsl(77, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "intersect",
+                      "commits": 193,
+                      "hello": "hsl(187, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "merge",
+                      "commits": 165,
+                      "hello": "hsl(350, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "reverse",
+                      "commits": 1761,
+                      "hello": "hsl(208, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "toArray",
+                      "commits": 48,
+                      "hello": "hsl(230, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "toObject",
+                      "commits": 329,
+                      "hello": "hsl(181, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "fromCSV",
+                      "commits": 1508,
+                      "hello": "hsl(142, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "slice",
+                      "commits": 1392,
+                      "hello": "hsl(261, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "append",
+                      "commits": 786,
+                      "hello": "hsl(60, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "prepend",
+                      "commits": 102,
+                      "hello": "hsl(67, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "shuffle",
+                      "commits": 548,
+                      "hello": "hsl(200, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "pick",
+                      "commits": 1329,
+                      "hello": "hsl(148, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "plouc",
+                      "commits": 514,
+                      "hello": "hsl(339, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(166, 70%, 50%)",
+                },
+                Object {
+                  "branch": "text",
+                  "children": Array [
+                    Object {
+                      "branch": "trim",
+                      "commits": 1053,
+                      "hello": "hsl(276, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "slugify",
+                      "commits": 840,
+                      "hello": "hsl(22, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "snakeCase",
+                      "commits": 1526,
+                      "hello": "hsl(225, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "camelCase",
+                      "commits": 648,
+                      "hello": "hsl(169, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "repeat",
+                      "commits": 690,
+                      "hello": "hsl(44, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "padLeft",
+                      "commits": 146,
+                      "hello": "hsl(155, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "padRight",
+                      "commits": 270,
+                      "hello": "hsl(28, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "sanitize",
+                      "commits": 502,
+                      "hello": "hsl(22, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "ploucify",
+                      "commits": 554,
+                      "hello": "hsl(131, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(243, 70%, 50%)",
+                },
+                Object {
+                  "branch": "misc",
+                  "children": Array [
+                    Object {
+                      "branch": "whatever",
+                      "children": Array [
+                        Object {
+                          "branch": "hey",
+                          "commits": 1275,
+                          "hello": "hsl(83, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "WTF",
+                          "commits": 88,
+                          "hello": "hsl(124, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "lol",
+                          "commits": 474,
+                          "hello": "hsl(6, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "IMHO",
+                          "commits": 644,
+                          "hello": "hsl(163, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "hsl(245, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "other",
+                      "commits": 16720,
+                      "hello": "hsl(357, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "crap",
+                      "children": Array [
+                        Object {
+                          "branch": "crapA",
+                          "commits": 1663,
+                          "hello": "hsl(310, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapB",
+                          "children": Array [
+                            Object {
+                              "branch": "crapB1",
+                              "commits": 1280,
+                              "hello": "hsl(219, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapB2",
+                              "commits": 1899,
+                              "hello": "hsl(59, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapB3",
+                              "commits": 786,
+                              "hello": "hsl(124, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapB4",
+                              "commits": 1115,
+                              "hello": "hsl(360, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "hsl(191, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC",
+                          "children": Array [
+                            Object {
+                              "branch": "crapC1",
+                              "commits": 768,
+                              "hello": "hsl(57, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC2",
+                              "commits": 1297,
+                              "hello": "hsl(75, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC3",
+                              "commits": 1468,
+                              "hello": "hsl(229, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC4",
+                              "commits": 1145,
+                              "hello": "hsl(78, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC5",
+                              "commits": 773,
+                              "hello": "hsl(201, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC6",
+                              "commits": 1299,
+                              "hello": "hsl(177, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC7",
+                              "commits": 562,
+                              "hello": "hsl(271, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC8",
+                              "commits": 1118,
+                              "hello": "hsl(208, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC9",
+                              "commits": 1021,
+                              "hello": "hsl(19, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "hsl(37, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "hsl(236, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(133, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(58, 70%, 50%)",
+            }
+          }
+          identity="branch"
+          labelSkipRadius={10}
+          labelTextColor="inherit:darker(0.8)"
+          margin={
+            Object {
+              "bottom": 20,
+              "left": 20,
+              "right": 20,
+              "top": 20,
+            }
+          }
+          motionDamping={12}
+          motionStiffness={90}
+          root={
+            Object {
+              "branch": "nivo",
+              "children": Array [
+                Object {
+                  "branch": "viz",
+                  "children": Array [
+                    Object {
+                      "branch": "stack",
+                      "children": Array [
+                        Object {
+                          "branch": "chart",
+                          "commits": 650,
+                          "hello": "xxx(238, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "xAxis",
+                          "commits": 689,
+                          "hello": "xxx(165, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "yAxis",
+                          "commits": 572,
+                          "hello": "xxx(112, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "layers",
+                          "commits": 1349,
+                          "hello": "xxx(304, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(127, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "pie",
+                      "children": Array [
+                        Object {
+                          "branch": "chart",
+                          "children": Array [
+                            Object {
+                              "branch": "pie",
+                              "children": Array [
+                                Object {
+                                  "branch": "outline",
+                                  "children": Array [
+                                    Object {
+                                      "branch": "nested",
+                                      "children": Array [
+                                        Object {
+                                          "branch": "further",
+                                          "children": Array [
+                                            Object {
+                                              "branch": "furtherStill",
+                                              "children": Array [
+                                                Object {
+                                                  "branch": "oneMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "twoMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "threeMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "fourMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                              ],
+                                              "hello": "askdkjhkjhfg",
+                                            },
+                                          ],
+                                          "commits": 99999,
+                                          "hello": "asdfa",
+                                        },
+                                      ],
+                                      "hello": "xxx(33, 34, 33)",
+                                    },
+                                  ],
+                                  "hello": "xxx(231, 70%, 50%)",
+                                },
+                                Object {
+                                  "branch": "slices",
+                                  "commits": 1995,
+                                  "hello": "hsl(256, 70%, 50%)",
+                                },
+                                Object {
+                                  "branch": "bbox",
+                                  "commits": 812,
+                                  "hello": "hsl(152, 70%, 50%)",
+                                },
+                              ],
+                              "hello": "xxx(85, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "donut",
+                              "commits": 813,
+                              "hello": "hsl(222, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "gauge",
+                              "commits": 1876,
+                              "hello": "hsl(250, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "xxx(172, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "legends",
+                          "commits": 1244,
+                          "hello": "hsl(336, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(338, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(183, 70%, 50%)",
+                },
+                Object {
+                  "branch": "vizTheSecond",
+                  "children": Array [
+                    Object {
+                      "branch": "stack",
+                      "children": Array [
+                        Object {
+                          "branch": "chart",
+                          "commits": 650,
+                          "hello": "xxx(238, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "xAxis",
+                          "commits": 689,
+                          "hello": "xxx(165, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "yAxis",
+                          "commits": 572,
+                          "hello": "xxx(112, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "layers",
+                          "commits": 1349,
+                          "hello": "xxx(304, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(127, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "pie",
+                      "children": Array [
+                        Object {
+                          "branch": "chart",
+                          "children": Array [
+                            Object {
+                              "branch": "pie",
+                              "children": Array [
+                                Object {
+                                  "branch": "outline",
+                                  "children": Array [
+                                    Object {
+                                      "branch": "nested",
+                                      "children": Array [
+                                        Object {
+                                          "branch": "further",
+                                          "children": Array [
+                                            Object {
+                                              "branch": "furtherStill",
+                                              "children": Array [
+                                                Object {
+                                                  "branch": "oneMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "twoMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "threeMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                                Object {
+                                                  "branch": "fourMOre",
+                                                  "commits": 999,
+                                                  "hello": "rtoiuwproit",
+                                                },
+                                              ],
+                                              "hello": "askdkjhkjhfg",
+                                            },
+                                          ],
+                                          "commits": 99999,
+                                          "hello": "asdfa",
+                                        },
+                                      ],
+                                      "hello": "xxx(33, 34, 33)",
+                                    },
+                                  ],
+                                  "hello": "xxx(231, 70%, 50%)",
+                                },
+                                Object {
+                                  "branch": "slices",
+                                  "commits": 1995,
+                                  "hello": "hsl(256, 70%, 50%)",
+                                },
+                                Object {
+                                  "branch": "bbox",
+                                  "commits": 812,
+                                  "hello": "hsl(152, 70%, 50%)",
+                                },
+                              ],
+                              "hello": "xxx(85, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "donut",
+                              "commits": 813,
+                              "hello": "hsl(222, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "gauge",
+                              "commits": 1876,
+                              "hello": "hsl(250, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "xxx(172, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "legends",
+                          "commits": 1244,
+                          "hello": "hsl(336, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "xxx(338, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "xxx(183, 70%, 50%)",
+                },
+                Object {
+                  "branch": "hellos",
+                  "children": Array [
+                    Object {
+                      "branch": "rgb",
+                      "commits": 108,
+                      "hello": "hsl(303, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "hsl",
+                      "commits": 1031,
+                      "hello": "hsl(86, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(169, 70%, 50%)",
+                },
+                Object {
+                  "branch": "utils",
+                  "children": Array [
+                    Object {
+                      "branch": "randomize",
+                      "commits": 1026,
+                      "hello": "hsl(95, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "resetClock",
+                      "commits": 104,
+                      "hello": "hsl(32, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "noop",
+                      "commits": 1150,
+                      "hello": "hsl(345, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "tick",
+                      "commits": 954,
+                      "hello": "hsl(190, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "forceGC",
+                      "commits": 1985,
+                      "hello": "hsl(22, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "stackTrace",
+                      "commits": 140,
+                      "hello": "hsl(58, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "dbg",
+                      "commits": 1600,
+                      "hello": "hsl(174, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(37, 70%, 50%)",
+                },
+                Object {
+                  "branch": "generators",
+                  "children": Array [
+                    Object {
+                      "branch": "address",
+                      "commits": 514,
+                      "hello": "hsl(359, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "city",
+                      "commits": 884,
+                      "hello": "hsl(167, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "animal",
+                      "commits": 1677,
+                      "hello": "hsl(23, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "movie",
+                      "commits": 1848,
+                      "hello": "hsl(292, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "user",
+                      "commits": 1876,
+                      "hello": "hsl(138, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(151, 70%, 50%)",
+                },
+                Object {
+                  "branch": "set",
+                  "children": Array [
+                    Object {
+                      "branch": "clone",
+                      "commits": 1505,
+                      "hello": "hsl(77, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "intersect",
+                      "commits": 193,
+                      "hello": "hsl(187, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "merge",
+                      "commits": 165,
+                      "hello": "hsl(350, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "reverse",
+                      "commits": 1761,
+                      "hello": "hsl(208, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "toArray",
+                      "commits": 48,
+                      "hello": "hsl(230, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "toObject",
+                      "commits": 329,
+                      "hello": "hsl(181, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "fromCSV",
+                      "commits": 1508,
+                      "hello": "hsl(142, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "slice",
+                      "commits": 1392,
+                      "hello": "hsl(261, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "append",
+                      "commits": 786,
+                      "hello": "hsl(60, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "prepend",
+                      "commits": 102,
+                      "hello": "hsl(67, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "shuffle",
+                      "commits": 548,
+                      "hello": "hsl(200, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "pick",
+                      "commits": 1329,
+                      "hello": "hsl(148, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "plouc",
+                      "commits": 514,
+                      "hello": "hsl(339, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(166, 70%, 50%)",
+                },
+                Object {
+                  "branch": "text",
+                  "children": Array [
+                    Object {
+                      "branch": "trim",
+                      "commits": 1053,
+                      "hello": "hsl(276, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "slugify",
+                      "commits": 840,
+                      "hello": "hsl(22, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "snakeCase",
+                      "commits": 1526,
+                      "hello": "hsl(225, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "camelCase",
+                      "commits": 648,
+                      "hello": "hsl(169, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "repeat",
+                      "commits": 690,
+                      "hello": "hsl(44, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "padLeft",
+                      "commits": 146,
+                      "hello": "hsl(155, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "padRight",
+                      "commits": 270,
+                      "hello": "hsl(28, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "sanitize",
+                      "commits": 502,
+                      "hello": "hsl(22, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "ploucify",
+                      "commits": 554,
+                      "hello": "hsl(131, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(243, 70%, 50%)",
+                },
+                Object {
+                  "branch": "misc",
+                  "children": Array [
+                    Object {
+                      "branch": "whatever",
+                      "children": Array [
+                        Object {
+                          "branch": "hey",
+                          "commits": 1275,
+                          "hello": "hsl(83, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "WTF",
+                          "commits": 88,
+                          "hello": "hsl(124, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "lol",
+                          "commits": 474,
+                          "hello": "hsl(6, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "IMHO",
+                          "commits": 644,
+                          "hello": "hsl(163, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "hsl(245, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "other",
+                      "commits": 16720,
+                      "hello": "hsl(357, 70%, 50%)",
+                    },
+                    Object {
+                      "branch": "crap",
+                      "children": Array [
+                        Object {
+                          "branch": "crapA",
+                          "commits": 1663,
+                          "hello": "hsl(310, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapB",
+                          "children": Array [
+                            Object {
+                              "branch": "crapB1",
+                              "commits": 1280,
+                              "hello": "hsl(219, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapB2",
+                              "commits": 1899,
+                              "hello": "hsl(59, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapB3",
+                              "commits": 786,
+                              "hello": "hsl(124, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapB4",
+                              "commits": 1115,
+                              "hello": "hsl(360, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "hsl(191, 70%, 50%)",
+                        },
+                        Object {
+                          "branch": "crapC",
+                          "children": Array [
+                            Object {
+                              "branch": "crapC1",
+                              "commits": 768,
+                              "hello": "hsl(57, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC2",
+                              "commits": 1297,
+                              "hello": "hsl(75, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC3",
+                              "commits": 1468,
+                              "hello": "hsl(229, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC4",
+                              "commits": 1145,
+                              "hello": "hsl(78, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC5",
+                              "commits": 773,
+                              "hello": "hsl(201, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC6",
+                              "commits": 1299,
+                              "hello": "hsl(177, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC7",
+                              "commits": 562,
+                              "hello": "hsl(271, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC8",
+                              "commits": 1118,
+                              "hello": "hsl(208, 70%, 50%)",
+                            },
+                            Object {
+                              "branch": "crapC9",
+                              "commits": 1021,
+                              "hello": "hsl(19, 70%, 50%)",
+                            },
+                          ],
+                          "hello": "hsl(37, 70%, 50%)",
+                        },
+                      ],
+                      "hello": "hsl(236, 70%, 50%)",
+                    },
+                  ],
+                  "hello": "hsl(133, 70%, 50%)",
+                },
+              ],
+              "hello": "hsl(58, 70%, 50%)",
+            }
+          }
+          value="commits"
+        />,
+        "className": "commits-bubble",
+        "style": Object {
+          "height": "100%",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "animate": true,
+          "borderColor": "inherit:darker(0.3)",
+          "colorBy": "depth",
+          "colors": "purple_orange",
+          "data": Object {
+            "branch": "nivo",
+            "children": Array [
+              Object {
+                "branch": "viz",
+                "children": Array [
+                  Object {
+                    "branch": "stack",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "commits": 650,
+                        "hello": "xxx(238, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "xAxis",
+                        "commits": 689,
+                        "hello": "xxx(165, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "yAxis",
+                        "commits": 572,
+                        "hello": "xxx(112, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "layers",
+                        "commits": 1349,
+                        "hello": "xxx(304, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(127, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pie",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "children": Array [
+                          Object {
+                            "branch": "pie",
+                            "children": Array [
+                              Object {
+                                "branch": "outline",
+                                "children": Array [
+                                  Object {
+                                    "branch": "nested",
+                                    "children": Array [
+                                      Object {
+                                        "branch": "further",
+                                        "children": Array [
+                                          Object {
+                                            "branch": "furtherStill",
+                                            "children": Array [
+                                              Object {
+                                                "branch": "oneMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "twoMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "threeMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "fourMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                            ],
+                                            "hello": "askdkjhkjhfg",
+                                          },
+                                        ],
+                                        "commits": 99999,
+                                        "hello": "asdfa",
+                                      },
+                                    ],
+                                    "hello": "xxx(33, 34, 33)",
+                                  },
+                                ],
+                                "hello": "xxx(231, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "slices",
+                                "commits": 1995,
+                                "hello": "hsl(256, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "bbox",
+                                "commits": 812,
+                                "hello": "hsl(152, 70%, 50%)",
+                              },
+                            ],
+                            "hello": "xxx(85, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "donut",
+                            "commits": 813,
+                            "hello": "hsl(222, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "gauge",
+                            "commits": 1876,
+                            "hello": "hsl(250, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "xxx(172, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "legends",
+                        "commits": 1244,
+                        "hello": "hsl(336, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(338, 70%, 50%)",
+                  },
+                ],
+                "hello": "xxx(183, 70%, 50%)",
+              },
+              Object {
+                "branch": "vizTheSecond",
+                "children": Array [
+                  Object {
+                    "branch": "stack",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "commits": 650,
+                        "hello": "xxx(238, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "xAxis",
+                        "commits": 689,
+                        "hello": "xxx(165, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "yAxis",
+                        "commits": 572,
+                        "hello": "xxx(112, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "layers",
+                        "commits": 1349,
+                        "hello": "xxx(304, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(127, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pie",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "children": Array [
+                          Object {
+                            "branch": "pie",
+                            "children": Array [
+                              Object {
+                                "branch": "outline",
+                                "children": Array [
+                                  Object {
+                                    "branch": "nested",
+                                    "children": Array [
+                                      Object {
+                                        "branch": "further",
+                                        "children": Array [
+                                          Object {
+                                            "branch": "furtherStill",
+                                            "children": Array [
+                                              Object {
+                                                "branch": "oneMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "twoMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "threeMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "fourMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                            ],
+                                            "hello": "askdkjhkjhfg",
+                                          },
+                                        ],
+                                        "commits": 99999,
+                                        "hello": "asdfa",
+                                      },
+                                    ],
+                                    "hello": "xxx(33, 34, 33)",
+                                  },
+                                ],
+                                "hello": "xxx(231, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "slices",
+                                "commits": 1995,
+                                "hello": "hsl(256, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "bbox",
+                                "commits": 812,
+                                "hello": "hsl(152, 70%, 50%)",
+                              },
+                            ],
+                            "hello": "xxx(85, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "donut",
+                            "commits": 813,
+                            "hello": "hsl(222, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "gauge",
+                            "commits": 1876,
+                            "hello": "hsl(250, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "xxx(172, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "legends",
+                        "commits": 1244,
+                        "hello": "hsl(336, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(338, 70%, 50%)",
+                  },
+                ],
+                "hello": "xxx(183, 70%, 50%)",
+              },
+              Object {
+                "branch": "hellos",
+                "children": Array [
+                  Object {
+                    "branch": "rgb",
+                    "commits": 108,
+                    "hello": "hsl(303, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "hsl",
+                    "commits": 1031,
+                    "hello": "hsl(86, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(169, 70%, 50%)",
+              },
+              Object {
+                "branch": "utils",
+                "children": Array [
+                  Object {
+                    "branch": "randomize",
+                    "commits": 1026,
+                    "hello": "hsl(95, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "resetClock",
+                    "commits": 104,
+                    "hello": "hsl(32, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "noop",
+                    "commits": 1150,
+                    "hello": "hsl(345, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "tick",
+                    "commits": 954,
+                    "hello": "hsl(190, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "forceGC",
+                    "commits": 1985,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "stackTrace",
+                    "commits": 140,
+                    "hello": "hsl(58, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "dbg",
+                    "commits": 1600,
+                    "hello": "hsl(174, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(37, 70%, 50%)",
+              },
+              Object {
+                "branch": "generators",
+                "children": Array [
+                  Object {
+                    "branch": "address",
+                    "commits": 514,
+                    "hello": "hsl(359, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "city",
+                    "commits": 884,
+                    "hello": "hsl(167, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "animal",
+                    "commits": 1677,
+                    "hello": "hsl(23, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "movie",
+                    "commits": 1848,
+                    "hello": "hsl(292, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "user",
+                    "commits": 1876,
+                    "hello": "hsl(138, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(151, 70%, 50%)",
+              },
+              Object {
+                "branch": "set",
+                "children": Array [
+                  Object {
+                    "branch": "clone",
+                    "commits": 1505,
+                    "hello": "hsl(77, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "intersect",
+                    "commits": 193,
+                    "hello": "hsl(187, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "merge",
+                    "commits": 165,
+                    "hello": "hsl(350, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "reverse",
+                    "commits": 1761,
+                    "hello": "hsl(208, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "toArray",
+                    "commits": 48,
+                    "hello": "hsl(230, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "toObject",
+                    "commits": 329,
+                    "hello": "hsl(181, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "fromCSV",
+                    "commits": 1508,
+                    "hello": "hsl(142, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "slice",
+                    "commits": 1392,
+                    "hello": "hsl(261, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "append",
+                    "commits": 786,
+                    "hello": "hsl(60, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "prepend",
+                    "commits": 102,
+                    "hello": "hsl(67, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "shuffle",
+                    "commits": 548,
+                    "hello": "hsl(200, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pick",
+                    "commits": 1329,
+                    "hello": "hsl(148, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "plouc",
+                    "commits": 514,
+                    "hello": "hsl(339, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(166, 70%, 50%)",
+              },
+              Object {
+                "branch": "text",
+                "children": Array [
+                  Object {
+                    "branch": "trim",
+                    "commits": 1053,
+                    "hello": "hsl(276, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "slugify",
+                    "commits": 840,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "snakeCase",
+                    "commits": 1526,
+                    "hello": "hsl(225, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "camelCase",
+                    "commits": 648,
+                    "hello": "hsl(169, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "repeat",
+                    "commits": 690,
+                    "hello": "hsl(44, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "padLeft",
+                    "commits": 146,
+                    "hello": "hsl(155, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "padRight",
+                    "commits": 270,
+                    "hello": "hsl(28, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "sanitize",
+                    "commits": 502,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "ploucify",
+                    "commits": 554,
+                    "hello": "hsl(131, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(243, 70%, 50%)",
+              },
+              Object {
+                "branch": "misc",
+                "children": Array [
+                  Object {
+                    "branch": "whatever",
+                    "children": Array [
+                      Object {
+                        "branch": "hey",
+                        "commits": 1275,
+                        "hello": "hsl(83, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "WTF",
+                        "commits": 88,
+                        "hello": "hsl(124, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "lol",
+                        "commits": 474,
+                        "hello": "hsl(6, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "IMHO",
+                        "commits": 644,
+                        "hello": "hsl(163, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "hsl(245, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "other",
+                    "commits": 16720,
+                    "hello": "hsl(357, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "crap",
+                    "children": Array [
+                      Object {
+                        "branch": "crapA",
+                        "commits": 1663,
+                        "hello": "hsl(310, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "crapB",
+                        "children": Array [
+                          Object {
+                            "branch": "crapB1",
+                            "commits": 1280,
+                            "hello": "hsl(219, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB2",
+                            "commits": 1899,
+                            "hello": "hsl(59, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB3",
+                            "commits": 786,
+                            "hello": "hsl(124, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB4",
+                            "commits": 1115,
+                            "hello": "hsl(360, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "hsl(191, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "crapC",
+                        "children": Array [
+                          Object {
+                            "branch": "crapC1",
+                            "commits": 768,
+                            "hello": "hsl(57, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC2",
+                            "commits": 1297,
+                            "hello": "hsl(75, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC3",
+                            "commits": 1468,
+                            "hello": "hsl(229, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC4",
+                            "commits": 1145,
+                            "hello": "hsl(78, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC5",
+                            "commits": 773,
+                            "hello": "hsl(201, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC6",
+                            "commits": 1299,
+                            "hello": "hsl(177, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC7",
+                            "commits": 562,
+                            "hello": "hsl(271, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC8",
+                            "commits": 1118,
+                            "hello": "hsl(208, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC9",
+                            "commits": 1021,
+                            "hello": "hsl(19, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "hsl(37, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "hsl(236, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(133, 70%, 50%)",
+              },
+            ],
+            "hello": "hsl(58, 70%, 50%)",
+          },
+          "identity": "branch",
+          "labelSkipRadius": 10,
+          "labelTextColor": "inherit:darker(0.8)",
+          "margin": Object {
+            "bottom": 20,
+            "left": 20,
+            "right": 20,
+            "top": 20,
+          },
+          "motionDamping": 12,
+          "motionStiffness": 90,
+          "root": Object {
+            "branch": "nivo",
+            "children": Array [
+              Object {
+                "branch": "viz",
+                "children": Array [
+                  Object {
+                    "branch": "stack",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "commits": 650,
+                        "hello": "xxx(238, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "xAxis",
+                        "commits": 689,
+                        "hello": "xxx(165, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "yAxis",
+                        "commits": 572,
+                        "hello": "xxx(112, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "layers",
+                        "commits": 1349,
+                        "hello": "xxx(304, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(127, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pie",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "children": Array [
+                          Object {
+                            "branch": "pie",
+                            "children": Array [
+                              Object {
+                                "branch": "outline",
+                                "children": Array [
+                                  Object {
+                                    "branch": "nested",
+                                    "children": Array [
+                                      Object {
+                                        "branch": "further",
+                                        "children": Array [
+                                          Object {
+                                            "branch": "furtherStill",
+                                            "children": Array [
+                                              Object {
+                                                "branch": "oneMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "twoMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "threeMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "fourMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                            ],
+                                            "hello": "askdkjhkjhfg",
+                                          },
+                                        ],
+                                        "commits": 99999,
+                                        "hello": "asdfa",
+                                      },
+                                    ],
+                                    "hello": "xxx(33, 34, 33)",
+                                  },
+                                ],
+                                "hello": "xxx(231, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "slices",
+                                "commits": 1995,
+                                "hello": "hsl(256, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "bbox",
+                                "commits": 812,
+                                "hello": "hsl(152, 70%, 50%)",
+                              },
+                            ],
+                            "hello": "xxx(85, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "donut",
+                            "commits": 813,
+                            "hello": "hsl(222, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "gauge",
+                            "commits": 1876,
+                            "hello": "hsl(250, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "xxx(172, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "legends",
+                        "commits": 1244,
+                        "hello": "hsl(336, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(338, 70%, 50%)",
+                  },
+                ],
+                "hello": "xxx(183, 70%, 50%)",
+              },
+              Object {
+                "branch": "vizTheSecond",
+                "children": Array [
+                  Object {
+                    "branch": "stack",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "commits": 650,
+                        "hello": "xxx(238, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "xAxis",
+                        "commits": 689,
+                        "hello": "xxx(165, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "yAxis",
+                        "commits": 572,
+                        "hello": "xxx(112, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "layers",
+                        "commits": 1349,
+                        "hello": "xxx(304, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(127, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pie",
+                    "children": Array [
+                      Object {
+                        "branch": "chart",
+                        "children": Array [
+                          Object {
+                            "branch": "pie",
+                            "children": Array [
+                              Object {
+                                "branch": "outline",
+                                "children": Array [
+                                  Object {
+                                    "branch": "nested",
+                                    "children": Array [
+                                      Object {
+                                        "branch": "further",
+                                        "children": Array [
+                                          Object {
+                                            "branch": "furtherStill",
+                                            "children": Array [
+                                              Object {
+                                                "branch": "oneMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "twoMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "threeMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                              Object {
+                                                "branch": "fourMOre",
+                                                "commits": 999,
+                                                "hello": "rtoiuwproit",
+                                              },
+                                            ],
+                                            "hello": "askdkjhkjhfg",
+                                          },
+                                        ],
+                                        "commits": 99999,
+                                        "hello": "asdfa",
+                                      },
+                                    ],
+                                    "hello": "xxx(33, 34, 33)",
+                                  },
+                                ],
+                                "hello": "xxx(231, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "slices",
+                                "commits": 1995,
+                                "hello": "hsl(256, 70%, 50%)",
+                              },
+                              Object {
+                                "branch": "bbox",
+                                "commits": 812,
+                                "hello": "hsl(152, 70%, 50%)",
+                              },
+                            ],
+                            "hello": "xxx(85, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "donut",
+                            "commits": 813,
+                            "hello": "hsl(222, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "gauge",
+                            "commits": 1876,
+                            "hello": "hsl(250, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "xxx(172, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "legends",
+                        "commits": 1244,
+                        "hello": "hsl(336, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "xxx(338, 70%, 50%)",
+                  },
+                ],
+                "hello": "xxx(183, 70%, 50%)",
+              },
+              Object {
+                "branch": "hellos",
+                "children": Array [
+                  Object {
+                    "branch": "rgb",
+                    "commits": 108,
+                    "hello": "hsl(303, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "hsl",
+                    "commits": 1031,
+                    "hello": "hsl(86, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(169, 70%, 50%)",
+              },
+              Object {
+                "branch": "utils",
+                "children": Array [
+                  Object {
+                    "branch": "randomize",
+                    "commits": 1026,
+                    "hello": "hsl(95, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "resetClock",
+                    "commits": 104,
+                    "hello": "hsl(32, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "noop",
+                    "commits": 1150,
+                    "hello": "hsl(345, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "tick",
+                    "commits": 954,
+                    "hello": "hsl(190, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "forceGC",
+                    "commits": 1985,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "stackTrace",
+                    "commits": 140,
+                    "hello": "hsl(58, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "dbg",
+                    "commits": 1600,
+                    "hello": "hsl(174, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(37, 70%, 50%)",
+              },
+              Object {
+                "branch": "generators",
+                "children": Array [
+                  Object {
+                    "branch": "address",
+                    "commits": 514,
+                    "hello": "hsl(359, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "city",
+                    "commits": 884,
+                    "hello": "hsl(167, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "animal",
+                    "commits": 1677,
+                    "hello": "hsl(23, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "movie",
+                    "commits": 1848,
+                    "hello": "hsl(292, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "user",
+                    "commits": 1876,
+                    "hello": "hsl(138, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(151, 70%, 50%)",
+              },
+              Object {
+                "branch": "set",
+                "children": Array [
+                  Object {
+                    "branch": "clone",
+                    "commits": 1505,
+                    "hello": "hsl(77, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "intersect",
+                    "commits": 193,
+                    "hello": "hsl(187, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "merge",
+                    "commits": 165,
+                    "hello": "hsl(350, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "reverse",
+                    "commits": 1761,
+                    "hello": "hsl(208, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "toArray",
+                    "commits": 48,
+                    "hello": "hsl(230, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "toObject",
+                    "commits": 329,
+                    "hello": "hsl(181, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "fromCSV",
+                    "commits": 1508,
+                    "hello": "hsl(142, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "slice",
+                    "commits": 1392,
+                    "hello": "hsl(261, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "append",
+                    "commits": 786,
+                    "hello": "hsl(60, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "prepend",
+                    "commits": 102,
+                    "hello": "hsl(67, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "shuffle",
+                    "commits": 548,
+                    "hello": "hsl(200, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "pick",
+                    "commits": 1329,
+                    "hello": "hsl(148, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "plouc",
+                    "commits": 514,
+                    "hello": "hsl(339, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(166, 70%, 50%)",
+              },
+              Object {
+                "branch": "text",
+                "children": Array [
+                  Object {
+                    "branch": "trim",
+                    "commits": 1053,
+                    "hello": "hsl(276, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "slugify",
+                    "commits": 840,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "snakeCase",
+                    "commits": 1526,
+                    "hello": "hsl(225, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "camelCase",
+                    "commits": 648,
+                    "hello": "hsl(169, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "repeat",
+                    "commits": 690,
+                    "hello": "hsl(44, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "padLeft",
+                    "commits": 146,
+                    "hello": "hsl(155, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "padRight",
+                    "commits": 270,
+                    "hello": "hsl(28, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "sanitize",
+                    "commits": 502,
+                    "hello": "hsl(22, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "ploucify",
+                    "commits": 554,
+                    "hello": "hsl(131, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(243, 70%, 50%)",
+              },
+              Object {
+                "branch": "misc",
+                "children": Array [
+                  Object {
+                    "branch": "whatever",
+                    "children": Array [
+                      Object {
+                        "branch": "hey",
+                        "commits": 1275,
+                        "hello": "hsl(83, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "WTF",
+                        "commits": 88,
+                        "hello": "hsl(124, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "lol",
+                        "commits": 474,
+                        "hello": "hsl(6, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "IMHO",
+                        "commits": 644,
+                        "hello": "hsl(163, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "hsl(245, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "other",
+                    "commits": 16720,
+                    "hello": "hsl(357, 70%, 50%)",
+                  },
+                  Object {
+                    "branch": "crap",
+                    "children": Array [
+                      Object {
+                        "branch": "crapA",
+                        "commits": 1663,
+                        "hello": "hsl(310, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "crapB",
+                        "children": Array [
+                          Object {
+                            "branch": "crapB1",
+                            "commits": 1280,
+                            "hello": "hsl(219, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB2",
+                            "commits": 1899,
+                            "hello": "hsl(59, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB3",
+                            "commits": 786,
+                            "hello": "hsl(124, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapB4",
+                            "commits": 1115,
+                            "hello": "hsl(360, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "hsl(191, 70%, 50%)",
+                      },
+                      Object {
+                        "branch": "crapC",
+                        "children": Array [
+                          Object {
+                            "branch": "crapC1",
+                            "commits": 768,
+                            "hello": "hsl(57, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC2",
+                            "commits": 1297,
+                            "hello": "hsl(75, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC3",
+                            "commits": 1468,
+                            "hello": "hsl(229, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC4",
+                            "commits": 1145,
+                            "hello": "hsl(78, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC5",
+                            "commits": 773,
+                            "hello": "hsl(201, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC6",
+                            "commits": 1299,
+                            "hello": "hsl(177, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC7",
+                            "commits": 562,
+                            "hello": "hsl(271, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC8",
+                            "commits": 1118,
+                            "hello": "hsl(208, 70%, 50%)",
+                          },
+                          Object {
+                            "branch": "crapC9",
+                            "commits": 1021,
+                            "hello": "hsl(19, 70%, 50%)",
+                          },
+                        ],
+                        "hello": "hsl(37, 70%, 50%)",
+                      },
+                    ],
+                    "hello": "hsl(236, 70%, 50%)",
+                  },
+                ],
+                "hello": "hsl(133, 70%, 50%)",
+              },
+            ],
+            "hello": "hsl(58, 70%, 50%)",
+          },
+          "value": "commits",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

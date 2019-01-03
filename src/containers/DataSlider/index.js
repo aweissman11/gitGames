@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
 
-// Still might use these
-// import { Route, withRouter, Switch } from 'react-router-dom';
-
 import ForceBubbles from '../../components/ForceBubbles';
 import CommitsWordCloud from '../CommitsWordCloud';
 import CommitsBubble from '../CommitsBubble';
