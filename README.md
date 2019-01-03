@@ -1,4 +1,47 @@
+# GitGames
+
+## About
+
+GitGames is an application that allows users to look up different metrics about their GitHub history, such as words used in commits, language breakdowns by repository and by user, and number of commits over time. The data is displayed in colorful, engaging charts and graphics built using D3.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### GitGames Backend
+
+GitGames pulls its user data from the backend application [GitGames-BackEnd](https://github.com/patrickshobe/GitGames-BackEnd)
+
+### Agile Board
+
+[![Waffle.io - Columns and their card
+count](https://badge.waffle.io/patrickshobe/GitGames-BackEnd.svg?columns=all)](https://waffle.io/patrickshobe/GitGames-BackEnd)
+
+### Live Application
+
+GitGames is hosted on the Heroku Cloud Application Platform
+
+[GitGames](https://thegitgames.herokuapp.com/)
+
+### Live Shots
+
+**Landing Page**
+
+![image](https://user-images.githubusercontent.com/36015215/50621211-a3bc1480-0ec1-11e9-828f-aa04ca711baa.png)
+
+**After Searching a GitHub Username**
+
+![image](https://user-images.githubusercontent.com/36015215/50621228-c5b59700-0ec1-11e9-8967-852909ce898c.png)
+
+**Word Cloud Graph**
+
+![image](https://user-images.githubusercontent.com/36015215/50621251-f1388180-0ec1-11e9-9467-b37fd88ea596.png)
+
+**Languages Used By User Graph**
+
+![image](https://user-images.githubusercontent.com/36015215/50621305-41afdf00-0ec2-11e9-8fc0-470c1b38c564.png)
+
+**Loading Page**
+
+![image](https://user-images.githubusercontent.com/36015215/50621327-67d57f00-0ec2-11e9-95b0-740b70abcc55.png)
 
 ## Available Scripts
 
