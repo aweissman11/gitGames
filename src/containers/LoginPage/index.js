@@ -13,7 +13,9 @@ export class LoginPage extends Component {
         <div className='login-search'>
           <SearchBar loginPage={this.props.loginPage}/>
         </div>
-        <ForceBubbles customHeight={window.innerHeight - 70}/>
+        <ForceBubbles
+          customWidth={window.innerWidth}
+          customHeight={window.innerHeight - 70}/>
         <div className='big-box'>
           {
             this.props.pageNotFound ? <h1 className='page-not-found'>Page Not Found</h1> : <p></p>

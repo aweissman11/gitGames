@@ -10,7 +10,7 @@ import './CommitsWordCloud.css';
 import { CloudItem } from '../../components/CloudItem';
 
 
-class CommitsWordCloud extends Component {
+export class CommitsWordCloud extends Component {
   componentDidMount() {
   //   setInterval(() => {
   //     this.forceUpdate();

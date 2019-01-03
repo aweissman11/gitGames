@@ -6,7 +6,7 @@ import { getUserData } from '../../actions/thunks/getUserData';
 
 import './SearchUsers.css';
 
-class SearchUsers extends Component {
+export class SearchUsers extends Component {
   constructor(props) {
     super(props)
 
@@ -64,7 +64,8 @@ class SearchUsers extends Component {
     return (
       <div className={`search-box ${this.state.boxWidth}`}>
         <form onSubmit={this.submitSearch} className={`search-form ${this.state.formWidth}`}>
-          <input 
+          <input
+            id="search-input" 
             className={`search-input ${this.state.inputWidth}`}
             placeholder="Search GitHub Users..."
             value={this.state.query}

@@ -17,6 +17,7 @@ export class LanguageBarChart extends Component {
   cleanedUpData = () => {
     if (this.props.languageData.Overall) {
 
+      
       const { languageData } = this.props
       
       let data = Object.keys(languageData.Overall).reduce( (acc, lan) => {
@@ -26,9 +27,9 @@ export class LanguageBarChart extends Component {
           hover: 'percent used'
         }
         
-      return acc;
-    }, {})
-    
+        return acc;
+      }, {})
+      
     return data;
   }
     // return {

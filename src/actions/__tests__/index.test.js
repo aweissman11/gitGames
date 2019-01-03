@@ -21,6 +21,16 @@ describe('actions', () => {
     expect(result).toEqual(expected)
   })
   
+  it('should have a type of SET_LANGUAGE_DATA', () => {
+    const languageData = {name: 12};
+    const expected = {
+      type: 'SET_LANGUAGE_DATA',
+      languageData
+    }
+    const result = Actions.setLanguageData(languageData);
+    expect(result).toEqual(expected)
+  })
+  
   it('should have a type of LOADING', () => {
     const message = 'app is loading';
     const isLoading = true;
@@ -44,6 +54,40 @@ describe('actions', () => {
     const result = Actions.hasErrored(message, hasErrored);
     expect(result).toEqual(expected)
   })
-
+    
+  it('should have a type of LOADING_USER', () => {
+    const message = 'app is loading';
+    const loadingUser = true;
+    const expected = {
+      type: 'LOADING_USER',
+      message,
+      loadingUser
+    }
+    const result = Actions.loadingUser(message, loadingUser);
+    expect(result).toEqual(expected)
+  })
   
+  it('should have a type of LOADING_LANGUAGES', () => {
+    const message = 'app is loading';
+    const loadingLanguages = true;
+    const expected = {
+      type: 'LOADING_LANGUAGES',
+      message,
+      loadingLanguages
+    }
+    const result = Actions.loadingLanguages(message, loadingLanguages);
+    expect(result).toEqual(expected)
+  })
+
+  it('should have a type of LOADING_WORD_CLOUD', () => {
+    const message = 'app is loading';
+    const loadingWordCloud = true;
+    const expected = {
+      type: 'LOADING_WORD_CLOUD',
+      message,
+      loadingWordCloud
+    }
+    const result = Actions.loadingWordCloud(message, loadingWordCloud);
+    expect(result).toEqual(expected)
+  })
 })
