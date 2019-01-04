@@ -3,7 +3,6 @@ import Slider from "react-slick";
 
 import ForceBubbles from '../../components/ForceBubbles';
 import CommitsWordCloud from '../CommitsWordCloud';
-import CommitsBubble from '../CommitsBubble';
 import LanguageBarChart from '../LanguageBarChart';
 import CommitsBarChart from '../CommitsBarChart';
 
