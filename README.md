@@ -2,9 +2,15 @@
 
 ## About
 
-GitGames is an application that allows users to look up different metrics about their GitHub history, such as words used in commits, language breakdowns by repository and by user, and number of commits over time. The data is displayed in colorful, engaging charts and graphics built using D3.
+GitGames is an application that allows users to look up different metrics about their GitHub history, such as words used in commits, language breakdowns by user, and number of commits per day, and over time. The data is displayed in colorful, engaging charts and graphics built using D3.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Live Application
+
+GitGames is hosted on the Heroku Cloud Application Platform
+
+[GitGames](https://thegitgames.herokuapp.com/)
 
 ### GitGames Backend
 
@@ -15,11 +21,11 @@ GitGames pulls its user data from the backend application [GitGames-BackEnd](htt
 [![Waffle.io - Columns and their card
 count](https://badge.waffle.io/patrickshobe/GitGames-BackEnd.svg?columns=all)](https://waffle.io/patrickshobe/GitGames-BackEnd)
 
-### Live Application
+### Developer Story
 
-GitGames is hosted on the Heroku Cloud Application Platform
+The front end of this application was built as a solo project and was used as an opportunity to use and implement d3 for the first time. Not only that, I wanted to bring d3 into a react app, while also experimenting with d3 packages that help make it easier to implement. This was by far the biggest challenge of the application. In the end, in large part thanks to this [video](https://www.youtube.com/watch?v=zXBdNDnqV2Q&t=2s) I was able to see how to connect the two and what dom manipulation should come from d3 and what should come from react.
 
-[GitGames](https://thegitgames.herokuapp.com/)
+The project turned out to be an effective way to display data and a fun way to interact with it. For future iterations, I'd like to dig deeper into the data to do more granular statistical analysis as well as continue to gain familiarity with d3 to better customize my graphs and data visualizations.
 
 ### Live Shots
 
@@ -58,30 +64,5 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This application has been thoroughly tested with more than 90% test coverage.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
