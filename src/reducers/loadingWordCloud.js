@@ -7,7 +7,7 @@ export const loadingWordCloud = (state = defaultState, action) => {
   switch(action.type) {
     case 'LOADING_WORD_CLOUD' :
       const { message, loadingWordCloud } = action
-      return { message, loadingWordCloud: loadingWordCloud };
+      return { message, loadingWordCloud };
     default:
       return state;
   }
