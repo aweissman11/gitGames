@@ -1,0 +1,601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommitsBarChart should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CommitsBarChart
+    commitsData={
+      Object {
+        "goodbye": 3,
+        "hello": 2,
+        "hi": 1,
+      }
+    }
+    loadingCommits={
+      Object {
+        "loadingCommits": false,
+        "message": "hi",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          style={
+            Object {
+              "fontSize": "1em",
+              "height": "100%",
+              "margin": "auto",
+              "paddingLeft": "10%",
+              "width": "100%",
+            }
+          }
+        >
+          <ResponsiveBar
+            animate={true}
+            axisBottom={null}
+            axisLeft={
+              Object {
+                "legend": "Commits",
+                "legendOffset": -50,
+                "legendPosition": "middle",
+                "tickPadding": 5,
+                "tickRotation": 0,
+                "tickSize": 5,
+              }
+            }
+            axisRight={null}
+            axisTop={null}
+            borderColor="inherit:darker(1.6)"
+            colorBy="id"
+            colors="purple_orange"
+            indexBy="firstDay"
+            keys={
+              Array [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ]
+            }
+            labelSkipHeight={12}
+            labelSkipWidth={12}
+            labelTextColor="inherit:darker(1.6)"
+            legends={
+              Array [
+                Object {
+                  "anchor": "bottom-right",
+                  "dataFrom": "keys",
+                  "direction": "column",
+                  "effects": Array [
+                    Object {
+                      "on": "hover",
+                      "style": Object {
+                        "itemOpacity": 1,
+                      },
+                    },
+                  ],
+                  "itemDirection": "left-to-right",
+                  "itemHeight": 20,
+                  "itemOpacity": 0.85,
+                  "itemWidth": 100,
+                  "itemsSpacing": 2,
+                  "justify": false,
+                  "symbolSize": 20,
+                  "translateX": 120,
+                  "translateY": 0,
+                },
+              ]
+            }
+            margin={
+              Object {
+                "bottom": 50,
+                "left": 60,
+                "right": 130,
+                "top": 50,
+              }
+            }
+            motionDamping={15}
+            motionStiffness={90}
+            onClick={[Function]}
+            padding={0.3}
+          />
+        </div>,
+        <p
+          className="weeks-label"
+        >
+          Weeks
+        </p>,
+      ],
+      "className": "bar-holder",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ResponsiveBar
+            animate={true}
+            axisBottom={null}
+            axisLeft={
+              Object {
+                "legend": "Commits",
+                "legendOffset": -50,
+                "legendPosition": "middle",
+                "tickPadding": 5,
+                "tickRotation": 0,
+                "tickSize": 5,
+              }
+            }
+            axisRight={null}
+            axisTop={null}
+            borderColor="inherit:darker(1.6)"
+            colorBy="id"
+            colors="purple_orange"
+            indexBy="firstDay"
+            keys={
+              Array [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ]
+            }
+            labelSkipHeight={12}
+            labelSkipWidth={12}
+            labelTextColor="inherit:darker(1.6)"
+            legends={
+              Array [
+                Object {
+                  "anchor": "bottom-right",
+                  "dataFrom": "keys",
+                  "direction": "column",
+                  "effects": Array [
+                    Object {
+                      "on": "hover",
+                      "style": Object {
+                        "itemOpacity": 1,
+                      },
+                    },
+                  ],
+                  "itemDirection": "left-to-right",
+                  "itemHeight": 20,
+                  "itemOpacity": 0.85,
+                  "itemWidth": 100,
+                  "itemsSpacing": 2,
+                  "justify": false,
+                  "symbolSize": 20,
+                  "translateX": 120,
+                  "translateY": 0,
+                },
+              ]
+            }
+            margin={
+              Object {
+                "bottom": 50,
+                "left": 60,
+                "right": 130,
+                "top": 50,
+              }
+            }
+            motionDamping={15}
+            motionStiffness={90}
+            onClick={[Function]}
+            padding={0.3}
+          />,
+          "style": Object {
+            "fontSize": "1em",
+            "height": "100%",
+            "margin": "auto",
+            "paddingLeft": "10%",
+            "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "animate": true,
+            "axisBottom": null,
+            "axisLeft": Object {
+              "legend": "Commits",
+              "legendOffset": -50,
+              "legendPosition": "middle",
+              "tickPadding": 5,
+              "tickRotation": 0,
+              "tickSize": 5,
+            },
+            "axisRight": null,
+            "axisTop": null,
+            "borderColor": "inherit:darker(1.6)",
+            "colorBy": "id",
+            "colors": "purple_orange",
+            "data": undefined,
+            "indexBy": "firstDay",
+            "keys": Array [
+              "Sunday",
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+            "labelSkipHeight": 12,
+            "labelSkipWidth": 12,
+            "labelTextColor": "inherit:darker(1.6)",
+            "legends": Array [
+              Object {
+                "anchor": "bottom-right",
+                "dataFrom": "keys",
+                "direction": "column",
+                "effects": Array [
+                  Object {
+                    "on": "hover",
+                    "style": Object {
+                      "itemOpacity": 1,
+                    },
+                  },
+                ],
+                "itemDirection": "left-to-right",
+                "itemHeight": 20,
+                "itemOpacity": 0.85,
+                "itemWidth": 100,
+                "itemsSpacing": 2,
+                "justify": false,
+                "symbolSize": 20,
+                "translateX": 120,
+                "translateY": 0,
+              },
+            ],
+            "margin": Object {
+              "bottom": 50,
+              "left": 60,
+              "right": 130,
+              "top": 50,
+            },
+            "motionDamping": 15,
+            "motionStiffness": 90,
+            "onClick": [Function],
+            "padding": 0.3,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Weeks",
+          "className": "weeks-label",
+        },
+        "ref": null,
+        "rendered": "Weeks",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            style={
+              Object {
+                "fontSize": "1em",
+                "height": "100%",
+                "margin": "auto",
+                "paddingLeft": "10%",
+                "width": "100%",
+              }
+            }
+          >
+            <ResponsiveBar
+              animate={true}
+              axisBottom={null}
+              axisLeft={
+                Object {
+                  "legend": "Commits",
+                  "legendOffset": -50,
+                  "legendPosition": "middle",
+                  "tickPadding": 5,
+                  "tickRotation": 0,
+                  "tickSize": 5,
+                }
+              }
+              axisRight={null}
+              axisTop={null}
+              borderColor="inherit:darker(1.6)"
+              colorBy="id"
+              colors="purple_orange"
+              indexBy="firstDay"
+              keys={
+                Array [
+                  "Sunday",
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ]
+              }
+              labelSkipHeight={12}
+              labelSkipWidth={12}
+              labelTextColor="inherit:darker(1.6)"
+              legends={
+                Array [
+                  Object {
+                    "anchor": "bottom-right",
+                    "dataFrom": "keys",
+                    "direction": "column",
+                    "effects": Array [
+                      Object {
+                        "on": "hover",
+                        "style": Object {
+                          "itemOpacity": 1,
+                        },
+                      },
+                    ],
+                    "itemDirection": "left-to-right",
+                    "itemHeight": 20,
+                    "itemOpacity": 0.85,
+                    "itemWidth": 100,
+                    "itemsSpacing": 2,
+                    "justify": false,
+                    "symbolSize": 20,
+                    "translateX": 120,
+                    "translateY": 0,
+                  },
+                ]
+              }
+              margin={
+                Object {
+                  "bottom": 50,
+                  "left": 60,
+                  "right": 130,
+                  "top": 50,
+                }
+              }
+              motionDamping={15}
+              motionStiffness={90}
+              onClick={[Function]}
+              padding={0.3}
+            />
+          </div>,
+          <p
+            className="weeks-label"
+          >
+            Weeks
+          </p>,
+        ],
+        "className": "bar-holder",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ResponsiveBar
+              animate={true}
+              axisBottom={null}
+              axisLeft={
+                Object {
+                  "legend": "Commits",
+                  "legendOffset": -50,
+                  "legendPosition": "middle",
+                  "tickPadding": 5,
+                  "tickRotation": 0,
+                  "tickSize": 5,
+                }
+              }
+              axisRight={null}
+              axisTop={null}
+              borderColor="inherit:darker(1.6)"
+              colorBy="id"
+              colors="purple_orange"
+              indexBy="firstDay"
+              keys={
+                Array [
+                  "Sunday",
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ]
+              }
+              labelSkipHeight={12}
+              labelSkipWidth={12}
+              labelTextColor="inherit:darker(1.6)"
+              legends={
+                Array [
+                  Object {
+                    "anchor": "bottom-right",
+                    "dataFrom": "keys",
+                    "direction": "column",
+                    "effects": Array [
+                      Object {
+                        "on": "hover",
+                        "style": Object {
+                          "itemOpacity": 1,
+                        },
+                      },
+                    ],
+                    "itemDirection": "left-to-right",
+                    "itemHeight": 20,
+                    "itemOpacity": 0.85,
+                    "itemWidth": 100,
+                    "itemsSpacing": 2,
+                    "justify": false,
+                    "symbolSize": 20,
+                    "translateX": 120,
+                    "translateY": 0,
+                  },
+                ]
+              }
+              margin={
+                Object {
+                  "bottom": 50,
+                  "left": 60,
+                  "right": 130,
+                  "top": 50,
+                }
+              }
+              motionDamping={15}
+              motionStiffness={90}
+              onClick={[Function]}
+              padding={0.3}
+            />,
+            "style": Object {
+              "fontSize": "1em",
+              "height": "100%",
+              "margin": "auto",
+              "paddingLeft": "10%",
+              "width": "100%",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "animate": true,
+              "axisBottom": null,
+              "axisLeft": Object {
+                "legend": "Commits",
+                "legendOffset": -50,
+                "legendPosition": "middle",
+                "tickPadding": 5,
+                "tickRotation": 0,
+                "tickSize": 5,
+              },
+              "axisRight": null,
+              "axisTop": null,
+              "borderColor": "inherit:darker(1.6)",
+              "colorBy": "id",
+              "colors": "purple_orange",
+              "data": undefined,
+              "indexBy": "firstDay",
+              "keys": Array [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ],
+              "labelSkipHeight": 12,
+              "labelSkipWidth": 12,
+              "labelTextColor": "inherit:darker(1.6)",
+              "legends": Array [
+                Object {
+                  "anchor": "bottom-right",
+                  "dataFrom": "keys",
+                  "direction": "column",
+                  "effects": Array [
+                    Object {
+                      "on": "hover",
+                      "style": Object {
+                        "itemOpacity": 1,
+                      },
+                    },
+                  ],
+                  "itemDirection": "left-to-right",
+                  "itemHeight": 20,
+                  "itemOpacity": 0.85,
+                  "itemWidth": 100,
+                  "itemsSpacing": 2,
+                  "justify": false,
+                  "symbolSize": 20,
+                  "translateX": 120,
+                  "translateY": 0,
+                },
+              ],
+              "margin": Object {
+                "bottom": 50,
+                "left": 60,
+                "right": 130,
+                "top": 50,
+              },
+              "motionDamping": 15,
+              "motionStiffness": 90,
+              "onClick": [Function],
+              "padding": 0.3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Weeks",
+            "className": "weeks-label",
+          },
+          "ref": null,
+          "rendered": "Weeks",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

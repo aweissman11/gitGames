@@ -46,6 +46,7 @@ ShallowWrapper {
       "children": Array [
         <SearchBar />,
         <DataSlider />,
+        <ShareButton />,
       ],
       "className": "main-page",
     },
@@ -69,6 +70,17 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "username": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -81,6 +93,7 @@ ShallowWrapper {
         "children": Array [
           <SearchBar />,
           <DataSlider />,
+          <ShareButton />,
         ],
         "className": "main-page",
       },
@@ -100,6 +113,17 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "username": undefined,
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
@@ -201,6 +225,7 @@ ShallowWrapper {
       "children": Array [
         <SearchBar />,
         <DataSlider />,
+        <ShareButton />,
       ],
       "className": "main-page",
     },
@@ -224,6 +249,17 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "username": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -236,6 +272,7 @@ ShallowWrapper {
         "children": Array [
           <SearchBar />,
           <DataSlider />,
+          <ShareButton />,
         ],
         "className": "main-page",
       },
@@ -255,6 +292,17 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "username": undefined,
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],

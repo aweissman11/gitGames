@@ -18,43 +18,20 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <div
-        className="force-box"
+        className="force-container"
       >
-        <svg
-          className="force-bubbles"
-        />
+        <div
+          className="force-box"
+        >
+          <svg
+            className="force-bubbles"
+          />
+        </div>
       </div>,
-      "className": "force-container",
+      "className": "all-bubbles",
     },
     "ref": null,
     "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <svg
-          className="force-bubbles"
-        />,
-        "className": "force-box",
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "className": "force-bubbles",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "svg",
-      },
-      "type": "div",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
@@ -90,6 +67,71 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": "svg",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="force-container"
+        >
+          <div
+            className="force-box"
+          >
+            <svg
+              className="force-bubbles"
+            />
+          </div>
+        </div>,
+        "className": "all-bubbles",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="force-box"
+          >
+            <svg
+              className="force-bubbles"
+            />
+          </div>,
+          "className": "force-container",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <svg
+              className="force-bubbles"
+            />,
+            "className": "force-box",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "force-bubbles",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "svg",
+          },
+          "type": "div",
         },
         "type": "div",
       },
