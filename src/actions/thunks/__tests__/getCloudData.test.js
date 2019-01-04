@@ -1,6 +1,6 @@
 import { getCloudData } from '../getCloudData';
 
-import { isLoading, hasErrored, setCloudData, setUserData } from '../../index';
+import { loadingWordCloud, hasErrored, setCloudData, setUserD, loadingWordClouda, loadingWordCloudta } from '../../index';
 
 describe('getCloudData', () => {
   const mockDispatch = jest.fn();
@@ -10,12 +10,12 @@ describe('getCloudData', () => {
     user = 'aweissman11'
   })
 
-  it('calls isLoading to kick things off', () => {
+  it('calls loadingWordCloud to kick things off', () => {
     const thunk = getCloudData(user);
 
     thunk(mockDispatch);
 
-    expect(mockDispatch).toHaveBeenCalledWith(isLoading('Getting Cloud Data', true))
+    expect(mockDispatch).toHaveBeenCalledWith(loadingWordCloud('Getting Cloud Data', true))
   })
 
   it('should dispatch Error if the response is not ok', async () => {
@@ -44,7 +44,7 @@ describe('getCloudData', () => {
     expect(mockDispatch).toHaveBeenCalledWith(setCloudData(cloudData))
   })
 
-  it('should dispatch isLoading(false) if the response is ok', async () => {
+  it('should dispatch loadingWordCloud(false) if the response is ok', async () => {
     window.fetch = jest.fn().mockImplementation(() => Promise.resolve({
         ok: true,
         json: () => Promise.resolve({
@@ -56,7 +56,7 @@ describe('getCloudData', () => {
 
     await thunk(mockDispatch)
 
-    expect(mockDispatch).toHaveBeenCalledWith(isLoading('Cloud data retrieved', false))
+    expect(mockDispatch).toHaveBeenCalledWith(loadingWordCloud('Cloud data retrieved', false))
   })
 
 

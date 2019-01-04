@@ -11,14 +11,6 @@ describe('App', () => {
     const wrapper = shallow(<App />);
     expect(wrapper).toMatchSnapshot();
   });
- 
-  // it('should also go somewhere', () => {
-  //   render(
-  //     <MemoryRouter initialEtries={['/main/aweissman11']}>
-  //       <App />
-  //     </MemoryRouter>
-  //   )
 
-    // expect(wrapper.find(MainPage)).toHaveLength()
-  // })
+
 })

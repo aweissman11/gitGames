@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 // import { Route, withRouter, Switch } from 'react-router-dom';
 
 import ForceBubbles from '../../components/ForceBubbles';
@@ -14,10 +13,12 @@ export class LoginPage extends Component {
         <div className='login-search'>
           <SearchBar loginPage={this.props.loginPage}/>
         </div>
-        <ForceBubbles customHeight={window.innerHeight - 70}/>
+        <ForceBubbles
+          customWidth={window.innerWidth}
+          customHeight={window.innerHeight - 70}/>
         <div className='big-box'>
           {
-            this.props.pageNotFound ? <h1 className='page-not-found'>Page Not Found</h1> : <h1></h1>
+            this.props.pageNotFound ? <h1 className='page-not-found'>Page Not Found</h1> : <p></p>
           }
         </div>
       </div>

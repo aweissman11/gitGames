@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-// import { Route, withRouter, Switch } from 'react-router-dom';
+// import { Redirect } from 'react-router-dom';
+
+import LoginPage from '../LoginPage';
 
 import './MainPage.css';
 import SearchBar from '../../components/SearchBar';
@@ -8,7 +10,7 @@ import DataSlider from '../DataSlider';
 
 import { getUserData } from '../../actions/thunks/getUserData';
 
-class MainPage extends Component {
+export class MainPage extends Component {
   componentDidMount() {
     const username = this.props;
     if (username) {
@@ -19,22 +21,21 @@ class MainPage extends Component {
   render() {
     return (
 
-      !(this.props.pageNotFound) ?
+      !(this.props.hasErrored === true) ?
       <div className="main-page">
         <SearchBar />
         <DataSlider />
       </div>
-    :
-    <div>
-      <SearchBar />
-      <h1>Page Not Found</h1>
-    </div>
+      :
+      <LoginPage loginPage={true} pageNotFound={true} />
     )
   }
 }
+
+export const mapStateToProps = ({ hasErrored }) => ({ hasErrored })
 
 export const mapDispatchToProps = (dispatch) => ({
   getUserData: (user) => dispatch(getUserData(user))
 })
 
-export default connect(null, mapDispatchToProps)(MainPage);
+export default connect(mapStateToProps, mapDispatchToProps)(MainPage);

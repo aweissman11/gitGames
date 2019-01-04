@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import Slider from "react-slick";
-
-// Still might use these
-// import { Route, withRouter, Switch } from 'react-router-dom';
 
 import ForceBubbles from '../../components/ForceBubbles';
 import CommitsWordCloud from '../CommitsWordCloud';
@@ -17,23 +13,28 @@ import './DataSlider.css';
 
 class DataSlider extends Component {
 
+  getRightSlideBtn = () => <RightSlideBtn />
+  getLeftSlideBtn = () => <LeftSlideBtn />
+
   render() {
-    var settings = {
+    const settings = {
       dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      slide: 'article',
-      nextArrow: <RightSlideBtn />,
-      prevArrow: <LeftSlideBtn />
+      slide: 'article'
     };
 
     return (
       <div className='data-slider'>
-        <Slider {...settings} >
+        <Slider
+          {...settings}
+          nextArrow={this.getRightSlideBtn()}
+          prevArrow={this.getLeftSlideBtn()}
+        >
           <article className='slider-graph'>
-            <ForceBubbles customHeight={600} />
+            <ForceBubbles customHeight={600} customWidth={960} />
           </article>
           <article className='slider-graph'>
             <CommitsWordCloud />

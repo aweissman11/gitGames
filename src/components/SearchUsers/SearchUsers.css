@@ -41,13 +41,13 @@
   height: 60px;
   display: block;
 }
-
+/* 
 .search-input {
   transition: .3s;
   width: 0px;
   height: 0px;
   border: none;
-}
+} */
 
 .search-input:focus {
   outline: none;

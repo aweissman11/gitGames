@@ -7,11 +7,10 @@ import SliderLoading from '../../components/SliderLoading';
 
 import './CommitsWordCloud.css';
 
-import { mockCloudData } from './__mocks__/mockCloudData';
 import { CloudItem } from '../../components/CloudItem';
 
 
-class CommitsWordCloud extends Component {
+export class CommitsWordCloud extends Component {
   componentDidMount() {
   //   setInterval(() => {
   //     this.forceUpdate();
@@ -48,6 +47,7 @@ getFontSize = (instances) => {
   }
   
 }
+
 
 render() {
   return(

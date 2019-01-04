@@ -27,3 +27,14 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
+// if (typeof console._commandLineAPI !== 'undefined') {
+//   console.API = console._commandLineAPI;
+// } else if (typeof console._inspectorCommandLineAPI !== 'undefined') {
+//   console.API = console._inspectorCommandLineAPI;
+// } else if (typeof console.clear !== 'undefined') {
+//   console.API = console;
+// }
+
+// console.API.clear()
