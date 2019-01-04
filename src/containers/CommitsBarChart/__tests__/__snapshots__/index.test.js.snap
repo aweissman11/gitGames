@@ -5,11 +5,110 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <CommitsBarChart
     commitsData={
-      Object {
-        "goodbye": 3,
-        "hello": 2,
-        "hi": 1,
-      }
+      Array [
+        Object {
+          "averageCommits": 0,
+          "contributionDays": Array [
+            Object {
+              "contributionCount": 0,
+              "date": "2017-12-31",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-01",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-02",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-03",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-04",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-05",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-06",
+            },
+          ],
+          "firstDay": "2017-12-31",
+        },
+        Object {
+          "averageCommits": 0,
+          "contributionDays": Array [
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-07",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-08",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-09",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-10",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-11",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-12",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-13",
+            },
+          ],
+          "firstDay": "2018-01-07",
+        },
+        Object {
+          "averageCommits": 0,
+          "contributionDays": Array [
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-14",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-15",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-16",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-17",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-18",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-19",
+            },
+            Object {
+              "contributionCount": 0,
+              "date": "2018-01-20",
+            },
+          ],
+          "firstDay": "2018-01-14",
+        },
+      ]
     }
     loadingCommits={
       Object {
@@ -61,6 +160,40 @@ ShallowWrapper {
             borderColor="inherit:darker(1.6)"
             colorBy="id"
             colors="purple_orange"
+            data={
+              Array [
+                Object {
+                  "Friday": 0,
+                  "Monday": 0,
+                  "Saturday": 0,
+                  "Sunday": 0,
+                  "Thursday": 0,
+                  "Tuesday": 0,
+                  "Wednesday": 0,
+                  "firstDay": "week of 12-31",
+                },
+                Object {
+                  "Friday": 0,
+                  "Monday": 0,
+                  "Saturday": 0,
+                  "Sunday": 0,
+                  "Thursday": 0,
+                  "Tuesday": 0,
+                  "Wednesday": 0,
+                  "firstDay": "week of 01-07",
+                },
+                Object {
+                  "Friday": 0,
+                  "Monday": 0,
+                  "Saturday": 0,
+                  "Sunday": 0,
+                  "Thursday": 0,
+                  "Tuesday": 0,
+                  "Wednesday": 0,
+                  "firstDay": "week of 01-14",
+                },
+              ]
+            }
             indexBy="firstDay"
             keys={
               Array [
@@ -149,6 +282,40 @@ ShallowWrapper {
             borderColor="inherit:darker(1.6)"
             colorBy="id"
             colors="purple_orange"
+            data={
+              Array [
+                Object {
+                  "Friday": 0,
+                  "Monday": 0,
+                  "Saturday": 0,
+                  "Sunday": 0,
+                  "Thursday": 0,
+                  "Tuesday": 0,
+                  "Wednesday": 0,
+                  "firstDay": "week of 12-31",
+                },
+                Object {
+                  "Friday": 0,
+                  "Monday": 0,
+                  "Saturday": 0,
+                  "Sunday": 0,
+                  "Thursday": 0,
+                  "Tuesday": 0,
+                  "Wednesday": 0,
+                  "firstDay": "week of 01-07",
+                },
+                Object {
+                  "Friday": 0,
+                  "Monday": 0,
+                  "Saturday": 0,
+                  "Sunday": 0,
+                  "Thursday": 0,
+                  "Tuesday": 0,
+                  "Wednesday": 0,
+                  "firstDay": "week of 01-14",
+                },
+              ]
+            }
             indexBy="firstDay"
             keys={
               Array [
@@ -232,7 +399,38 @@ ShallowWrapper {
             "borderColor": "inherit:darker(1.6)",
             "colorBy": "id",
             "colors": "purple_orange",
-            "data": undefined,
+            "data": Array [
+              Object {
+                "Friday": 0,
+                "Monday": 0,
+                "Saturday": 0,
+                "Sunday": 0,
+                "Thursday": 0,
+                "Tuesday": 0,
+                "Wednesday": 0,
+                "firstDay": "week of 12-31",
+              },
+              Object {
+                "Friday": 0,
+                "Monday": 0,
+                "Saturday": 0,
+                "Sunday": 0,
+                "Thursday": 0,
+                "Tuesday": 0,
+                "Wednesday": 0,
+                "firstDay": "week of 01-07",
+              },
+              Object {
+                "Friday": 0,
+                "Monday": 0,
+                "Saturday": 0,
+                "Sunday": 0,
+                "Thursday": 0,
+                "Tuesday": 0,
+                "Wednesday": 0,
+                "firstDay": "week of 01-14",
+              },
+            ],
             "indexBy": "firstDay",
             "keys": Array [
               "Sunday",
@@ -338,6 +536,40 @@ ShallowWrapper {
               borderColor="inherit:darker(1.6)"
               colorBy="id"
               colors="purple_orange"
+              data={
+                Array [
+                  Object {
+                    "Friday": 0,
+                    "Monday": 0,
+                    "Saturday": 0,
+                    "Sunday": 0,
+                    "Thursday": 0,
+                    "Tuesday": 0,
+                    "Wednesday": 0,
+                    "firstDay": "week of 12-31",
+                  },
+                  Object {
+                    "Friday": 0,
+                    "Monday": 0,
+                    "Saturday": 0,
+                    "Sunday": 0,
+                    "Thursday": 0,
+                    "Tuesday": 0,
+                    "Wednesday": 0,
+                    "firstDay": "week of 01-07",
+                  },
+                  Object {
+                    "Friday": 0,
+                    "Monday": 0,
+                    "Saturday": 0,
+                    "Sunday": 0,
+                    "Thursday": 0,
+                    "Tuesday": 0,
+                    "Wednesday": 0,
+                    "firstDay": "week of 01-14",
+                  },
+                ]
+              }
               indexBy="firstDay"
               keys={
                 Array [
@@ -426,6 +658,40 @@ ShallowWrapper {
               borderColor="inherit:darker(1.6)"
               colorBy="id"
               colors="purple_orange"
+              data={
+                Array [
+                  Object {
+                    "Friday": 0,
+                    "Monday": 0,
+                    "Saturday": 0,
+                    "Sunday": 0,
+                    "Thursday": 0,
+                    "Tuesday": 0,
+                    "Wednesday": 0,
+                    "firstDay": "week of 12-31",
+                  },
+                  Object {
+                    "Friday": 0,
+                    "Monday": 0,
+                    "Saturday": 0,
+                    "Sunday": 0,
+                    "Thursday": 0,
+                    "Tuesday": 0,
+                    "Wednesday": 0,
+                    "firstDay": "week of 01-07",
+                  },
+                  Object {
+                    "Friday": 0,
+                    "Monday": 0,
+                    "Saturday": 0,
+                    "Sunday": 0,
+                    "Thursday": 0,
+                    "Tuesday": 0,
+                    "Wednesday": 0,
+                    "firstDay": "week of 01-14",
+                  },
+                ]
+              }
               indexBy="firstDay"
               keys={
                 Array [
@@ -509,7 +775,38 @@ ShallowWrapper {
               "borderColor": "inherit:darker(1.6)",
               "colorBy": "id",
               "colors": "purple_orange",
-              "data": undefined,
+              "data": Array [
+                Object {
+                  "Friday": 0,
+                  "Monday": 0,
+                  "Saturday": 0,
+                  "Sunday": 0,
+                  "Thursday": 0,
+                  "Tuesday": 0,
+                  "Wednesday": 0,
+                  "firstDay": "week of 12-31",
+                },
+                Object {
+                  "Friday": 0,
+                  "Monday": 0,
+                  "Saturday": 0,
+                  "Sunday": 0,
+                  "Thursday": 0,
+                  "Tuesday": 0,
+                  "Wednesday": 0,
+                  "firstDay": "week of 01-07",
+                },
+                Object {
+                  "Friday": 0,
+                  "Monday": 0,
+                  "Saturday": 0,
+                  "Sunday": 0,
+                  "Thursday": 0,
+                  "Tuesday": 0,
+                  "Wednesday": 0,
+                  "firstDay": "week of 01-14",
+                },
+              ],
               "indexBy": "firstDay",
               "keys": Array [
                 "Sunday",
@@ -578,6 +875,70 @@ ShallowWrapper {
         },
       ],
       "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`CommitsBarChart should match the snapshot 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CommitsBarChart
+    languageData={Object {}}
+    loadingCommits={
+      Object {
+        "loadingCommits": true,
+        "message": "is loading",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "msg": "Looking up average commits per week",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "msg": "Looking up average commits per week",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {

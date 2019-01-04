@@ -13,7 +13,6 @@ export class CommitsBarChart extends Component {
   getWeeksArray = (commitsData) => {
     if (this.props.commitsData.length) {
       const { commitsData } = this.props;
-      
       const weeksArray = commitsData.map( week => {
         const days = week.contributionDays.reduce( (acc, day) => {
           const dayName = this.getDayOfWeek(day.date)
