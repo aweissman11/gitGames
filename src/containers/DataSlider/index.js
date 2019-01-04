@@ -5,6 +5,7 @@ import ForceBubbles from '../../components/ForceBubbles';
 import CommitsWordCloud from '../CommitsWordCloud';
 import CommitsBubble from '../CommitsBubble';
 import LanguageBarChart from '../LanguageBarChart';
+import CommitsBarChart from '../CommitsBarChart';
 
 import { ReactComponent as LeftSlideBtn } from '../../components/LeftSlideBtn/LeftSlideBtn.svg';
 import { ReactComponent as RightSlideBtn } from '../../components/RightSlideBtn/RightSlideBtn.svg';
@@ -34,19 +35,19 @@ class DataSlider extends Component {
           prevArrow={this.getLeftSlideBtn()}
         >
           <article className='slider-graph'>
-            <ForceBubbles customHeight={600} customWidth={960} />
+            <ForceBubbles customHeight={window.innerHeight} customWidth={window.innerWidth} />
           </article>
           <article className='slider-graph'>
+            <h3>Commit Message Word Cloud</h3>
             <CommitsWordCloud />
           </article>
           <article className='slider-graph'>
+            <h3>Language Usage Breakdown</h3>
             <LanguageBarChart />
           </article>
           <article className='slider-graph'>
-            <CommitsBubble />
-          </article>
-          <article className='slider-graph'>
-            <h1>slider-GRAPH 5</h1>
+            <h3>Commits broken down per week and per weekday</h3>
+            <CommitsBarChart />
           </article>
         </Slider>
       </div>
