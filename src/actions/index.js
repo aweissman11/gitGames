@@ -19,6 +19,13 @@ export const setLanguageData = (languageData) => {
   }
 }
 
+export const setCommitsData = (commitsData) => {
+  return {
+    type: 'SET_COMMITS_DATA',
+    commitsData
+  }
+}
+
 export const isLoading = (message, isLoading) => {
   return {
     type: 'LOADING',
@@ -40,6 +47,14 @@ export const loadingLanguages = (message, loadingLanguages) => {
     type: 'LOADING_LANGUAGES',
     message,
     loadingLanguages
+  }
+}
+
+export const loadingCommits = (message, loadingCommits) => {
+  return {
+    type: 'LOADING_COMMITS',
+    message,
+    loadingCommits
   }
 }
 
