@@ -35,7 +35,7 @@ describe('CommitsBarChart', () => {
   it('should get a weeks array', () => {
 
     expect(wrapper.instance().getWeeksArray(mockCommitsData)).toEqual(
-      [{"Friday": 0, "Monday": 0, "Saturday": 0, "Sunday": 0, "Thursday": 0, "Tuesday": 0, "Wednesday": 0, "firstDay": "week of 12-31"}, {"Friday": 0, "Monday": 0, "Saturday": 0, "Sunday": 0, "Thursday": 0, "Tuesday": 0, "Wednesday": 0, "firstDay": "week of 01-07"}, {"Friday": 0, "Monday": 0, "Saturday": 0, "Sunday": 0, "Thursday": 0, "Tuesday": 0, "Wednesday": 0, "firstDay": "week of 01-14"}]
+      [{"Fri": 0, "Mon": 0, "Sat": 0, "Sun": 0, "Thurs": 0, "Tues": 0, "Wed": 0, "firstDay": "week of 12-31"}, {"Fri": 0, "Mon": 0, "Sat": 0, "Sun": 0, "Thurs": 0, "Tues": 0, "Wed": 0, "firstDay": "week of 01-07"}, {"Fri": 0, "Mon": 0, "Sat": 0, "Sun": 0, "Thurs": 0, "Tues": 0, "Wed": 0, "firstDay": "week of 01-14"}]
     )
   })
 

@@ -7,7 +7,7 @@ import SliderLoading from '../../components/SliderLoading';
 export class CommitsBarChart extends Component {
   getDayOfWeek = (date) => {
     var dayOfWeek = new Date(date).getDay();    
-    return isNaN(dayOfWeek) ? null : ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][dayOfWeek];
+    return isNaN(dayOfWeek) ? null : ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'][dayOfWeek];
   }
 
   getWeeksArray = (commitsData) => {
@@ -49,7 +49,7 @@ export class CommitsBarChart extends Component {
             <ResponsiveBar
                 onClick={() => this.forceUpdate()}
                 data={this.getWeeksArray()}
-                keys={['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']}
+                keys={['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat']}
                 indexBy="firstDay"
                 margin={{
                     "top": 50,
