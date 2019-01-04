@@ -31,31 +31,33 @@ ShallowWrapper {
           className="slider-graph"
         >
           <ForceBubbles
-            customHeight={600}
-            customWidth={960}
+            customHeight={768}
+            customWidth={1024}
           />
         </article>
         <article
           className="slider-graph"
         >
+          <h3>
+            Commit Message Word Cloud
+          </h3>
           <Connect(CommitsWordCloud) />
         </article>
         <article
           className="slider-graph"
         >
+          <h3>
+            Language Usage Breakdown
+          </h3>
           <Connect(LanguageBarChart) />
         </article>
         <article
           className="slider-graph"
         >
-          <CommitsBubble />
-        </article>
-        <article
-          className="slider-graph"
-        >
-          <h1>
-            slider-GRAPH 5
-          </h1>
+          <h3>
+            Commits broken down per week and per weekday
+          </h3>
+          <Connect(CommitsBarChart) />
         </article>
       </Slider>,
       "className": "data-slider",
@@ -71,31 +73,33 @@ ShallowWrapper {
             className="slider-graph"
           >
             <ForceBubbles
-              customHeight={600}
-              customWidth={960}
+              customHeight={768}
+              customWidth={1024}
             />
           </article>,
           <article
             className="slider-graph"
           >
+            <h3>
+              Commit Message Word Cloud
+            </h3>
             <Connect(CommitsWordCloud) />
           </article>,
           <article
             className="slider-graph"
           >
+            <h3>
+              Language Usage Breakdown
+            </h3>
             <Connect(LanguageBarChart) />
           </article>,
           <article
             className="slider-graph"
           >
-            <CommitsBubble />
-          </article>,
-          <article
-            className="slider-graph"
-          >
-            <h1>
-              slider-GRAPH 5
-            </h1>
+            <h3>
+              Commits broken down per week and per weekday
+            </h3>
+            <Connect(CommitsBarChart) />
           </article>,
         ],
         "dots": true,
@@ -115,8 +119,8 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <ForceBubbles
-              customHeight={600}
-              customWidth={960}
+              customHeight={768}
+              customWidth={1024}
             />,
             "className": "slider-graph",
           },
@@ -126,8 +130,8 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "customHeight": 600,
-              "customWidth": 960,
+              "customHeight": 768,
+              "customWidth": 1024,
             },
             "ref": null,
             "rendered": null,
@@ -140,83 +144,113 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Connect(CommitsWordCloud) />,
+            "children": Array [
+              <h3>
+                Commit Message Word Cloud
+              </h3>,
+              <Connect(CommitsWordCloud) />,
+            ],
             "className": "slider-graph",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": "article",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <Connect(LanguageBarChart) />,
-            "className": "slider-graph",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": "article",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <CommitsBubble />,
-            "className": "slider-graph",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": "article",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <h1>
-              slider-GRAPH 5
-            </h1>,
-            "className": "slider-graph",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "slider-GRAPH 5",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Commit Message Word Cloud",
+              },
+              "ref": null,
+              "rendered": "Commit Message Word Cloud",
+              "type": "h3",
             },
-            "ref": null,
-            "rendered": "slider-GRAPH 5",
-            "type": "h1",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Language Usage Breakdown
+              </h3>,
+              <Connect(LanguageBarChart) />,
+            ],
+            "className": "slider-graph",
           },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Language Usage Breakdown",
+              },
+              "ref": null,
+              "rendered": "Language Usage Breakdown",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Commits broken down per week and per weekday
+              </h3>,
+              <Connect(CommitsBarChart) />,
+            ],
+            "className": "slider-graph",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Commits broken down per week and per weekday",
+              },
+              "ref": null,
+              "rendered": "Commits broken down per week and per weekday",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": "article",
         },
       ],
@@ -244,31 +278,33 @@ ShallowWrapper {
             className="slider-graph"
           >
             <ForceBubbles
-              customHeight={600}
-              customWidth={960}
+              customHeight={768}
+              customWidth={1024}
             />
           </article>
           <article
             className="slider-graph"
           >
+            <h3>
+              Commit Message Word Cloud
+            </h3>
             <Connect(CommitsWordCloud) />
           </article>
           <article
             className="slider-graph"
           >
+            <h3>
+              Language Usage Breakdown
+            </h3>
             <Connect(LanguageBarChart) />
           </article>
           <article
             className="slider-graph"
           >
-            <CommitsBubble />
-          </article>
-          <article
-            className="slider-graph"
-          >
-            <h1>
-              slider-GRAPH 5
-            </h1>
+            <h3>
+              Commits broken down per week and per weekday
+            </h3>
+            <Connect(CommitsBarChart) />
           </article>
         </Slider>,
         "className": "data-slider",
@@ -284,31 +320,33 @@ ShallowWrapper {
               className="slider-graph"
             >
               <ForceBubbles
-                customHeight={600}
-                customWidth={960}
+                customHeight={768}
+                customWidth={1024}
               />
             </article>,
             <article
               className="slider-graph"
             >
+              <h3>
+                Commit Message Word Cloud
+              </h3>
               <Connect(CommitsWordCloud) />
             </article>,
             <article
               className="slider-graph"
             >
+              <h3>
+                Language Usage Breakdown
+              </h3>
               <Connect(LanguageBarChart) />
             </article>,
             <article
               className="slider-graph"
             >
-              <CommitsBubble />
-            </article>,
-            <article
-              className="slider-graph"
-            >
-              <h1>
-                slider-GRAPH 5
-              </h1>
+              <h3>
+                Commits broken down per week and per weekday
+              </h3>
+              <Connect(CommitsBarChart) />
             </article>,
           ],
           "dots": true,
@@ -328,8 +366,8 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <ForceBubbles
-                customHeight={600}
-                customWidth={960}
+                customHeight={768}
+                customWidth={1024}
               />,
               "className": "slider-graph",
             },
@@ -339,8 +377,8 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "customHeight": 600,
-                "customWidth": 960,
+                "customHeight": 768,
+                "customWidth": 1024,
               },
               "ref": null,
               "rendered": null,
@@ -353,83 +391,113 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <Connect(CommitsWordCloud) />,
+              "children": Array [
+                <h3>
+                  Commit Message Word Cloud
+                </h3>,
+                <Connect(CommitsWordCloud) />,
+              ],
               "className": "slider-graph",
             },
             "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": "article",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <Connect(LanguageBarChart) />,
-              "className": "slider-graph",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": "article",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <CommitsBubble />,
-              "className": "slider-graph",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": "article",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <h1>
-                slider-GRAPH 5
-              </h1>,
-              "className": "slider-graph",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "slider-GRAPH 5",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Commit Message Word Cloud",
+                },
+                "ref": null,
+                "rendered": "Commit Message Word Cloud",
+                "type": "h3",
               },
-              "ref": null,
-              "rendered": "slider-GRAPH 5",
-              "type": "h1",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "article",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  Language Usage Breakdown
+                </h3>,
+                <Connect(LanguageBarChart) />,
+              ],
+              "className": "slider-graph",
             },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Language Usage Breakdown",
+                },
+                "ref": null,
+                "rendered": "Language Usage Breakdown",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "article",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  Commits broken down per week and per weekday
+                </h3>,
+                <Connect(CommitsBarChart) />,
+              ],
+              "className": "slider-graph",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Commits broken down per week and per weekday",
+                },
+                "ref": null,
+                "rendered": "Commits broken down per week and per weekday",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
             "type": "article",
           },
         ],

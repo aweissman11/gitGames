@@ -82,12 +82,9 @@ export class SearchUsers extends Component {
           />
         </svg>
       </div>
-
-
     );
   }
 }
-
 
 export const mapDispatchToProps = (dispatch) => ({
   getUserData: (username) => dispatch(getUserData(username))

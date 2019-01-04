@@ -1,10 +1,12 @@
 import { userData } from '../userData';
 import { loadingWordCloud } from '../loadingWordCloud';
 import { loadingUser } from '../loadingUser';
+import { loadingCommits } from '../loadingCommits';
 import { loadingLanguages } from '../loadingLanguages';
 import { languageData } from '../languageData';
 import { isLoading } from '../isLoading';
 import { hasErrored } from '../hasErrored';
+import { commitsData } from '../commitsData';
 import { cloudData } from '../cloudData';
 import { rootReducer } from '../index';
 
@@ -23,6 +25,26 @@ describe('cloudData', () => {
   it('should return default state', () => {
     const expected = {}
     const result = cloudData(undefined, {})
+
+    expect(result).toEqual(expected)
+  })
+})
+
+describe('commitsData', () => {
+  it('should set commitsData', () => {
+    const mockAction = {
+      type: 'SET_COMMITS_DATA',
+      commitsData: { hi: 3, hello: 5, bob: 20}
+    }
+    const expected = mockAction.commitsData;
+    const result = commitsData(undefined, mockAction);
+
+    expect(result).toEqual(expected);
+  })
+
+  it('should return default state', () => {
+    const expected = {}
+    const result = commitsData(undefined, {})
 
     expect(result).toEqual(expected)
   })
@@ -123,6 +145,32 @@ describe('loadingLanguages', () => {
   it('should return default state', () => {
     const expected = {"loadingLanguages": true, "message": "booting up..."}
     const result = loadingLanguages(undefined, {})
+
+    expect(result).toEqual(expected)
+  })
+})
+
+describe('loadingCommits', () => {
+  it('should set loadingCommits', () => {
+    const mockAction = {
+      type: 'LOADING_COMMITS',
+      message: 'loading commits now',
+      loadingCommits: true
+    }
+
+    const expected = {
+      message: 'loading commits now',
+      loadingCommits: true
+    }
+
+    const result = loadingCommits(undefined, mockAction);
+
+    expect(result).toEqual(expected);
+  })
+
+  it('should return default state', () => {
+    const expected = {"loadingCommits": true, "message": "booting up..."}
+    const result = loadingCommits(undefined, {})
 
     expect(result).toEqual(expected)
   })

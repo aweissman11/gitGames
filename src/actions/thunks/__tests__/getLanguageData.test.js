@@ -1,6 +1,6 @@
 import { getLanguageData } from '../getLanguageData';
 
-import { loadingLanguages, hasErrored, setLanguageData, setUserD, loadingLanguagesa, loadingLanguagesta } from '../../index';
+import { loadingLanguages, hasErrored, setLanguageData } from '../../index';
 
 describe('getLanguageData', () => {
   const mockDispatch = jest.fn();

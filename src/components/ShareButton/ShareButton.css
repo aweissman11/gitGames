@@ -1,0 +1,17 @@
+.share-btn-box {
+  bottom: 40px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  height: 60px;
+  width: 160px;
+}
+
+.share-btn {
+  border-radius: 12px;
+  color: #d8daeb;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  background: rgba(220, 220, 220, .4);
+}

@@ -8,6 +8,11 @@
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.data-slider h3 {
+  color: #d8daeb;
+  padding: 20px;
+}
+
 .slider-graph {
   width: 100%;
   max-width: 800px;
@@ -62,6 +67,13 @@
 
 .slick-dots {
   position: static;
+}
+
+.weeks-label {
+  color: #d8daeb;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
 }
 
 @keyframes arrow-anim {

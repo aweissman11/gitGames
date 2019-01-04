@@ -7,6 +7,7 @@ import LoginPage from '../LoginPage';
 import './MainPage.css';
 import SearchBar from '../../components/SearchBar';
 import DataSlider from '../DataSlider';
+import ShareButton from '../../components/ShareButton';
 
 import { getUserData } from '../../actions/thunks/getUserData';
 
@@ -25,6 +26,7 @@ export class MainPage extends Component {
       <div className="main-page">
         <SearchBar />
         <DataSlider />
+        <ShareButton username={this.props.username}/>
       </div>
       :
       <LoginPage loginPage={true} pageNotFound={true} />
