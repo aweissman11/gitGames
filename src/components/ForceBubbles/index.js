@@ -61,9 +61,11 @@ class ForceBubbles extends Component {
 
   render() {
     return (
-      <div className="force-container">
-        <div className="force-box">
-          <svg className="force-bubbles" />
+      <div className='all-bubbles'>
+        <div className="force-container">
+          <div className="force-box">
+            <svg className="force-bubbles" />
+          </div>
         </div>
       </div>
     );
