@@ -31,6 +31,16 @@ describe('actions', () => {
     expect(result).toEqual(expected)
   })
   
+  it('should have a type of SET_COMMITS_DATA', () => {
+    const commitsData = {name: 12};
+    const expected = {
+      type: 'SET_COMMITS_DATA',
+      commitsData
+    }
+    const result = Actions.setCommitsData(commitsData);
+    expect(result).toEqual(expected)
+  })
+  
   it('should have a type of LOADING', () => {
     const message = 'app is loading';
     const isLoading = true;
@@ -76,6 +86,18 @@ describe('actions', () => {
       loadingLanguages
     }
     const result = Actions.loadingLanguages(message, loadingLanguages);
+    expect(result).toEqual(expected)
+  })
+  
+  it('should have a type of LOADING_COMMITS', () => {
+    const message = 'app is loading';
+    const loadingCommits = true;
+    const expected = {
+      type: 'LOADING_COMMITS',
+      message,
+      loadingCommits
+    }
+    const result = Actions.loadingCommits(message, loadingCommits);
     expect(result).toEqual(expected)
   })
 
