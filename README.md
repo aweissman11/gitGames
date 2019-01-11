@@ -4,6 +4,10 @@
 
 GitGames is an application that allows users to look up different metrics about their GitHub history, such as words used in commits, language breakdowns by user, and number of commits per day, and over time. The data is displayed in colorful, engaging charts and graphics built using D3.
 
+The front end of this application was built by Aaron Weissman (Github: @aweissman11, email: weissman.aaron@gmail.com).
+
+The back end of this application was built by Tara Craig (Github: @tcraig7) and Patrick Shobe (Github: @patrickshobe).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Live Application
