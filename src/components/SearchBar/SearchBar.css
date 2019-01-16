@@ -9,7 +9,7 @@
   z-index: 9999999;
 }
 
-.site-info {
+.logo-box {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -37,7 +37,59 @@
   height: 50px;
   margin: 10px;
 }
-/* 
+
 @media (max-width: 850px) {
-  move username underneath title
-} */
+  .force-container {
+    height: 100%;
+    width: 132vw;
+  }
+  .search-bar {
+    height: 70px;
+  }
+
+  .git-games {
+    flex-direction: column;
+    height: 70px;
+  }
+
+  .git-games a, .git-games p {
+    height: 30px;
+  }
+
+  .title {
+    margin-top: 10px;
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+
+  .big-g {
+    font-size: 1.2em;
+  }
+
+  .logo-box {
+    position: relative;
+  }
+
+  .logo {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+  }
+
+  .user-data {
+    padding-top: 0;
+    margin-top: 0;
+    /* height: 30px; */
+  }
+
+  .username {
+    font-size: 1em;
+  }
+
+  .user-data .loading-span {
+    height: 40px;
+    line-height: 40px;
+  }
+}
