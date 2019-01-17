@@ -1,0 +1,38 @@
+@import '../../App.scss';
+
+.input-search {
+  background: $my-black;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px black;
+  color: $my-white;
+  font-size: 1.5em;
+  height: 40px;
+  margin: 0 20px;
+  min-width: 300px;
+  max-width: max-content;
+}
+
+.search-input-form {
+  display: flex;
+  justify-content: space-between;
+  transition: .3s;
+}
+
+.login-search-icon {
+  fill: black;
+  position: relative;
+  bottom: 5px;
+}
+
+.login-search-icon-active {
+  fill: $my-white;
+  position: relative;
+  bottom: 2px;
+}
+
+.login-search-icon-active:hover {
+  transform: rotate(-5deg);
+  cursor: pointer;
+  
+}

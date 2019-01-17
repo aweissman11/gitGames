@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import './App.css';
+import './App.scss';
 import { Route, Switch, withRouter } from 'react-router-dom';
 
 import LoginPage from './containers/LoginPage';
