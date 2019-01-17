@@ -1,0 +1,49 @@
+@import '../../App.scss';
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  background-color: $my-light-black;
+}
+
+.login-site-title {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 40px;
+  width: max-content;
+}
+
+.login-logo-box {
+  position: relative;
+  right: 30px;
+}
+
+.login-logo {
+  width: 175px;
+  height: 175px;
+  fill: $my-white;
+}
+
+.login-title {
+  color: $my-white;
+  font-size: 5em;
+  line-height: 175px;
+  opacity: 1;
+}
+
+.login-big-g {
+  color: $my-white;
+}
+
+.login-search-form {
+  margin: 15px auto 180px;
+}
+
+.page-not-found {
+  color: #d8daeb;
+  opacity: 1;
+  z-index: 9999999999999;
+}
