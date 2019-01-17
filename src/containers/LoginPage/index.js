@@ -3,23 +3,29 @@ import React, { Component } from 'react';
 
 import ForceBubbles from '../../components/ForceBubbles';
 import SearchBar from '../../components/SearchBar';
+import SearchInput from '../../components/SearchInput';
+import { ReactComponent as LogoSvg } from '../../assets/Octicons-mark-github.svg';
 
-import './LoginPage.css';
+
+import './LoginPage.scss';
 
 export class LoginPage extends Component {
   render() {
     return (
       <div className="login-container">
-        <div className='login-search'>
-          <SearchBar loginPage={this.props.loginPage}/>
+        <div className="login-site-title">
+          <div className="login-logo-box">
+            <LogoSvg className="login-logo" />
+          </div>
+          <h1 className="login-title">
+            <span className="login-big-g">G</span>
+            it
+            <span className="login-big-g">G</span>
+            ames
+          </h1>
         </div>
-        <ForceBubbles
-          customWidth={window.innerWidth}
-          customHeight={window.innerHeight - 70}/>
-        <div className='big-box'>
-          {
-            this.props.pageNotFound ? <h1 className='page-not-found'>Page Not Found</h1> : <p></p>
-          }
+        <div className="login-search-form">
+          <SearchInput />
         </div>
       </div>
     );
