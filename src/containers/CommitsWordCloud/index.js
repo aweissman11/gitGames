@@ -46,31 +46,33 @@ export class CommitsWordCloud extends Component {
     return(
 
       this.props.loadingWordCloud.loadingWordCloud ? <SliderLoading msg='Grabbing commits data' /> :
-        <TagCloud
-          onClick={() => this.forceUpdate()}
-          className='tag-cloud'
-          style={{
-            fontFamily: 'sans-serif',
-            color: () => randomColor({ hue: 'purple'}),
-            padding: 5,
-            width: '100%',
-            height: '100%',
-            fontSize: 22
-          }}>
-          {
-            // change the mockCloudData[s] below back to this.props.cloudData
-            Object.keys(this.props.cloudData).map( word => {
-              return (
-                <CloudItem
-                  key={word} 
-                  text={word}
-                  instances={this.props.cloudData[word]}
-                  style={this.getFontSize(this.props.cloudData[word])}
-                >{word}</CloudItem>
-              )
-            })
-          }
-        </TagCloud>
+        <div className='tag-container' style={{ height: '80%', width: '80%' }}>
+          <TagCloud
+            onClick={() => this.forceUpdate()}
+            className='tag-cloud'
+            style={{
+              fontFamily: 'sans-serif',
+              color: () => randomColor({ hue: 'purple'}),
+              padding: 5,
+              width: '100%',
+              height: '100%',
+              fontSize: 22
+            }}>
+            {
+              // change the mockCloudData[s] below back to this.props.cloudData
+              Object.keys(this.props.cloudData).map( word => {
+                return (
+                  <CloudItem
+                    key={word} 
+                    text={word}
+                    instances={this.props.cloudData[word]}
+                    style={this.getFontSize(this.props.cloudData[word])}
+                  >{word}</CloudItem>
+                )
+              })
+            }
+          </TagCloud>
+        </div>
 
     )
   }

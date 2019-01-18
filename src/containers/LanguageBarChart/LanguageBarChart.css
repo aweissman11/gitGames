@@ -1,6 +1,8 @@
 .bar-holder {
   display: flex;
-  height: 100%;
+  height: 600px;
+  width: 60%;
+  margin: auto;
   flex-direction: column;
   justify-content: center;
 }
