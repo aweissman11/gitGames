@@ -17,12 +17,12 @@
 .user-info {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  justify-content: center;
 }
 
 .photo-container {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border-radius: 100%;
   overflow: hidden;
   margin: 20% auto 0;
@@ -46,7 +46,7 @@
 
 .data-squares {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
 }
 

@@ -3,6 +3,9 @@ import TagCloud from 'react-tag-cloud';
 import randomColor from 'randomcolor';
 import { connect } from 'react-redux';
 
+import * as d3 from 'd3';
+
+
 import SliderLoading from '../../components/SliderLoading';
 
 import './CommitsWordCloud.css';
@@ -52,7 +55,7 @@ export class CommitsWordCloud extends Component {
             className='tag-cloud'
             style={{
               fontFamily: 'sans-serif',
-              color: () => randomColor({ hue: 'purple'}),
+              color: () => randomColor(0.3, 0.99),
               padding: 5,
               width: '100%',
               height: '100%',

@@ -58,7 +58,7 @@ export class CommitsBarChart extends Component {
                     "left": 60
                 }}
                 padding={0.3}
-                colors="purple_orange"
+                colors="category10"
                 colorBy="id"
                 borderColor="inherit:darker(1.6)"
                 axisTop={null}

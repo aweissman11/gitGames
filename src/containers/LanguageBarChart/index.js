@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { ResponsiveBar } from '@nivo/bar'
 
-import './LanguageBarChart.css';
+import './LanguageBarChart.scss';
 import SliderLoading from '../../components/SliderLoading';
 
 export class LanguageBarChart extends Component {
@@ -52,7 +52,7 @@ export class LanguageBarChart extends Component {
                 }}
                 padding={0.3}
                 layout="horizontal"
-                colors="blue_purple"
+                colors="category10"
                 colorBy="id"
                 reverse={false}
                 borderColor="inherit:darker(1.6)"
@@ -69,17 +69,17 @@ export class LanguageBarChart extends Component {
                 legends={[
                     {
                         "dataFrom": "keys",
-                        "anchor": "bottom-right",
-                        "direction": "column",
+                        "anchor": "bottom",
+                        "direction": "row",
                         "justify": false,
-                        "translateX": 120,
-                        "translateY": -55,
+                        "translateX": 50,
+                        "translateY": 0,
                         "itemsSpacing": 2,
-                        "itemWidth": 100,
+                        "itemWidth": 90,
                         "itemHeight": 20,
                         "itemDirection": "left-to-right",
                         "itemOpacity": 0.85,
-                        "symbolSize": 20,
+                        "symbolSize": 10,
                         "effects": [
                             {
                                 "on": "hover",

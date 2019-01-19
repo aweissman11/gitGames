@@ -19,6 +19,13 @@ export const setLanguageData = (languageData) => {
   }
 }
 
+export const setCommunityData = (communityData) => {
+  return {
+    type: 'SET_COMMUNITY_DATA',
+    communityData
+  }
+}
+
 export const setCommitsData = (commitsData) => {
   return {
     type: 'SET_COMMITS_DATA',
@@ -55,6 +62,14 @@ export const loadingCommits = (message, loadingCommits) => {
     type: 'LOADING_COMMITS',
     message,
     loadingCommits
+  }
+}
+
+export const loadingCommunity = (message, loadingCommunity) => {
+  return {
+    type: 'LOADING_COMMUNITY_DATA',
+    message,
+    loadingCommunity
   }
 }
 

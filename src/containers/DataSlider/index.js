@@ -36,9 +36,9 @@ class DataSlider extends Component {
           <article className='slider-graph'>
             <ProfilePage />
           </article>
-          <article className='slider-graph'>
+          {/* <article className='slider-graph'>
             <ForceBubbles customHeight={window.innerHeight} customWidth={window.innerWidth} />
-          </article>
+          </article> */}
           <article className='slider-graph'>
             <div className='slider-graph-1'>
               <h3>Commit Message Word Cloud</h3>
