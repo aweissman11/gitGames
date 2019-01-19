@@ -26,7 +26,7 @@ export class MainPage extends Component {
       <div className="main-page">
         <SearchBar />
         <DataSlider />
-        <ShareButton username={this.props.username}/>
+        {/* <ShareButton username={this.props.username}/> */}
       </div>
       :
       <LoginPage loginPage={true} pageNotFound={true} />

@@ -12,7 +12,7 @@ export class UserData extends Component {
     } else if (this.props.hasErrored.hasErrored) {
       return <span className='loading-span'>User does not exist</span> 
     } else if (this.props.loadingUser.loadingUser) {
-      return <span className='loading-span'>getting user data<ReactLoading className='loading-spinner-username' type={'spokes'} color={'blueviolet'} height={25} width={25} /></span> 
+      return <span className='loading-span'>getting user data<ReactLoading className='loading-spinner-username' type={'spokes'} color={'#b7b7b7'} height={25} width={25} /></span> 
     } else {
       return <Link className='username-link' to={`/main/${this.props.userData.login}/#`}>
               <span>{this.props.userData.login}</span>
