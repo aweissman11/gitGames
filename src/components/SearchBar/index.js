@@ -6,7 +6,7 @@ import UserData from '../../containers/UserData';
 
 import { ReactComponent as LogoSvg } from '../../assets/Octicons-mark-github.svg';
 
-import './SearchBar.css';
+import './SearchBar.scss';
 
 export const SearchBar = (props) => (
   <div className='search-bar'>

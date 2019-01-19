@@ -2,6 +2,8 @@ import { fetchCall } from '../../utilities/fetchCall';
 
 import { loadingCommits, hasErrored, setCommitsData } from '../'
 
+import { mockCommitsData } from './__mocks__/mockCommitsData';
+
 export const getCommitsData = (user) => {
   return async (dispatch) => {
     let commitsData;
@@ -14,6 +16,7 @@ export const getCommitsData = (user) => {
       dispatch(hasErrored('Commits data fetch failed', true))
       return;
     }
+
     dispatch(setCommitsData(commitsData))
     dispatch(loadingCommits('Commits data retrieved', false))
   }
