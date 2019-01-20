@@ -1,21 +1,22 @@
 @import '../../App.scss';
 
-.main-page {
-  height: 100vh;
-}
-
 .data-slider {
   position: relative;
   width: 100vw;
   min-height: 100vh;
   padding-top: 70px;
   background: $my-light-black;
+  z-index: 1;
 }
 
 .data-slider h3 {
   color: #d8daeb;
   padding: 20px;
 }
+
+// .slider-graph {
+//   z-index: 1;
+// }
 
 .slider-graph-1 {
   height: 80vh;
@@ -33,14 +34,21 @@
 }
 
 .slick-prev {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 44%;
   z-index: 100;
   left: 40px;
   fill: #d8daeb;
 }
 
 .slick-next {
-  right: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  float: right;
   z-index: 100;
+  bottom: 50%;
   fill: #d8daeb;
 }
 
@@ -67,6 +75,10 @@
 .slick-next:hover .arrow-fixed,
 .slick-prev:hover .arrow-fixed {
   animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+.slider-btns-hidden svg {
+  display: none;
 }
 
 .slick-dots {

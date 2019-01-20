@@ -19,6 +19,15 @@
   transition: .3s;
 }
 
+.search-input-form:hover .input-search::placeholder {
+  color: $my-white;
+}
+
+.search-input-form:hover .login-search-icon {
+  transform: rotate(-5deg);
+  cursor: pointer;
+}
+
 .login-search-icon {
   fill: black;
   position: relative;

@@ -8,16 +8,16 @@
   justify-content: center;
 }
 
-.profile-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 40px;
-}
+// .profile-grid {
+//   display: grid;
+//   grid-template-columns: 1fr;
+// }
 
 .user-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  grid-row: span 2;
 }
 
 .photo-container {
@@ -46,9 +46,10 @@
 
 .data-squares {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 20px;
 }
+
 
 .data-square {
   width: 100%;

@@ -8,7 +8,7 @@ import * as d3 from 'd3';
 
 import SliderLoading from '../../components/SliderLoading';
 
-import './CommitsWordCloud.css';
+import './CommitsWordCloud.scss';
 
 import { CloudItem } from '../../components/CloudItem';
 
@@ -62,7 +62,6 @@ export class CommitsWordCloud extends Component {
               fontSize: 22
             }}>
             {
-              // change the mockCloudData[s] below back to this.props.cloudData
               Object.keys(this.props.cloudData).map( word => {
                 return (
                   <CloudItem

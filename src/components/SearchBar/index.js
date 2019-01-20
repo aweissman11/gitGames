@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-import SearchUsers from '../SearchUsers';
+import SearchInput from '../SearchInput';
 import UserData from '../../containers/UserData';
 
 import { ReactComponent as LogoSvg } from '../../assets/Octicons-mark-github.svg';
@@ -10,16 +10,19 @@ import './SearchBar.scss';
 
 export const SearchBar = (props) => (
   <div className='search-bar'>
-      <div className='git-games'>
-        <div className='logo-box'>
+    <div className='git-games'>
+      <div className='logo-box'>
+        <p>
           <Link to='/'>
             <LogoSvg className='logo' />
           </Link>
-          <p className='title'><span className='big-g'>G</span>it<span className='big-g'>G</span>ames</p>
-        </div>
-        <UserData loginPage={props.loginPage}/>
+        </p>
+        <p>
+          <SearchInput />
+        </p>
       </div>
-    <SearchUsers />
+    </div>
+    <UserData loginPage={props.loginPage}/>
   </div>
 )
 

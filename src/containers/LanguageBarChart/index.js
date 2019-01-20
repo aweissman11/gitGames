@@ -38,7 +38,7 @@ export class LanguageBarChart extends Component {
     return (
       this.props.loadingLanguages.loadingLanguages ? <SliderLoading msg='Looking up language usage' /> :
         <div className='bar-holder'>
-          <div style={{margin: 'auto', width: '70%', height: '300px', fontSize: '1em'}}>
+          <div style={{margin: 'auto', width: '90%', height: '300px', fontSize: '1em'}}>
             <ResponsiveBar
                 className='responsive-bar'
                 data={[data]}

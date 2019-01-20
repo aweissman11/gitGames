@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
+import { connect } from 'react-redux';
 
 import ProfilePage from '../ProfilePage';
 import ForceBubbles from '../../components/ForceBubbles';
@@ -27,6 +28,8 @@ class DataSlider extends Component {
     };
 
     return (
+      this.props.loadingCommits.loadingCommits ?
+      <div></div> :
       <div className='data-slider'>
         <Slider
           {...settings}
@@ -59,4 +62,12 @@ class DataSlider extends Component {
   }
 }
 
-export default DataSlider;
+export const mapStateToProps = ({ 
+  loadingCommits,
+}) => ({
+  loadingCommits,
+})
+
+export default connect(mapStateToProps, null)(DataSlider);
+
+
