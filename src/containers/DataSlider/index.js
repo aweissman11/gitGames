@@ -67,9 +67,6 @@ class DataSlider extends Component {
       ]}
         >
           <article className='slider-graph'>
-            <CommitsBarChart />
-          </article>
-          <article className='slider-graph'>
             <ProfilePage />
           </article>
           {/* <article className='slider-graph'>
@@ -83,6 +80,9 @@ class DataSlider extends Component {
           </article>
           <article className='slider-graph'>
             <LanguageUsage />
+          </article>
+          <article className='slider-graph'>
+            <CommitsBarChart />
           </article>
         </Slider>
       </div>
