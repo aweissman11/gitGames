@@ -19,13 +19,11 @@ export class SearchUsers extends Component {
 
   handleSearchChange = (e) => {
     if (!e.target.value.length) {
-      console.log('if');
       this.setState({ 
         query: e.target.value,
         svgClass: 'login-search-icon'
       })
     } else {
-      console.log('else');
       this.setState({ 
         query: e.target.value,
         svgClass: 'login-search-icon-active'

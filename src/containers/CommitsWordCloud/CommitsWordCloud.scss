@@ -10,12 +10,6 @@ body {
   padding: 0;
 }
 
-.tag-container {
-  margin: auto;
-  height: 600px;
-  width: 800px;
-}
-
 h1 {
   font-size: 3rem;
   letter-spacing: 1px;
@@ -23,6 +17,20 @@ h1 {
   padding: 0;
   text-align: center;
   opacity: 0.5;
+}
+
+.tag-container {
+  margin: auto;
+  height: 83vh;
+  width: 80vw;
+}
+
+.commits-word-cloud {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .app-outer {

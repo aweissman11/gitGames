@@ -10,12 +10,13 @@
 }
 
 .data-slider h3 {
-  color: #d8daeb;
+  color: $my-white;
   padding: 20px;
+  margin: auto;
 }
 
 // .slider-graph {
-//   z-index: 1;
+
 // }
 
 .slider-graph-1 {
@@ -29,39 +30,31 @@
 }
 
 .slick-arrow {
-  width: 135px;
-  height: 55px;
+  width: 100px;
+  height: 35px;
 }
 
 .slick-prev {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 44%;
   z-index: 100;
-  left: 40px;
-  fill: #d8daeb;
+  fill: $my-white;
+  left: 0;
 }
 
 .slick-next {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  float: right;
-  z-index: 100;
-  bottom: 50%;
-  fill: #d8daeb;
+  fill: $my-white;
+  right: 0;
 }
 
 .slick-next polygon, .slide-btn path,
 .slick-prev polygon, .slide-btn path {
   transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
-  fill: #d8daeb;
+  fill: $my-white;
 }
 .slick-next:hover polygon, .slick-next:hover path {
-  fill: #fca743;
+  fill: rgb(220, 220, 220);
 }
 .slick-prev:hover polygon, .slick-prev:hover path {
-  fill: #8a39ae;
+  fill: rgb(220, 220, 220);
 }
 
 .slick-next:hover polygon, .slick-next:hover path,
@@ -86,7 +79,7 @@
 }
 
 .weeks-label {
-  color: #d8daeb;
+  color: $my-white;
   font-weight: bold;
   position: relative;
   bottom: 20px;

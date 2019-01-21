@@ -4,9 +4,11 @@ import { connect } from 'react-redux';
 
 import ProfilePage from '../ProfilePage';
 import ForceBubbles from '../../components/ForceBubbles';
+import LanguageUsage from '../LanguageUsage';
 import CommitsWordCloud from '../CommitsWordCloud';
-import LanguageBarChart from '../LanguageBarChart';
+// import LanguageBarChart from '../LanguageBarChart';
 import CommitsBarChart from '../CommitsBarChart';
+// import PreviousPage from '../../components/LeftSlideBtn';
 
 import { ReactComponent as LeftSlideBtn } from '../../components/LeftSlideBtn/LeftSlideBtn.svg';
 import { ReactComponent as RightSlideBtn } from '../../components/RightSlideBtn/RightSlideBtn.svg';
@@ -14,8 +16,8 @@ import { ReactComponent as RightSlideBtn } from '../../components/RightSlideBtn/
 import './DataSlider.scss';
 
 class DataSlider extends Component {
-  getRightSlideBtn = () => <RightSlideBtn />
-  getLeftSlideBtn = () => <LeftSlideBtn />
+  getLeftSlideBtn = () => <LeftSlideBtn className='left-slide-btn'/>
+  getRightSlideBtn = () => <RightSlideBtn className='right-slide-btn' />
 
   render() {
     const settings = {
@@ -35,7 +37,38 @@ class DataSlider extends Component {
           {...settings}
           nextArrow={this.getRightSlideBtn()}
           prevArrow={this.getLeftSlideBtn()}
+          swipeToSlide={true}
+          adaptiveHeight={true}
+          responsive={[
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]}
         >
+          <article className='slider-graph'>
+            <CommitsBarChart />
+          </article>
           <article className='slider-graph'>
             <ProfilePage />
           </article>
@@ -49,12 +82,7 @@ class DataSlider extends Component {
             </div>
           </article>
           <article className='slider-graph'>
-            <h3>Language Usage Breakdown</h3>
-            <LanguageBarChart />
-          </article>
-          <article className='slider-graph'>
-            <h3>Commits broken down per week and per weekday</h3>
-            <CommitsBarChart />
+            <LanguageUsage />
           </article>
         </Slider>
       </div>

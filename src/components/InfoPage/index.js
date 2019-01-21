@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { ReactComponent as InfoBtn } from '../../assets/information-button.svg';
+
 import './InfoPage.scss';
 
 export class InfoPage extends Component {
@@ -32,10 +34,10 @@ export class InfoPage extends Component {
     return (
       <div className='info-container'>
         <div className='ip-btn-box'>
-          <button
-            className='ip-btn'
+          <InfoBtn
             onClick={this.toggleInfoPage}
-          >I</button>
+            className='ip-btn'
+          />
         </div>
         <div className={`${this.state.pageClass}`}>
           <div className={`${this.state.containerClass}`}>
@@ -82,7 +84,7 @@ export class InfoPage extends Component {
                   <br></br>
                   <h4>Aaron Weissman</h4>
                   <p className='profile-username'>@{`aweissman11`}</p>
-                  <p>Backend Creator</p>
+                  <p>Frontend Creator</p>
                 </div>
               </div>
             </div>

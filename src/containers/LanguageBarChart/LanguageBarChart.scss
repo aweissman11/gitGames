@@ -1,15 +1,15 @@
 @import '../../App.scss';
 
-.bar-holder {
-  display: flex;
-  height: 600px;
-  width: 60%;
-  margin: auto;
-  flex-direction: column;
-  justify-content: center;
-}
+
 
 text {
   fill: $my-white !important;
-  width: 50px;
+  // width: 50px;
+}
+
+.bar-holder {
+  margin: 20px auto;
+  max-width: 1000px;
+  height: 100px;
+  width: 80vw;
 }

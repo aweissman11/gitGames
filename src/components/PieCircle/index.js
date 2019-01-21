@@ -38,7 +38,7 @@ export class PieCircle extends Component {
               innerRadius={0.9}
               padAngle={0}
               cornerRadius={0}
-              colors="category10"
+              colors="set2"
               colorBy={function(e){return e.color}}
               borderWidth={1}
               borderColor="inherit:darker(0.2)"

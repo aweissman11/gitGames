@@ -57,3 +57,10 @@
   background: $my-black;
   box-shadow: 1px 1px 3px black;
 }
+
+@media (max-width: 850px) {
+  .profile-page {
+    margin: 0;
+    padding: 0;
+  }
+}

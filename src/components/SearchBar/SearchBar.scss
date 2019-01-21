@@ -44,7 +44,28 @@
 }
 
 .logo:hover {
-  fill: rgb(220, 220, 220);
+  // fill: rgb(220, 220, 220);
+  filter: brightness(.8)
+}
+
+.logo:active {
+  filter: brightness(.5)
+}
+
+@media (max-width: 610px) {
+  .user-data {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 50px;
+    // justify-items: flex-end;
+  }
+
+  .header-avatar-box {
+  }
+  
+  .username {
+    display: none;
+  }
 }
 
 // @media (max-width: 850px) {

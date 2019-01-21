@@ -16,9 +16,14 @@ $my-white: #b7b7b7;
   outline: none;
 }
 
+body {
+  // width: 100%;
+}
+
 html {
   background: $my-light-black;
   height: 100%;
+  width: 100%;
 }
 
 .App {
