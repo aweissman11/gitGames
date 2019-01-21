@@ -8,6 +8,8 @@ import './MainPage.css';
 import SearchBar from '../../components/SearchBar';
 import DataSlider from '../DataSlider';
 import ShareButton from '../../components/ShareButton';
+import { InfoPage } from '../../components/InfoPage';
+
 
 import { getUserData } from '../../actions/thunks/getUserData';
 
@@ -24,6 +26,7 @@ export class MainPage extends Component {
 
       !(this.props.hasErrored === true) ?
       <div className="main-page">
+        <InfoPage />        
         <SearchBar />
         <DataSlider />
         {/* <ShareButton username={this.props.username}/> */}

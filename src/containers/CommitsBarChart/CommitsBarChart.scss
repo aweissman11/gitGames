@@ -1,0 +1,35 @@
+.commits-bar-chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.commits-bar-box {
+  margin: auto;
+  height: 80vh;
+  width: 90vw;
+}
+
+.commits-bar-container {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  // padding-left: 10%;
+}
+
+@media (max-width: 850px) {
+  // .commits-bar-box {
+  //   width: 120%;
+  // }
+}
+
+
+@media (max-width: 630px) {
+  .commits-bar-box {
+    width: 120%;
+    // height: 9;
+  }
+}

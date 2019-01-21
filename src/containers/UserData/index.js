@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import ReactLoading from 'react-loading';
 import { Link } from 'react-router-dom'
 
-import './UserData.css';
+import './UserData.scss';
 
 export class UserData extends Component {
   usernameDisplay = () => {
@@ -23,17 +23,45 @@ export class UserData extends Component {
   render() {
 
     return (
+      !(this.props.userData) ?
       <div className="user-data">
         <h3 className="username">
-          <span>{
+          <span>
+            {
               this.usernameDisplay()
-            }</span>
+            }
+          </span>
         </h3>
-      </div>
+      </div> :
+
+      <Link className='username-link' to={`/main/${this.props.userData.login}/#`}>
+        <div className="user-data">
+          <h3 className="username">
+              <span>{this.props.userData.login}</span>
+          </h3>
+          <div className='header-avatar-box'>
+            <div className='header-avatar-circle'>
+              <img
+                className='header-avatar'
+                src={this.props.userData.avatarUrl}
+                alt='avatar'
+              />
+            </div>
+          </div>
+        </div>
+      </Link>
     );
   }
 }
 
-export const mapStateToProps = ({ userData, loadingUser, hasErrored }) => ({ userData, loadingUser, hasErrored })
+export const mapStateToProps = ({
+  userData,
+  loadingUser,
+  hasErrored
+}) => ({
+  userData,
+  loadingUser,
+  hasErrored,
+})
 
 export default connect(mapStateToProps, null)(UserData);

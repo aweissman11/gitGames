@@ -1,21 +1,23 @@
 @import '../../App.scss';
 
-.main-page {
-  height: 100vh;
-}
-
 .data-slider {
   position: relative;
   width: 100vw;
   min-height: 100vh;
   padding-top: 70px;
   background: $my-light-black;
+  z-index: 1;
 }
 
 .data-slider h3 {
-  color: #d8daeb;
+  color: $my-white;
   padding: 20px;
+  margin: auto;
 }
+
+// .slider-graph {
+
+// }
 
 .slider-graph-1 {
   height: 80vh;
@@ -28,32 +30,31 @@
 }
 
 .slick-arrow {
-  width: 135px;
-  height: 55px;
+  width: 100px;
+  height: 35px;
 }
 
 .slick-prev {
   z-index: 100;
-  left: 40px;
-  fill: #d8daeb;
+  fill: $my-white;
+  left: 0;
 }
 
 .slick-next {
+  fill: $my-white;
   right: 0;
-  z-index: 100;
-  fill: #d8daeb;
 }
 
 .slick-next polygon, .slide-btn path,
 .slick-prev polygon, .slide-btn path {
   transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
-  fill: #d8daeb;
+  fill: $my-white;
 }
 .slick-next:hover polygon, .slick-next:hover path {
-  fill: #fca743;
+  fill: rgb(220, 220, 220);
 }
 .slick-prev:hover polygon, .slick-prev:hover path {
-  fill: #8a39ae;
+  fill: rgb(220, 220, 220);
 }
 
 .slick-next:hover polygon, .slick-next:hover path,
@@ -69,12 +70,16 @@
   animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
 }
 
+.slider-btns-hidden svg {
+  display: none;
+}
+
 .slick-dots {
   position: static;
 }
 
 .weeks-label {
-  color: #d8daeb;
+  color: $my-white;
   font-weight: bold;
   position: relative;
   bottom: 20px;

@@ -19,6 +19,19 @@
   transition: .3s;
 }
 
+.search-input-form:hover .input-search::placeholder {
+  color: $my-white;
+}
+
+.search-input-form:hover .login-search-icon-active {
+  transform: rotate(-5deg);
+  cursor: pointer;
+}
+
+.search-input-form:hover .login-search-icon {
+  transform: rotate(-5deg);
+}
+
 .login-search-icon {
   fill: black;
   position: relative;
@@ -34,5 +47,15 @@
 .login-search-icon-active:hover {
   transform: rotate(-5deg);
   cursor: pointer;
-  
+}
+
+.login-search-icon-active:active {
+  filter: brightness(.7);
+  box-shadow: none;
+}
+
+@media (max-width: 610px) {
+  .search-input {
+    min-width: 200px;
+  }
 }

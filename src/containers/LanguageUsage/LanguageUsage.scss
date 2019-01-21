@@ -1,0 +1,26 @@
+@import '../../App.scss';
+
+.language-usage {
+  margin: 0 120px;
+}
+
+.repo-language-bars-container {
+  display: flex;
+  height: 600px;
+  margin: 40px auto 0;
+  overflow: scroll;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.repo-name {
+  font-size: .75em;
+  color: $my-white;
+}
+
+
+@media (max-width: 850px) {
+  .language-usage {
+    margin: 0 10px;
+  }
+}

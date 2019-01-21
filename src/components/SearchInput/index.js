@@ -19,13 +19,11 @@ export class SearchUsers extends Component {
 
   handleSearchChange = (e) => {
     if (!e.target.value.length) {
-      console.log('if');
       this.setState({ 
         query: e.target.value,
         svgClass: 'login-search-icon'
       })
     } else {
-      console.log('else');
       this.setState({ 
         query: e.target.value,
         svgClass: 'login-search-icon-active'
@@ -35,10 +33,13 @@ export class SearchUsers extends Component {
 
   submitSearch = (event) => {
     event.preventDefault();
-    this.props.getUserData({ username: this.state.query })
-    this.setState({
-      searchUsers: true
-    })
+    if (this.state.query.length) {
+      this.props.getUserData({ username: this.state.query })
+      this.setState({
+        searchUsers: true,
+        svgClass: 'login-search-icon'
+      })
+    }
   }
 
   render() {

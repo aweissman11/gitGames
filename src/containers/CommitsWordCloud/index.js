@@ -8,7 +8,7 @@ import * as d3 from 'd3';
 
 import SliderLoading from '../../components/SliderLoading';
 
-import './CommitsWordCloud.css';
+import './CommitsWordCloud.scss';
 
 import { CloudItem } from '../../components/CloudItem';
 
@@ -49,34 +49,34 @@ export class CommitsWordCloud extends Component {
     return(
 
       this.props.loadingWordCloud.loadingWordCloud ? <SliderLoading msg='Grabbing commits data' /> :
-        <div className='tag-container' style={{ height: '80%', width: '80%' }}>
-          <TagCloud
-            onClick={() => this.forceUpdate()}
-            className='tag-cloud'
-            style={{
-              fontFamily: 'sans-serif',
-              color: () => randomColor(0.3, 0.99),
-              padding: 5,
-              width: '100%',
-              height: '100%',
-              fontSize: 22
-            }}>
-            {
-              // change the mockCloudData[s] below back to this.props.cloudData
-              Object.keys(this.props.cloudData).map( word => {
-                return (
-                  <CloudItem
-                    key={word} 
-                    text={word}
-                    instances={this.props.cloudData[word]}
-                    style={this.getFontSize(this.props.cloudData[word])}
-                  >{word}</CloudItem>
-                )
-              })
-            }
-          </TagCloud>
+        <div className='commits-word-cloud'>
+          <div className='tag-container'>
+            <TagCloud
+              onClick={() => this.forceUpdate()}
+              className='tag-cloud'
+              style={{
+                fontFamily: 'sans-serif',
+                color: () => randomColor(0.3, 0.99),
+                padding: 5,
+                width: '100%',
+                height: '100%',
+                fontSize: 22
+              }}>
+              {
+                Object.keys(this.props.cloudData).map( word => {
+                  return (
+                    <CloudItem
+                      key={word} 
+                      text={word}
+                      instances={this.props.cloudData[word]}
+                      style={this.getFontSize(this.props.cloudData[word])}
+                    >{word}</CloudItem>
+                  )
+                })
+              }
+            </TagCloud>
+          </div>
         </div>
-
     )
   }
 }

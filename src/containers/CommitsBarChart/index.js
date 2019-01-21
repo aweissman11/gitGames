@@ -4,10 +4,12 @@ import { ResponsiveBar } from '@nivo/bar'
 
 import SliderLoading from '../../components/SliderLoading';
 
+import './CommitsBarChart.scss';
+
 export class CommitsBarChart extends Component {
   getDayOfWeek = (date) => {
     var dayOfWeek = new Date(date).getDay();    
-    return isNaN(dayOfWeek) ? null : ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'][dayOfWeek];
+    return isNaN(dayOfWeek) ? null : ['Su', 'M', 'Tu', 'W', 'T', 'F', 'S'][dayOfWeek];
   }
 
   getWeeksArray = (commitsData) => {
@@ -44,67 +46,70 @@ export class CommitsBarChart extends Component {
   render() {
     return (
       this.props.loadingCommits.loadingCommits ? <SliderLoading msg='Looking up average commits per week' /> :
-        <div className='bar-holder'>
-          <div style={{margin: 'auto', width: '100%', height: '100%', fontSize: '1em', paddingLeft: '10%'}}>
-            <ResponsiveBar
-                onClick={() => this.forceUpdate()}
-                data={this.getWeeksArray()}
-                keys={['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat']}
-                indexBy="firstDay"
-                margin={{
-                    "top": 50,
-                    "right": 130,
-                    "bottom": 50,
-                    "left": 60
-                }}
-                padding={0.3}
-                colors="category10"
-                colorBy="id"
-                borderColor="inherit:darker(1.6)"
-                axisTop={null}
-                axisRight={null}
-                axisBottom={null}
-                axisLeft={{
-                  "tickSize": 5,
-                  "tickPadding": 5,
-                  "tickRotation": 0,
-                  "legend": "Commits",
-                  "legendPosition": "middle",
-                  "legendOffset": -50
-                }}
-                labelSkipWidth={12}
-                labelSkipHeight={12}
-                labelTextColor="inherit:darker(1.6)"
-                animate={true}
-                motionStiffness={90}
-                motionDamping={15}
-                legends={[
-                    {
-                        "dataFrom": "keys",
-                        "anchor": "bottom-right",
-                        "direction": "column",
-                        "justify": false,
-                        "translateX": 120,
-                        "translateY": 0,
-                        "itemsSpacing": 2,
-                        "itemWidth": 100,
-                        "itemHeight": 20,
-                        "itemDirection": "left-to-right",
-                        "itemOpacity": 0.85,
-                        "symbolSize": 20,
-                        "effects": [
-                            {
-                                "on": "hover",
-                                "style": {
-                                    "itemOpacity": 1
-                                }
-                            }
-                        ]
-                    }
-                ]}
-            />
+        <div className='commits-bar-chart'>
+          <h3>Commits broken down per week and per weekday</h3>
+          <div className='commits-bar-box'>
+            <div className='commits-bar-container' >
+              <ResponsiveBar
+                  onClick={() => this.forceUpdate()}
+                  data={this.getWeeksArray()}
+                  keys={['Su', 'F', 'Tu', 'W', 'T', 'M', 'S']}
+                  indexBy="firstDay"
+                  margin={{
+                      "top": 50,
+                      "right": 130,
+                      "bottom": 50,
+                      "left": 130
+                  }}
+                  padding={0.3}
+                  colors="set2"
+                  colorBy="id"
+                  borderColor="inherit:darker(1.6)"
+                  axisTop={null}
+                  axisRight={null}
+                  axisBottom={null}
+                  axisLeft={{
+                    "tickSize": 5,
+                    "tickPadding": 5,
+                    "tickRotation": 0,
+                    "legend": "Commits",
+                    "legendPosition": "middle",
+                    "legendOffset": -50
+                  }}
+                  labelSkipWidth={12}
+                  labelSkipHeight={12}
+                  labelTextColor="inherit:darker(1.6)"
+                  animate={false}
+                  motionStiffness={90}
+                  motionDamping={15}
+                  legends={[
+                      {
+                          "dataFrom": "keys",
+                          "anchor": "bottom",
+                          "direction": "row",
+                          "justify": false,
+                          "translateX": 5,
+                          "translateY": 30,
+                          "itemsSpacing": 0,
+                          "itemWidth": 35,
+                          "itemHeight": 15,
+                          "itemDirection": "left-to-right",
+                          "itemOpacity": 0.85,
+                          "symbolSize": 10,
+                          "effects": [
+                              {
+                                  "on": "hover",
+                                  "style": {
+                                      "itemOpacity": 1
+                                  }
+                              }
+                          ]
+                      }
+                  ]}
+              />
+            </div>
+            <p className='weeks-label'>Weeks</p>
           </div>
-          <p className='weeks-label'>Weeks</p>
         </div>
     );
   }

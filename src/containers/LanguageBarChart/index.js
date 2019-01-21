@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { ResponsiveBar } from '@nivo/bar'
+import { ResponsiveBar } from '@nivo/bar';
 
 import './LanguageBarChart.scss';
 import SliderLoading from '../../components/SliderLoading';
@@ -27,8 +27,8 @@ export class LanguageBarChart extends Component {
         
         return acc;
       }, {})
-    return data;
-  }
+      return data;
+    }
   }
 
 
@@ -38,21 +38,21 @@ export class LanguageBarChart extends Component {
     return (
       this.props.loadingLanguages.loadingLanguages ? <SliderLoading msg='Looking up language usage' /> :
         <div className='bar-holder'>
-          <div style={{margin: 'auto', width: '70%', height: '300px', fontSize: '1em'}}>
+          <div style={{margin: 'auto', width: '100%', height: '100%', fontSize: '1em'}}>
             <ResponsiveBar
                 className='responsive-bar'
                 data={[data]}
                 keys={Object.keys(data)}
                 indexBy="hover"
                 margin={{
-                    "top": 50,
-                    "right": 130,
-                    "bottom": 50,
-                    "left": 60
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
                 }}
                 padding={0.3}
                 layout="horizontal"
-                colors="category10"
+                colors="set2"
                 colorBy="id"
                 reverse={false}
                 borderColor="inherit:darker(1.6)"
@@ -72,7 +72,7 @@ export class LanguageBarChart extends Component {
                         "anchor": "bottom",
                         "direction": "row",
                         "justify": false,
-                        "translateX": 50,
+                        "translateX": 0,
                         "translateY": 0,
                         "itemsSpacing": 2,
                         "itemWidth": 90,

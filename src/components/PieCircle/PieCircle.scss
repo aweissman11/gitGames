@@ -20,3 +20,25 @@
   align-items: center;
   text-align: center;
 }
+
+.pie-title {
+  font-weight: bold;
+}
+
+.tool-tip {
+  padding: 0;
+  background-color: $my-light-black;
+  border: none;
+  color: $my-white;
+  // box-shadow: 0 0 3px black;
+}
+
+.tip-text {
+  margin: 0;
+  padding: 0 2px;
+}
+
+.total-count {
+  margin: 0;
+  padding: 0 2px;
+}
