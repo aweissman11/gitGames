@@ -7,7 +7,7 @@ import { mockCommitsData } from './__mocks__/mockCommitsData';
 export const getCommitsData = (user) => {
   return async (dispatch) => {
     let commitsData;
-    dispatch(loadingCommits('Getting Commits Data', true))
+    dispatch(loadingCommits('Counting your total commits over time', true))
 
     try {
       const cloudUrl = `https://cors-anywhere.herokuapp.com/gitgames.herokuapp.com/api/v1/commit_timelines?username=${user.username}`

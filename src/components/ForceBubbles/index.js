@@ -15,7 +15,7 @@ class ForceBubbles extends Component {
     
     const sequentialScale = d3.scaleSequential()
       .domain([0, 100])
-      .interpolator(d3.interpolatePlasma);
+      .interpolator(d3.scaleOrdinal(d3.schemeSet2));
 
     root.radius = 0;
     root.fixed = true;

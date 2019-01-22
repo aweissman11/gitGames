@@ -7,7 +7,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  max-width: 100vw;
   z-index: 99;
 }
 
@@ -36,11 +36,10 @@
 .logo {
   fill: $my-white;
   width: 50px;
-  margin-left: 10px;
+  margin-left: 30px;
   height: 50px;
   position: relative;
   top: 14px;
-  left: 5px;
 }
 
 .logo:hover {
@@ -52,7 +51,12 @@
   filter: brightness(.5)
 }
 
-@media (max-width: 610px) {
+.search-bar-user-data {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
   .user-data {
     display: flex;
     justify-content: flex-end;
@@ -61,6 +65,13 @@
   }
 
   .header-avatar-box {
+    margin-right: 0px;
+    padding-right: 10px;
+  }
+
+  .logo {
+    margin-left: 0;
+    padding-left: 10px;
   }
   
   .username {

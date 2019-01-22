@@ -51,15 +51,16 @@ export class CommitsBarChart extends Component {
           <div className='commits-bar-box'>
             <div className='commits-bar-container' >
               <ResponsiveBar
+                  className='responsive-commits-bar'
                   onClick={() => this.forceUpdate()}
                   data={this.getWeeksArray()}
                   keys={['Su', 'F', 'Tu', 'W', 'T', 'M', 'S']}
                   indexBy="firstDay"
                   margin={{
                       "top": 50,
-                      "right": 130,
+                      "right": 0,
                       "bottom": 50,
-                      "left": 130
+                      "left": 60
                   }}
                   padding={0.3}
                   colors="set2"

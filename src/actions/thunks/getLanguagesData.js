@@ -7,7 +7,7 @@ import { mockLanguagesData } from './__mocks__/mockLanguagesData';
 export const getLanguageData = (user) => {
   return async (dispatch) => {
     let languagesData;
-    dispatch(loadingLanguages('Getting Languages Data', true))
+    dispatch(loadingLanguages('Calculating your language usage', true))
 
     try {
       const cloudUrl = `https://cors-anywhere.herokuapp.com/gitgames.herokuapp.com/api/v1/languages?username=${user.username}`

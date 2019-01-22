@@ -22,7 +22,9 @@ export const SearchBar = (props) => (
         </p>
       </div>
     </div>
-    <UserData loginPage={props.loginPage}/>
+    <div className='search-bar-user-data'>
+      <UserData loginPage={props.loginPage}/>
+    </div>
   </div>
 )
 

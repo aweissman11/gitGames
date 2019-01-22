@@ -1,7 +1,7 @@
 @import '../../App.scss';
 
 .username {
-  margin: auto;
+  margin: auto 20px;
   color: $my-white;
 }
 
@@ -25,6 +25,17 @@
   height: 40px;
   width: 40px;
   overflow: hidden;
+}
+
+.spinner-user-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.loading-avatar-circle {
+  margin-right: 30px;
 }
 
 .header-avatar {

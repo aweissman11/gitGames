@@ -13,11 +13,15 @@
 }
 
 .commits-bar-container {
-  margin: auto;
-  width: 100%;
+  margin: 0 60px;
+  width: 80%;
   height: 100%;
   font-size: 1em;
   // padding-left: 10%;
+}
+
+.responsive-commits-bar {
+  margin: 0 70px;
 }
 
 @media (max-width: 850px) {
@@ -28,8 +32,8 @@
 
 
 @media (max-width: 630px) {
-  .commits-bar-box {
-    width: 120%;
-    // height: 9;
+  .commits-bar-container {
+    margin: 0;
+    width: 95%;
   }
 }
