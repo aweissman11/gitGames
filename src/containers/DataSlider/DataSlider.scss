@@ -149,3 +149,16 @@
   }
 }
 
+
+@media (max-width: 650px) {
+  .left-slide-btn,
+  .right-slide-btn {
+    display: none;
+  }
+
+  .lft-sld-btn-box:active,
+  .rgt-sld-btn-box:active {
+    background: $my-light-black;
+    filter: brightness(1.2);
+  }
+}

@@ -3,13 +3,17 @@
 .search-input-form {
   display: flex;
   justify-content: center;
+  align-content: center;
+  align-items: center;
   transition: .3s;
   width: 60%;
   margin: auto;
+  min-width: 500px;
 }
 
 .search-input-btn-box {
-
+  display: flex;
+  align-items: center;
 }
 
 .input-search {
@@ -68,6 +72,16 @@
 }
 
 @media (max-width: 810px) {
+  .search-input-form {
+    min-width: 25px;
+    width: 300px;
+    margin: 0 15px;
+  }
+
+  .search-input-btn-box {
+    display: none;
+  }
+  
   .input-search {
     display: none;
   }
@@ -81,11 +95,12 @@
     color: $my-white;
     font-size: 1.5em;
     height: 40px;
-    margin: 0 20px;
+    margin: 0;
+    min-width: 178px;
   }
 
   .input-search-mini::placeholder {
-    padding: 0 20px;
+    padding: 0 3px;
   }
 }
 
@@ -93,4 +108,6 @@
   .login-search-icon {
     display: none;
   }
+
+  
 }
