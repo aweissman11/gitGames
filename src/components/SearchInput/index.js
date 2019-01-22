@@ -66,6 +66,7 @@ export class SearchUsers extends Component {
           onChange={this.handleSearchChange}
         >
         </input>
+        <input style={{display: 'none' }} type='submit'></input>
         <div className='search-input-btn-box'>
           <svg
             onClick={this.submitSearch}
