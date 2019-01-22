@@ -8,6 +8,7 @@ import LanguageUsage from '../LanguageUsage';
 import CommitsWordCloud from '../CommitsWordCloud';
 // import LanguageBarChart from '../LanguageBarChart';
 import CommitsBarChart from '../CommitsBarChart';
+import LoadingBalls from '../LoadingBalls';
 // import PreviousPage from '../../components/LeftSlideBtn';
 
 import { ReactComponent as LeftSlideBtn } from '../../components/LeftSlideBtn/LeftSlideBtn.svg';
@@ -29,9 +30,17 @@ class DataSlider extends Component {
       slide: 'article'
     };
 
+    // return (
+    //   <LoadingBalls />
+    // )
+
     return (
+      this.props.loadingUser.loadingUser ||
+      this.props.loadingCommunity.loadingCommunity ||
+      this.props.loadingWordCloud.loadingWordCloud ||
+      this.props.loadingLanguages.loadingLanguages ||
       this.props.loadingCommits.loadingCommits ?
-      <div></div> :
+      <LoadingBalls /> :
       <div className='data-slider'>
         <Slider
           {...settings}
@@ -92,8 +101,16 @@ class DataSlider extends Component {
 
 export const mapStateToProps = ({ 
   loadingCommits,
+  loadingCommunity,
+  loadingLanguages,
+  loadingUser,
+  loadingWordCloud
 }) => ({
   loadingCommits,
+  loadingCommunity,
+  loadingLanguages,
+  loadingUser,
+  loadingWordCloud
 })
 
 export default connect(mapStateToProps, null)(DataSlider);

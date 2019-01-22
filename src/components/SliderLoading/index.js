@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactLoading from 'react-loading';
 
+
 import './SliderLoading.css';
 
 export const SliderLoading = (props) => (

@@ -7,7 +7,7 @@ import { mockWordCloudData } from './__mocks__/mockWordCloudData';
 export const getCloudData = (user) => {
   return async (dispatch) => {
     let wordCloudData;
-    dispatch(loadingWordCloud('Getting Cloud Data', true))
+    dispatch(loadingWordCloud('Looking up your commit message data', true))
 
     try {
       const cloudUrl = `https://cors-anywhere.herokuapp.com/gitgames.herokuapp.com/api/v1/commit_messages?username=${user.username}`

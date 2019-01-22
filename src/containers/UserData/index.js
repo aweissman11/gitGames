@@ -23,17 +23,20 @@ export class UserData extends Component {
   render() {
 
     return (
-      !(this.props.userData) ?
-      <div className="user-data">
-        <h3 className="username">
-          <span>
-            {
-              this.usernameDisplay()
-            }
-          </span>
-        </h3>
+      (this.props.loadingUser.loadingUser) ?
+      <div className="spinner-user-data">
+        <div className='header-spinner-box'>
+          <div className='loading-spinner-circle'>
+            <ReactLoading
+              className='username-spinner'
+              type={'spokes'}
+              color={'#b7b7b7'}
+              height={25}
+              width={25}
+            />
+          </div>
+        </div>
       </div> :
-
       <Link className='username-link' to={`/main/${this.props.userData.login}/#`}>
         <div className="user-data">
           <h3 className="username">

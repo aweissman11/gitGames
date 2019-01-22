@@ -11,7 +11,7 @@ import { mockUserData } from './__mocks__/mockUserData';
 export const getUserData = (user) => {
   return async (dispatch) => {
     let userData;
-    dispatch(loadingUser('Getting User Data', true))
+    dispatch(loadingUser('Looking up user', true))
     
     try {
       const userUrl = `https://cors-anywhere.herokuapp.com/gitgames.herokuapp.com/api/v1/users?username=${user.username}`

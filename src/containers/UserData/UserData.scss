@@ -27,6 +27,17 @@
   overflow: hidden;
 }
 
+.spinner-user-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.loading-avatar-circle {
+  margin-right: 30px;
+}
+
 .header-avatar {
   height: 100%;
   width: 100%;

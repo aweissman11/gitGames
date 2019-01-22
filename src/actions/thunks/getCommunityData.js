@@ -7,7 +7,7 @@ import { mockCommunityData } from './__mocks__/mockCommunityData';
 export const getCommunityData = (user) => {
   return async (dispatch) => {
     let communityData;
-    dispatch(loadingCommunity('Getting Community Data', true))
+    dispatch(loadingCommunity('Pulling info on git community involvment', true))
 
     try {
       const communityUrl = `https://cors-anywhere.herokuapp.com/gitgames.herokuapp.com/api/v1/community?username=${user.username}`
