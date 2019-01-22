@@ -12,15 +12,16 @@ export class ProfilePage extends Component {
     if (this.props.communityData) {
       const { communityData } = this.props;
       const colors = [
-        '#ff7f0b',
-        '#1e77b4',
-        '#e377c1',
-        '#0099c5',
-        '#9467bd',
-        '#6fbd6d',
-        '#ff7f0b',
-        '#18bdcf',
-        '#c5b0d5']
+        '#66c2a4',
+        '#fc8d62',
+        '#8da0cb',
+        '#a5d855',
+        '#fed92f',
+        '#e78ac3',
+        '#fdb462',
+        '#8cd3c7',
+        '#c5b0d5'
+      ]
         const newData = Object.keys(communityData).reduce( (acc, stat, i) => {
           statsArr.forEach( statName => {
             if (stat === statName) {

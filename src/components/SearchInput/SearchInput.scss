@@ -1,5 +1,17 @@
 @import '../../App.scss';
 
+.search-input-form {
+  display: flex;
+  justify-content: center;
+  transition: .3s;
+  width: 60%;
+  margin: auto;
+}
+
+.search-input-btn-box {
+
+}
+
 .input-search {
   background: $my-black;
   border: none;
@@ -9,18 +21,16 @@
   font-size: 1.5em;
   height: 40px;
   margin: 0 20px;
-  min-width: 300px;
-  max-width: max-content;
+  width: 70%;
+  max-width: 500px;
+}
+
+.input-search::placeholder {
+  padding: 0 20px;
 }
 
 .input-search-mini {
   display: none;
-}
-
-.search-input-form {
-  display: flex;
-  justify-content: space-between;
-  transition: .3s;
 }
 
 .search-input-form:hover .input-search::placeholder {
@@ -57,15 +67,11 @@
   box-shadow: none;
 }
 
-@media (max-width: 610px) {
+@media (max-width: 810px) {
   .input-search {
     display: none;
   }
 
-
-  .input-search-mini {
-    display: none;
-  }
   .input-search-mini {
     display: block;
     background: $my-black;
@@ -76,9 +82,10 @@
     font-size: 1.5em;
     height: 40px;
     margin: 0 20px;
-    max-width: max-content;
-    // min-width: 300px;
-    width: 170px;
+  }
+
+  .input-search-mini::placeholder {
+    padding: 0 20px;
   }
 }
 

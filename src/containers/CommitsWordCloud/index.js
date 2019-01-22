@@ -44,6 +44,22 @@ export class CommitsWordCloud extends Component {
     
   }
 
+  getWordColor = () => {
+    const colorsList = [
+      '#66c2a4',
+      '#fc8d62',
+      '#8da0cb',
+      '#a5d855',
+      '#fed92f',
+      '#e78ac3',
+      '#fdb462',
+      '#8cd3c7',
+      '#c5b0d5'
+    ]
+
+
+    return colorsList[Math.floor(Math.random() * Math.floor(colorsList.length))]
+  }
 
   render() {
     return(
@@ -56,11 +72,12 @@ export class CommitsWordCloud extends Component {
               className='tag-cloud'
               style={{
                 fontFamily: 'sans-serif',
-                color: () => randomColor(0.3, 0.99),
+                color: () => this.getWordColor(),
                 padding: 5,
                 width: '100%',
                 height: '100%',
-                fontSize: 22
+                fontSize: 22,
+                rotate: 90
               }}>
               {
                 Object.keys(this.props.cloudData).map( word => {

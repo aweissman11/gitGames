@@ -17,6 +17,19 @@ import { ReactComponent as RightSlideBtn } from '../../components/RightSlideBtn/
 import './DataSlider.scss';
 
 class DataSlider extends Component {
+    constructor(props) {
+    super(props);
+    this.next = this.next.bind(this);
+    this.previous = this.previous.bind(this);
+  }
+
+  next() {
+    this.slider.slickNext();
+  }
+  previous() {
+    this.slider.slickPrev();
+  }
+
   getLeftSlideBtn = () => <LeftSlideBtn className='left-slide-btn'/>
   getRightSlideBtn = () => <RightSlideBtn className='right-slide-btn' />
 
@@ -34,6 +47,7 @@ class DataSlider extends Component {
     //   <LoadingBalls />
     // )
 
+
     return (
       this.props.loadingUser.loadingUser ||
       this.props.loadingCommunity.loadingCommunity ||
@@ -42,12 +56,23 @@ class DataSlider extends Component {
       this.props.loadingCommits.loadingCommits ?
       <LoadingBalls /> :
       <div className='data-slider'>
+        <div style={{ textAlign: "center" }}>
+          <div className='slider-btns-box'>
+            <div onClick={this.previous} className='lft-sld-btn-box'>
+              <LeftSlideBtn className='left-slide-btn'/>
+            </div>
+            <div onClick={this.next} className='rgt-sld-btn-box'>
+              <RightSlideBtn className='right-slide-btn' />
+            </div>
+          </div>
+        </div>
         <Slider
           {...settings}
-          nextArrow={this.getRightSlideBtn()}
-          prevArrow={this.getLeftSlideBtn()}
+          nextArrow={<div></div>}
+          prevArrow={<div></div>}
           swipeToSlide={true}
           adaptiveHeight={true}
+          ref={c => (this.slider = c)}
           responsive={[
         {
           breakpoint: 1024,
