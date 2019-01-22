@@ -58,6 +58,14 @@ export class SearchUsers extends Component {
           onChange={this.handleSearchChange}
         >
         </input>
+        <input
+          id="search-input" 
+          className="input-search-mini"
+          placeholder="Enter username"
+          value={this.state.query}
+          onChange={this.handleSearchChange}
+        >
+        </input>
         <svg
           onClick={this.submitSearch}
           className={`${this.state.svgClass}`}
