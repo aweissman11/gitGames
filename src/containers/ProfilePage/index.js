@@ -74,8 +74,6 @@ export class ProfilePage extends Component {
     
     render() {
       return(
-        (this.props.loadingUser.loadingUser) || (this.props.loadingCommunity.loadingCommunity) ?
-          <SliderLoading msg='Looking up language usage' /> :
           <div className='profile-page'>
             <div className='profile-grid'>
               <div className='data-squares'>

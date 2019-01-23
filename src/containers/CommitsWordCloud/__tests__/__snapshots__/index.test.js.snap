@@ -35,289 +35,29 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <CloudItem
-          instances={19}
+      "children": <div
+        className="tag-container"
+      >
+        <TagCloud
+          className="tag-cloud"
+          onClick={[Function]}
+          random={[Function]}
+          rotate={0}
+          spiral="archimedean"
           style={
             Object {
-              "fontSize": 30,
-            }
-          }
-          text="update"
-        >
-          update
-        </CloudItem>,
-        <CloudItem
-          instances={9}
-          style={
-            Object {
-              "fontSize": 30,
-            }
-          }
-          text="readme"
-        >
-          readme
-        </CloudItem>,
-        <CloudItem
-          instances={12}
-          style={
-            Object {
-              "fontSize": 30,
-            }
-          }
-          text="removes"
-        >
-          removes
-        </CloudItem>,
-        <CloudItem
-          instances={1}
-          style={
-            Object {
-              "fontSize": 14,
-              "opacity": 0.7,
-            }
-          }
-          text="vulnerability"
-        >
-          vulnerability
-        </CloudItem>,
-        <CloudItem
-          instances={2}
-          style={
-            Object {
-              "fontSize": 14,
-              "opacity": 0.7,
-            }
-          }
-          text="completes"
-        >
-          completes
-        </CloudItem>,
-        <CloudItem
-          instances={7}
-          style={
-            Object {
+              "color": [Function],
+              "fontFamily": "sans-serif",
               "fontSize": 22,
+              "height": "100%",
+              "padding": 5,
+              "rotate": 90,
+              "width": "100%",
             }
           }
-          text="admin"
         >
-          admin
-        </CloudItem>,
-        <CloudItem
-          instances={2}
-          style={
-            Object {
-              "fontSize": 14,
-              "opacity": 0.7,
-            }
-          }
-          text="testing"
-        >
-          testing
-        </CloudItem>,
-        <CloudItem
-          instances={1}
-          style={
-            Object {
-              "fontSize": 14,
-              "opacity": 0.7,
-            }
-          }
-          text="activity_index_spec"
-        >
-          activity_index_spec
-        </CloudItem>,
-        <CloudItem
-          instances={1}
-          style={
-            Object {
-              "fontSize": 14,
-              "opacity": 0.7,
-            }
-          }
-          text="edit\\""
-        >
-          edit"
-        </CloudItem>,
-      ],
-      "className": "tag-cloud",
-      "onClick": [Function],
-      "random": [Function],
-      "rotate": 0,
-      "spiral": "archimedean",
-      "style": Object {
-        "color": [Function],
-        "fontFamily": "sans-serif",
-        "fontSize": 22,
-        "height": "100%",
-        "padding": 5,
-        "width": "100%",
-      },
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": "update",
-        "nodeType": "function",
-        "props": Object {
-          "children": "update",
-          "instances": 19,
-          "style": Object {
-            "fontSize": 30,
-          },
-          "text": "update",
-        },
-        "ref": null,
-        "rendered": "update",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "readme",
-        "nodeType": "function",
-        "props": Object {
-          "children": "readme",
-          "instances": 9,
-          "style": Object {
-            "fontSize": 30,
-          },
-          "text": "readme",
-        },
-        "ref": null,
-        "rendered": "readme",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "removes",
-        "nodeType": "function",
-        "props": Object {
-          "children": "removes",
-          "instances": 12,
-          "style": Object {
-            "fontSize": 30,
-          },
-          "text": "removes",
-        },
-        "ref": null,
-        "rendered": "removes",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "vulnerability",
-        "nodeType": "function",
-        "props": Object {
-          "children": "vulnerability",
-          "instances": 1,
-          "style": Object {
-            "fontSize": 14,
-            "opacity": 0.7,
-          },
-          "text": "vulnerability",
-        },
-        "ref": null,
-        "rendered": "vulnerability",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "completes",
-        "nodeType": "function",
-        "props": Object {
-          "children": "completes",
-          "instances": 2,
-          "style": Object {
-            "fontSize": 14,
-            "opacity": 0.7,
-          },
-          "text": "completes",
-        },
-        "ref": null,
-        "rendered": "completes",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "admin",
-        "nodeType": "function",
-        "props": Object {
-          "children": "admin",
-          "instances": 7,
-          "style": Object {
-            "fontSize": 22,
-          },
-          "text": "admin",
-        },
-        "ref": null,
-        "rendered": "admin",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "testing",
-        "nodeType": "function",
-        "props": Object {
-          "children": "testing",
-          "instances": 2,
-          "style": Object {
-            "fontSize": 14,
-            "opacity": 0.7,
-          },
-          "text": "testing",
-        },
-        "ref": null,
-        "rendered": "testing",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "activity_index_spec",
-        "nodeType": "function",
-        "props": Object {
-          "children": "activity_index_spec",
-          "instances": 1,
-          "style": Object {
-            "fontSize": 14,
-            "opacity": 0.7,
-          },
-          "text": "activity_index_spec",
-        },
-        "ref": null,
-        "rendered": "activity_index_spec",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "edit\\"",
-        "nodeType": "function",
-        "props": Object {
-          "children": "edit\\"",
-          "instances": 1,
-          "style": Object {
-            "fontSize": 14,
-            "opacity": 0.7,
-          },
-          "text": "edit\\"",
-        },
-        "ref": null,
-        "rendered": "edit\\"",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
           <CloudItem
             instances={19}
             style={
@@ -328,7 +68,7 @@ ShallowWrapper {
             text="update"
           >
             update
-          </CloudItem>,
+          </CloudItem>
           <CloudItem
             instances={9}
             style={
@@ -339,7 +79,7 @@ ShallowWrapper {
             text="readme"
           >
             readme
-          </CloudItem>,
+          </CloudItem>
           <CloudItem
             instances={12}
             style={
@@ -350,7 +90,7 @@ ShallowWrapper {
             text="removes"
           >
             removes
-          </CloudItem>,
+          </CloudItem>
           <CloudItem
             instances={1}
             style={
@@ -362,7 +102,7 @@ ShallowWrapper {
             text="vulnerability"
           >
             vulnerability
-          </CloudItem>,
+          </CloudItem>
           <CloudItem
             instances={2}
             style={
@@ -374,7 +114,7 @@ ShallowWrapper {
             text="completes"
           >
             completes
-          </CloudItem>,
+          </CloudItem>
           <CloudItem
             instances={7}
             style={
@@ -385,7 +125,7 @@ ShallowWrapper {
             text="admin"
           >
             admin
-          </CloudItem>,
+          </CloudItem>
           <CloudItem
             instances={2}
             style={
@@ -397,7 +137,7 @@ ShallowWrapper {
             text="testing"
           >
             testing
-          </CloudItem>,
+          </CloudItem>
           <CloudItem
             instances={1}
             style={
@@ -409,7 +149,7 @@ ShallowWrapper {
             text="activity_index_spec"
           >
             activity_index_spec
-          </CloudItem>,
+          </CloudItem>
           <CloudItem
             instances={1}
             style={
@@ -421,175 +161,977 @@ ShallowWrapper {
             text="edit\\""
           >
             edit"
-          </CloudItem>,
-        ],
-        "className": "tag-cloud",
-        "onClick": [Function],
-        "random": [Function],
-        "rotate": 0,
-        "spiral": "archimedean",
-        "style": Object {
-          "color": [Function],
-          "fontFamily": "sans-serif",
-          "fontSize": 22,
-          "height": "100%",
-          "padding": 5,
-          "width": "100%",
-        },
+          </CloudItem>
+        </TagCloud>
+      </div>,
+      "className": "commits-word-cloud",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <TagCloud
+          className="tag-cloud"
+          onClick={[Function]}
+          random={[Function]}
+          rotate={0}
+          spiral="archimedean"
+          style={
+            Object {
+              "color": [Function],
+              "fontFamily": "sans-serif",
+              "fontSize": 22,
+              "height": "100%",
+              "padding": 5,
+              "rotate": 90,
+              "width": "100%",
+            }
+          }
+        >
+          <CloudItem
+            instances={19}
+            style={
+              Object {
+                "fontSize": 30,
+              }
+            }
+            text="update"
+          >
+            update
+          </CloudItem>
+          <CloudItem
+            instances={9}
+            style={
+              Object {
+                "fontSize": 30,
+              }
+            }
+            text="readme"
+          >
+            readme
+          </CloudItem>
+          <CloudItem
+            instances={12}
+            style={
+              Object {
+                "fontSize": 30,
+              }
+            }
+            text="removes"
+          >
+            removes
+          </CloudItem>
+          <CloudItem
+            instances={1}
+            style={
+              Object {
+                "fontSize": 14,
+                "opacity": 0.7,
+              }
+            }
+            text="vulnerability"
+          >
+            vulnerability
+          </CloudItem>
+          <CloudItem
+            instances={2}
+            style={
+              Object {
+                "fontSize": 14,
+                "opacity": 0.7,
+              }
+            }
+            text="completes"
+          >
+            completes
+          </CloudItem>
+          <CloudItem
+            instances={7}
+            style={
+              Object {
+                "fontSize": 22,
+              }
+            }
+            text="admin"
+          >
+            admin
+          </CloudItem>
+          <CloudItem
+            instances={2}
+            style={
+              Object {
+                "fontSize": 14,
+                "opacity": 0.7,
+              }
+            }
+            text="testing"
+          >
+            testing
+          </CloudItem>
+          <CloudItem
+            instances={1}
+            style={
+              Object {
+                "fontSize": 14,
+                "opacity": 0.7,
+              }
+            }
+            text="activity_index_spec"
+          >
+            activity_index_spec
+          </CloudItem>
+          <CloudItem
+            instances={1}
+            style={
+              Object {
+                "fontSize": 14,
+                "opacity": 0.7,
+              }
+            }
+            text="edit\\""
+          >
+            edit"
+          </CloudItem>
+        </TagCloud>,
+        "className": "tag-container",
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": "update",
-          "nodeType": "function",
-          "props": Object {
-            "children": "update",
-            "instances": 19,
-            "style": Object {
-              "fontSize": 30,
-            },
-            "text": "update",
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <CloudItem
+              instances={19}
+              style={
+                Object {
+                  "fontSize": 30,
+                }
+              }
+              text="update"
+            >
+              update
+            </CloudItem>,
+            <CloudItem
+              instances={9}
+              style={
+                Object {
+                  "fontSize": 30,
+                }
+              }
+              text="readme"
+            >
+              readme
+            </CloudItem>,
+            <CloudItem
+              instances={12}
+              style={
+                Object {
+                  "fontSize": 30,
+                }
+              }
+              text="removes"
+            >
+              removes
+            </CloudItem>,
+            <CloudItem
+              instances={1}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="vulnerability"
+            >
+              vulnerability
+            </CloudItem>,
+            <CloudItem
+              instances={2}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="completes"
+            >
+              completes
+            </CloudItem>,
+            <CloudItem
+              instances={7}
+              style={
+                Object {
+                  "fontSize": 22,
+                }
+              }
+              text="admin"
+            >
+              admin
+            </CloudItem>,
+            <CloudItem
+              instances={2}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="testing"
+            >
+              testing
+            </CloudItem>,
+            <CloudItem
+              instances={1}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="activity_index_spec"
+            >
+              activity_index_spec
+            </CloudItem>,
+            <CloudItem
+              instances={1}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="edit\\""
+            >
+              edit"
+            </CloudItem>,
+          ],
+          "className": "tag-cloud",
+          "onClick": [Function],
+          "random": [Function],
+          "rotate": 0,
+          "spiral": "archimedean",
+          "style": Object {
+            "color": [Function],
+            "fontFamily": "sans-serif",
+            "fontSize": 22,
+            "height": "100%",
+            "padding": 5,
+            "rotate": 90,
+            "width": "100%",
           },
-          "ref": null,
-          "rendered": "update",
-          "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": "readme",
-          "nodeType": "function",
-          "props": Object {
-            "children": "readme",
-            "instances": 9,
-            "style": Object {
-              "fontSize": 30,
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "update",
+            "nodeType": "function",
+            "props": Object {
+              "children": "update",
+              "instances": 19,
+              "style": Object {
+                "fontSize": 30,
+              },
+              "text": "update",
             },
-            "text": "readme",
+            "ref": null,
+            "rendered": "update",
+            "type": [Function],
           },
-          "ref": null,
-          "rendered": "readme",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "removes",
-          "nodeType": "function",
-          "props": Object {
-            "children": "removes",
-            "instances": 12,
-            "style": Object {
-              "fontSize": 30,
+          Object {
+            "instance": null,
+            "key": "readme",
+            "nodeType": "function",
+            "props": Object {
+              "children": "readme",
+              "instances": 9,
+              "style": Object {
+                "fontSize": 30,
+              },
+              "text": "readme",
             },
-            "text": "removes",
+            "ref": null,
+            "rendered": "readme",
+            "type": [Function],
           },
-          "ref": null,
-          "rendered": "removes",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "vulnerability",
-          "nodeType": "function",
-          "props": Object {
-            "children": "vulnerability",
-            "instances": 1,
-            "style": Object {
-              "fontSize": 14,
-              "opacity": 0.7,
+          Object {
+            "instance": null,
+            "key": "removes",
+            "nodeType": "function",
+            "props": Object {
+              "children": "removes",
+              "instances": 12,
+              "style": Object {
+                "fontSize": 30,
+              },
+              "text": "removes",
             },
-            "text": "vulnerability",
+            "ref": null,
+            "rendered": "removes",
+            "type": [Function],
           },
-          "ref": null,
-          "rendered": "vulnerability",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "completes",
-          "nodeType": "function",
-          "props": Object {
-            "children": "completes",
-            "instances": 2,
-            "style": Object {
-              "fontSize": 14,
-              "opacity": 0.7,
+          Object {
+            "instance": null,
+            "key": "vulnerability",
+            "nodeType": "function",
+            "props": Object {
+              "children": "vulnerability",
+              "instances": 1,
+              "style": Object {
+                "fontSize": 14,
+                "opacity": 0.7,
+              },
+              "text": "vulnerability",
             },
-            "text": "completes",
+            "ref": null,
+            "rendered": "vulnerability",
+            "type": [Function],
           },
-          "ref": null,
-          "rendered": "completes",
-          "type": [Function],
+          Object {
+            "instance": null,
+            "key": "completes",
+            "nodeType": "function",
+            "props": Object {
+              "children": "completes",
+              "instances": 2,
+              "style": Object {
+                "fontSize": 14,
+                "opacity": 0.7,
+              },
+              "text": "completes",
+            },
+            "ref": null,
+            "rendered": "completes",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "admin",
+            "nodeType": "function",
+            "props": Object {
+              "children": "admin",
+              "instances": 7,
+              "style": Object {
+                "fontSize": 22,
+              },
+              "text": "admin",
+            },
+            "ref": null,
+            "rendered": "admin",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "testing",
+            "nodeType": "function",
+            "props": Object {
+              "children": "testing",
+              "instances": 2,
+              "style": Object {
+                "fontSize": 14,
+                "opacity": 0.7,
+              },
+              "text": "testing",
+            },
+            "ref": null,
+            "rendered": "testing",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "activity_index_spec",
+            "nodeType": "function",
+            "props": Object {
+              "children": "activity_index_spec",
+              "instances": 1,
+              "style": Object {
+                "fontSize": 14,
+                "opacity": 0.7,
+              },
+              "text": "activity_index_spec",
+            },
+            "ref": null,
+            "rendered": "activity_index_spec",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "edit\\"",
+            "nodeType": "function",
+            "props": Object {
+              "children": "edit\\"",
+              "instances": 1,
+              "style": Object {
+                "fontSize": 14,
+                "opacity": 0.7,
+              },
+              "text": "edit\\"",
+            },
+            "ref": null,
+            "rendered": "edit\\"",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="tag-container"
+        >
+          <TagCloud
+            className="tag-cloud"
+            onClick={[Function]}
+            random={[Function]}
+            rotate={0}
+            spiral="archimedean"
+            style={
+              Object {
+                "color": [Function],
+                "fontFamily": "sans-serif",
+                "fontSize": 22,
+                "height": "100%",
+                "padding": 5,
+                "rotate": 90,
+                "width": "100%",
+              }
+            }
+          >
+            <CloudItem
+              instances={19}
+              style={
+                Object {
+                  "fontSize": 30,
+                }
+              }
+              text="update"
+            >
+              update
+            </CloudItem>
+            <CloudItem
+              instances={9}
+              style={
+                Object {
+                  "fontSize": 30,
+                }
+              }
+              text="readme"
+            >
+              readme
+            </CloudItem>
+            <CloudItem
+              instances={12}
+              style={
+                Object {
+                  "fontSize": 30,
+                }
+              }
+              text="removes"
+            >
+              removes
+            </CloudItem>
+            <CloudItem
+              instances={1}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="vulnerability"
+            >
+              vulnerability
+            </CloudItem>
+            <CloudItem
+              instances={2}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="completes"
+            >
+              completes
+            </CloudItem>
+            <CloudItem
+              instances={7}
+              style={
+                Object {
+                  "fontSize": 22,
+                }
+              }
+              text="admin"
+            >
+              admin
+            </CloudItem>
+            <CloudItem
+              instances={2}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="testing"
+            >
+              testing
+            </CloudItem>
+            <CloudItem
+              instances={1}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="activity_index_spec"
+            >
+              activity_index_spec
+            </CloudItem>
+            <CloudItem
+              instances={1}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="edit\\""
+            >
+              edit"
+            </CloudItem>
+          </TagCloud>
+        </div>,
+        "className": "commits-word-cloud",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <TagCloud
+            className="tag-cloud"
+            onClick={[Function]}
+            random={[Function]}
+            rotate={0}
+            spiral="archimedean"
+            style={
+              Object {
+                "color": [Function],
+                "fontFamily": "sans-serif",
+                "fontSize": 22,
+                "height": "100%",
+                "padding": 5,
+                "rotate": 90,
+                "width": "100%",
+              }
+            }
+          >
+            <CloudItem
+              instances={19}
+              style={
+                Object {
+                  "fontSize": 30,
+                }
+              }
+              text="update"
+            >
+              update
+            </CloudItem>
+            <CloudItem
+              instances={9}
+              style={
+                Object {
+                  "fontSize": 30,
+                }
+              }
+              text="readme"
+            >
+              readme
+            </CloudItem>
+            <CloudItem
+              instances={12}
+              style={
+                Object {
+                  "fontSize": 30,
+                }
+              }
+              text="removes"
+            >
+              removes
+            </CloudItem>
+            <CloudItem
+              instances={1}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="vulnerability"
+            >
+              vulnerability
+            </CloudItem>
+            <CloudItem
+              instances={2}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="completes"
+            >
+              completes
+            </CloudItem>
+            <CloudItem
+              instances={7}
+              style={
+                Object {
+                  "fontSize": 22,
+                }
+              }
+              text="admin"
+            >
+              admin
+            </CloudItem>
+            <CloudItem
+              instances={2}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="testing"
+            >
+              testing
+            </CloudItem>
+            <CloudItem
+              instances={1}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="activity_index_spec"
+            >
+              activity_index_spec
+            </CloudItem>
+            <CloudItem
+              instances={1}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                }
+              }
+              text="edit\\""
+            >
+              edit"
+            </CloudItem>
+          </TagCloud>,
+          "className": "tag-container",
         },
-        Object {
+        "ref": null,
+        "rendered": Object {
           "instance": null,
-          "key": "admin",
-          "nodeType": "function",
+          "key": undefined,
+          "nodeType": "class",
           "props": Object {
-            "children": "admin",
-            "instances": 7,
+            "children": Array [
+              <CloudItem
+                instances={19}
+                style={
+                  Object {
+                    "fontSize": 30,
+                  }
+                }
+                text="update"
+              >
+                update
+              </CloudItem>,
+              <CloudItem
+                instances={9}
+                style={
+                  Object {
+                    "fontSize": 30,
+                  }
+                }
+                text="readme"
+              >
+                readme
+              </CloudItem>,
+              <CloudItem
+                instances={12}
+                style={
+                  Object {
+                    "fontSize": 30,
+                  }
+                }
+                text="removes"
+              >
+                removes
+              </CloudItem>,
+              <CloudItem
+                instances={1}
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "opacity": 0.7,
+                  }
+                }
+                text="vulnerability"
+              >
+                vulnerability
+              </CloudItem>,
+              <CloudItem
+                instances={2}
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "opacity": 0.7,
+                  }
+                }
+                text="completes"
+              >
+                completes
+              </CloudItem>,
+              <CloudItem
+                instances={7}
+                style={
+                  Object {
+                    "fontSize": 22,
+                  }
+                }
+                text="admin"
+              >
+                admin
+              </CloudItem>,
+              <CloudItem
+                instances={2}
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "opacity": 0.7,
+                  }
+                }
+                text="testing"
+              >
+                testing
+              </CloudItem>,
+              <CloudItem
+                instances={1}
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "opacity": 0.7,
+                  }
+                }
+                text="activity_index_spec"
+              >
+                activity_index_spec
+              </CloudItem>,
+              <CloudItem
+                instances={1}
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "opacity": 0.7,
+                  }
+                }
+                text="edit\\""
+              >
+                edit"
+              </CloudItem>,
+            ],
+            "className": "tag-cloud",
+            "onClick": [Function],
+            "random": [Function],
+            "rotate": 0,
+            "spiral": "archimedean",
             "style": Object {
+              "color": [Function],
+              "fontFamily": "sans-serif",
               "fontSize": 22,
+              "height": "100%",
+              "padding": 5,
+              "rotate": 90,
+              "width": "100%",
             },
-            "text": "admin",
           },
           "ref": null,
-          "rendered": "admin",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "testing",
-          "nodeType": "function",
-          "props": Object {
-            "children": "testing",
-            "instances": 2,
-            "style": Object {
-              "fontSize": 14,
-              "opacity": 0.7,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "update",
+              "nodeType": "function",
+              "props": Object {
+                "children": "update",
+                "instances": 19,
+                "style": Object {
+                  "fontSize": 30,
+                },
+                "text": "update",
+              },
+              "ref": null,
+              "rendered": "update",
+              "type": [Function],
             },
-            "text": "testing",
-          },
-          "ref": null,
-          "rendered": "testing",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "activity_index_spec",
-          "nodeType": "function",
-          "props": Object {
-            "children": "activity_index_spec",
-            "instances": 1,
-            "style": Object {
-              "fontSize": 14,
-              "opacity": 0.7,
+            Object {
+              "instance": null,
+              "key": "readme",
+              "nodeType": "function",
+              "props": Object {
+                "children": "readme",
+                "instances": 9,
+                "style": Object {
+                  "fontSize": 30,
+                },
+                "text": "readme",
+              },
+              "ref": null,
+              "rendered": "readme",
+              "type": [Function],
             },
-            "text": "activity_index_spec",
-          },
-          "ref": null,
-          "rendered": "activity_index_spec",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "edit\\"",
-          "nodeType": "function",
-          "props": Object {
-            "children": "edit\\"",
-            "instances": 1,
-            "style": Object {
-              "fontSize": 14,
-              "opacity": 0.7,
+            Object {
+              "instance": null,
+              "key": "removes",
+              "nodeType": "function",
+              "props": Object {
+                "children": "removes",
+                "instances": 12,
+                "style": Object {
+                  "fontSize": 30,
+                },
+                "text": "removes",
+              },
+              "ref": null,
+              "rendered": "removes",
+              "type": [Function],
             },
-            "text": "edit\\"",
-          },
-          "ref": null,
-          "rendered": "edit\\"",
+            Object {
+              "instance": null,
+              "key": "vulnerability",
+              "nodeType": "function",
+              "props": Object {
+                "children": "vulnerability",
+                "instances": 1,
+                "style": Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                },
+                "text": "vulnerability",
+              },
+              "ref": null,
+              "rendered": "vulnerability",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "completes",
+              "nodeType": "function",
+              "props": Object {
+                "children": "completes",
+                "instances": 2,
+                "style": Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                },
+                "text": "completes",
+              },
+              "ref": null,
+              "rendered": "completes",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "admin",
+              "nodeType": "function",
+              "props": Object {
+                "children": "admin",
+                "instances": 7,
+                "style": Object {
+                  "fontSize": 22,
+                },
+                "text": "admin",
+              },
+              "ref": null,
+              "rendered": "admin",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "testing",
+              "nodeType": "function",
+              "props": Object {
+                "children": "testing",
+                "instances": 2,
+                "style": Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                },
+                "text": "testing",
+              },
+              "ref": null,
+              "rendered": "testing",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "activity_index_spec",
+              "nodeType": "function",
+              "props": Object {
+                "children": "activity_index_spec",
+                "instances": 1,
+                "style": Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                },
+                "text": "activity_index_spec",
+              },
+              "ref": null,
+              "rendered": "activity_index_spec",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "edit\\"",
+              "nodeType": "function",
+              "props": Object {
+                "children": "edit\\"",
+                "instances": 1,
+                "style": Object {
+                  "fontSize": 14,
+                  "opacity": 0.7,
+                },
+                "text": "edit\\"",
+              },
+              "ref": null,
+              "rendered": "edit\\"",
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
-      ],
-      "type": [Function],
+        "type": "div",
+      },
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {

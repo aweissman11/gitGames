@@ -33,26 +33,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h3
-        className="username"
+      "children": <div
+        className="header-spinner-box"
       >
-        <span>
-          <span
-            className="loading-span"
-          >
-            getting user data
-            <Loading
-              className="loading-spinner-username"
-              color="blueviolet"
-              delay={0}
-              height={25}
-              type="spokes"
-              width={25}
-            />
-          </span>
-        </span>
-      </h3>,
-      "className": "user-data",
+        <div
+          className="loading-spinner-circle"
+        >
+          <Loading
+            className="username-spinner"
+            color="#b7b7b7"
+            delay={0}
+            height={25}
+            type="spokes"
+            width={25}
+          />
+        </div>
+      </div>,
+      "className": "spinner-user-data",
     },
     "ref": null,
     "rendered": Object {
@@ -60,22 +57,19 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <span>
-          <span
-            className="loading-span"
-          >
-            getting user data
-            <Loading
-              className="loading-spinner-username"
-              color="blueviolet"
-              delay={0}
-              height={25}
-              type="spokes"
-              width={25}
-            />
-          </span>
-        </span>,
-        "className": "username",
+        "children": <div
+          className="loading-spinner-circle"
+        >
+          <Loading
+            className="username-spinner"
+            color="#b7b7b7"
+            delay={0}
+            height={25}
+            type="spokes"
+            width={25}
+          />
+        </div>,
+        "className": "header-spinner-box",
       },
       "ref": null,
       "rendered": Object {
@@ -83,64 +77,36 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <span
-            className="loading-span"
-          >
-            getting user data
-            <Loading
-              className="loading-spinner-username"
-              color="blueviolet"
-              delay={0}
-              height={25}
-              type="spokes"
-              width={25}
-            />
-          </span>,
+          "children": <Loading
+            className="username-spinner"
+            color="#b7b7b7"
+            delay={0}
+            height={25}
+            type="spokes"
+            width={25}
+          />,
+          "className": "loading-spinner-circle",
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "children": Array [
-              "getting user data",
-              <Loading
-                className="loading-spinner-username"
-                color="blueviolet"
-                delay={0}
-                height={25}
-                type="spokes"
-                width={25}
-              />,
-            ],
-            "className": "loading-span",
+            "className": "username-spinner",
+            "color": "#b7b7b7",
+            "delay": 0,
+            "height": 25,
+            "type": "spokes",
+            "width": 25,
           },
           "ref": null,
-          "rendered": Array [
-            "getting user data",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "className": "loading-spinner-username",
-                "color": "blueviolet",
-                "delay": 0,
-                "height": 25,
-                "type": "spokes",
-                "width": 25,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": "span",
+          "rendered": null,
+          "type": [Function],
         },
-        "type": "span",
+        "type": "div",
       },
-      "type": "h3",
+      "type": "div",
     },
     "type": "div",
   },
@@ -150,26 +116,23 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h3
-          className="username"
+        "children": <div
+          className="header-spinner-box"
         >
-          <span>
-            <span
-              className="loading-span"
-            >
-              getting user data
-              <Loading
-                className="loading-spinner-username"
-                color="blueviolet"
-                delay={0}
-                height={25}
-                type="spokes"
-                width={25}
-              />
-            </span>
-          </span>
-        </h3>,
-        "className": "user-data",
+          <div
+            className="loading-spinner-circle"
+          >
+            <Loading
+              className="username-spinner"
+              color="#b7b7b7"
+              delay={0}
+              height={25}
+              type="spokes"
+              width={25}
+            />
+          </div>
+        </div>,
+        "className": "spinner-user-data",
       },
       "ref": null,
       "rendered": Object {
@@ -177,22 +140,19 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <span>
-            <span
-              className="loading-span"
-            >
-              getting user data
-              <Loading
-                className="loading-spinner-username"
-                color="blueviolet"
-                delay={0}
-                height={25}
-                type="spokes"
-                width={25}
-              />
-            </span>
-          </span>,
-          "className": "username",
+          "children": <div
+            className="loading-spinner-circle"
+          >
+            <Loading
+              className="username-spinner"
+              color="#b7b7b7"
+              delay={0}
+              height={25}
+              type="spokes"
+              width={25}
+            />
+          </div>,
+          "className": "header-spinner-box",
         },
         "ref": null,
         "rendered": Object {
@@ -200,64 +160,36 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <span
-              className="loading-span"
-            >
-              getting user data
-              <Loading
-                className="loading-spinner-username"
-                color="blueviolet"
-                delay={0}
-                height={25}
-                type="spokes"
-                width={25}
-              />
-            </span>,
+            "children": <Loading
+              className="username-spinner"
+              color="#b7b7b7"
+              delay={0}
+              height={25}
+              type="spokes"
+              width={25}
+            />,
+            "className": "loading-spinner-circle",
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
-              "children": Array [
-                "getting user data",
-                <Loading
-                  className="loading-spinner-username"
-                  color="blueviolet"
-                  delay={0}
-                  height={25}
-                  type="spokes"
-                  width={25}
-                />,
-              ],
-              "className": "loading-span",
+              "className": "username-spinner",
+              "color": "#b7b7b7",
+              "delay": 0,
+              "height": 25,
+              "type": "spokes",
+              "width": 25,
             },
             "ref": null,
-            "rendered": Array [
-              "getting user data",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "className": "loading-spinner-username",
-                  "color": "blueviolet",
-                  "delay": 0,
-                  "height": 25,
-                  "type": "spokes",
-                  "width": 25,
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-            ],
-            "type": "span",
+            "rendered": null,
+            "type": [Function],
           },
-          "type": "span",
+          "type": "div",
         },
-        "type": "h3",
+        "type": "div",
       },
       "type": "div",
     },

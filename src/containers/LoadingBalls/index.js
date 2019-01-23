@@ -7,13 +7,23 @@ import ReactLoading from 'react-loading';
 import './LoadingBalls.scss';
 
 export class LoadingBalls extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      loadingGifClass: 'balls-loading-spinner',
+      searchAgainClass: 'hide-search-again-message'
+    }
+  }
+
   getLoadingMessage = () => {
     const {
       loadingCommits,
       loadingCommunity,
       loadingLanguages,
       loadingUser,
-      loadingWordCloud
+      loadingWordCloud,
+      hasErrored
     } = this.props;
     if (loadingUser.loadingUser) {
       return loadingUser.message
@@ -25,8 +35,16 @@ export class LoadingBalls extends Component {
       return loadingLanguages.message
     } else if (loadingCommits.loadingCommits) {
       return loadingCommits.message
+    } else if (hasErrored.hasErrored) {
+      if (this.state.loadingGifClass !== 'hide-loading-gif') {
+        this.setState({
+          loadingGifClass: 'hide-loading-gif',
+          searchAgainClass: 'show-search-again-message'
+        })
+      }
+      return hasErrored.message
     } else {
-      return null
+      return null;
     }
     // return 'longer loading message here'
   }
@@ -42,7 +60,7 @@ export class LoadingBalls extends Component {
               }
             </p>
             <ReactLoading
-              className='balls-loading-spinner'
+              className={this.state.loadingGifClass}
               type={'spokes'}
               color={'#b7b7b7'}
               height={25}
@@ -50,6 +68,7 @@ export class LoadingBalls extends Component {
             />
           </div>
           <p className='heres-the-balls'>Here, play with some balls...</p>
+          <p className={this.state.searchAgainClass}>Or search again using the input at the top</p>
         </div>
         <div className='loading-bubble-container'>
           <ForceBubbles customHeight={window.innerHeight} customWidth={window.innerWidth} />
@@ -64,13 +83,15 @@ export const mapStateToProps = ({
   loadingCommunity,
   loadingLanguages,
   loadingUser,
-  loadingWordCloud
+  loadingWordCloud,
+  hasErrored
 }) => ({
   loadingCommits,
   loadingCommunity,
   loadingLanguages,
   loadingUser,
-  loadingWordCloud
+  loadingWordCloud,
+  hasErrored
 })
 
 export default connect(mapStateToProps, null)(LoadingBalls)

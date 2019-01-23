@@ -352,9 +352,9 @@ ShallowWrapper {
         style={
           Object {
             "fontSize": "1em",
-            "height": "300px",
+            "height": "100%",
             "margin": "auto",
-            "width": "70%",
+            "width": "100%",
           }
         }
       >
@@ -367,7 +367,7 @@ ShallowWrapper {
           borderColor="inherit:darker(1.6)"
           className="responsive-bar"
           colorBy="id"
-          colors="blue_purple"
+          colors="set2"
           data={
             Array [
               Object {
@@ -400,9 +400,9 @@ ShallowWrapper {
           legends={
             Array [
               Object {
-                "anchor": "bottom-right",
+                "anchor": "bottom",
                 "dataFrom": "keys",
-                "direction": "column",
+                "direction": "row",
                 "effects": Array [
                   Object {
                     "on": "hover",
@@ -414,21 +414,21 @@ ShallowWrapper {
                 "itemDirection": "left-to-right",
                 "itemHeight": 20,
                 "itemOpacity": 0.85,
-                "itemWidth": 100,
+                "itemWidth": 90,
                 "itemsSpacing": 2,
                 "justify": false,
-                "symbolSize": 20,
-                "translateX": 120,
-                "translateY": -55,
+                "symbolSize": 10,
+                "translateX": 0,
+                "translateY": 0,
               },
             ]
           }
           margin={
             Object {
-              "bottom": 50,
-              "left": 60,
-              "right": 130,
-              "top": 50,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
             }
           }
           motionDamping={15}
@@ -454,7 +454,7 @@ ShallowWrapper {
           borderColor="inherit:darker(1.6)"
           className="responsive-bar"
           colorBy="id"
-          colors="blue_purple"
+          colors="set2"
           data={
             Array [
               Object {
@@ -487,9 +487,9 @@ ShallowWrapper {
           legends={
             Array [
               Object {
-                "anchor": "bottom-right",
+                "anchor": "bottom",
                 "dataFrom": "keys",
-                "direction": "column",
+                "direction": "row",
                 "effects": Array [
                   Object {
                     "on": "hover",
@@ -501,21 +501,21 @@ ShallowWrapper {
                 "itemDirection": "left-to-right",
                 "itemHeight": 20,
                 "itemOpacity": 0.85,
-                "itemWidth": 100,
+                "itemWidth": 90,
                 "itemsSpacing": 2,
                 "justify": false,
-                "symbolSize": 20,
-                "translateX": 120,
-                "translateY": -55,
+                "symbolSize": 10,
+                "translateX": 0,
+                "translateY": 0,
               },
             ]
           }
           margin={
             Object {
-              "bottom": 50,
-              "left": 60,
-              "right": 130,
-              "top": 50,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
             }
           }
           motionDamping={15}
@@ -525,9 +525,9 @@ ShallowWrapper {
         />,
         "style": Object {
           "fontSize": "1em",
-          "height": "300px",
+          "height": "100%",
           "margin": "auto",
-          "width": "70%",
+          "width": "100%",
         },
       },
       "ref": null,
@@ -544,7 +544,7 @@ ShallowWrapper {
           "borderColor": "inherit:darker(1.6)",
           "className": "responsive-bar",
           "colorBy": "id",
-          "colors": "blue_purple",
+          "colors": "set2",
           "data": Array [
             Object {
               "CSS": "2.71",
@@ -572,9 +572,9 @@ ShallowWrapper {
           "layout": "horizontal",
           "legends": Array [
             Object {
-              "anchor": "bottom-right",
+              "anchor": "bottom",
               "dataFrom": "keys",
-              "direction": "column",
+              "direction": "row",
               "effects": Array [
                 Object {
                   "on": "hover",
@@ -586,19 +586,19 @@ ShallowWrapper {
               "itemDirection": "left-to-right",
               "itemHeight": 20,
               "itemOpacity": 0.85,
-              "itemWidth": 100,
+              "itemWidth": 90,
               "itemsSpacing": 2,
               "justify": false,
-              "symbolSize": 20,
-              "translateX": 120,
-              "translateY": -55,
+              "symbolSize": 10,
+              "translateX": 0,
+              "translateY": 0,
             },
           ],
           "margin": Object {
-            "bottom": 50,
-            "left": 60,
-            "right": 130,
-            "top": 50,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0,
           },
           "motionDamping": 15,
           "motionStiffness": 90,
@@ -623,9 +623,9 @@ ShallowWrapper {
           style={
             Object {
               "fontSize": "1em",
-              "height": "300px",
+              "height": "100%",
               "margin": "auto",
-              "width": "70%",
+              "width": "100%",
             }
           }
         >
@@ -638,7 +638,7 @@ ShallowWrapper {
             borderColor="inherit:darker(1.6)"
             className="responsive-bar"
             colorBy="id"
-            colors="blue_purple"
+            colors="set2"
             data={
               Array [
                 Object {
@@ -671,9 +671,9 @@ ShallowWrapper {
             legends={
               Array [
                 Object {
-                  "anchor": "bottom-right",
+                  "anchor": "bottom",
                   "dataFrom": "keys",
-                  "direction": "column",
+                  "direction": "row",
                   "effects": Array [
                     Object {
                       "on": "hover",
@@ -685,21 +685,21 @@ ShallowWrapper {
                   "itemDirection": "left-to-right",
                   "itemHeight": 20,
                   "itemOpacity": 0.85,
-                  "itemWidth": 100,
+                  "itemWidth": 90,
                   "itemsSpacing": 2,
                   "justify": false,
-                  "symbolSize": 20,
-                  "translateX": 120,
-                  "translateY": -55,
+                  "symbolSize": 10,
+                  "translateX": 0,
+                  "translateY": 0,
                 },
               ]
             }
             margin={
               Object {
-                "bottom": 50,
-                "left": 60,
-                "right": 130,
-                "top": 50,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 0,
               }
             }
             motionDamping={15}
@@ -725,7 +725,7 @@ ShallowWrapper {
             borderColor="inherit:darker(1.6)"
             className="responsive-bar"
             colorBy="id"
-            colors="blue_purple"
+            colors="set2"
             data={
               Array [
                 Object {
@@ -758,9 +758,9 @@ ShallowWrapper {
             legends={
               Array [
                 Object {
-                  "anchor": "bottom-right",
+                  "anchor": "bottom",
                   "dataFrom": "keys",
-                  "direction": "column",
+                  "direction": "row",
                   "effects": Array [
                     Object {
                       "on": "hover",
@@ -772,21 +772,21 @@ ShallowWrapper {
                   "itemDirection": "left-to-right",
                   "itemHeight": 20,
                   "itemOpacity": 0.85,
-                  "itemWidth": 100,
+                  "itemWidth": 90,
                   "itemsSpacing": 2,
                   "justify": false,
-                  "symbolSize": 20,
-                  "translateX": 120,
-                  "translateY": -55,
+                  "symbolSize": 10,
+                  "translateX": 0,
+                  "translateY": 0,
                 },
               ]
             }
             margin={
               Object {
-                "bottom": 50,
-                "left": 60,
-                "right": 130,
-                "top": 50,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 0,
               }
             }
             motionDamping={15}
@@ -796,9 +796,9 @@ ShallowWrapper {
           />,
           "style": Object {
             "fontSize": "1em",
-            "height": "300px",
+            "height": "100%",
             "margin": "auto",
-            "width": "70%",
+            "width": "100%",
           },
         },
         "ref": null,
@@ -815,7 +815,7 @@ ShallowWrapper {
             "borderColor": "inherit:darker(1.6)",
             "className": "responsive-bar",
             "colorBy": "id",
-            "colors": "blue_purple",
+            "colors": "set2",
             "data": Array [
               Object {
                 "CSS": "2.71",
@@ -843,9 +843,9 @@ ShallowWrapper {
             "layout": "horizontal",
             "legends": Array [
               Object {
-                "anchor": "bottom-right",
+                "anchor": "bottom",
                 "dataFrom": "keys",
-                "direction": "column",
+                "direction": "row",
                 "effects": Array [
                   Object {
                     "on": "hover",
@@ -857,19 +857,19 @@ ShallowWrapper {
                 "itemDirection": "left-to-right",
                 "itemHeight": 20,
                 "itemOpacity": 0.85,
-                "itemWidth": 100,
+                "itemWidth": 90,
                 "itemsSpacing": 2,
                 "justify": false,
-                "symbolSize": 20,
-                "translateX": 120,
-                "translateY": -55,
+                "symbolSize": 10,
+                "translateX": 0,
+                "translateY": 0,
               },
             ],
             "margin": Object {
-              "bottom": 50,
-              "left": 60,
-              "right": 130,
-              "top": 50,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
             },
             "motionDamping": 15,
             "motionStiffness": 90,

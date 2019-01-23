@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 // import { Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 
 import LoginPage from '../LoginPage';
 
@@ -23,24 +24,24 @@ export class MainPage extends Component {
 
   render() {
     return (
-
-      !(this.props.hasErrored === true) ?
-      <div className="main-page">
-        <InfoPage />        
-        <SearchBar />
-        <DataSlider />
-        {/* <ShareButton username={this.props.username}/> */}
-      </div>
+      this.props.hasErrored.hasErrored === true ?
+        <LoginPage />
       :
-      <LoginPage loginPage={true} pageNotFound={true} />
+        <div className="main-page">
+          <InfoPage />        
+          <SearchBar />
+          <DataSlider />
+          {/* <ShareButton username={this.props.username}/> */}
+        </div>
     )
   }
 }
 
-export const mapStateToProps = ({ hasErrored }) => ({ hasErrored })
+export const mapStateToProps = ({ hasErrored, loadingUser }) => ({ hasErrored, loadingUser })
 
 export const mapDispatchToProps = (dispatch) => ({
-  getUserData: (user) => dispatch(getUserData(user))
+  getUserData: (user) => dispatch(getUserData(user)),
+  hasErrored: (message, hasErrored) => dispatch(hasErrored(message, hasErrored))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(MainPage);

@@ -63,8 +63,6 @@ export class CommitsWordCloud extends Component {
 
   render() {
     return(
-
-      this.props.loadingWordCloud.loadingWordCloud ? <SliderLoading msg='Grabbing commits data' /> :
         <div className='commits-word-cloud'>
           <div className='tag-container'>
             <TagCloud
