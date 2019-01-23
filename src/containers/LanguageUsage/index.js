@@ -30,7 +30,6 @@ export class LanguageUsage extends Component {
 
   render() {
     return (
-      this.props.loadingLanguages.loadingLanguages ? <SliderLoading msg='Looking up language usage' /> :
       <div className='language-usage'>
         <h3>Language Usage Breakdown</h3>
         <div className='language-bar-chart-container'>
@@ -40,7 +39,7 @@ export class LanguageUsage extends Component {
           {
             this.props.languageData.Repositories.map( (repo, i) => {
               return (
-                <RepoLanguageBar repoData={this.cleanedUpData(i)}/>
+                <RepoLanguageBar key={i} repoData={this.cleanedUpData(i)}/>
               )
             })
           }

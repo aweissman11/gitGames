@@ -48,7 +48,7 @@ ShallowWrapper {
         <div
           className="login-search-form"
         >
-          <Connect(SearchUsers) />
+          <Connect(SearchInput) />
         </div>,
       ],
       "className": "login-container",
@@ -173,7 +173,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Connect(SearchUsers) />,
+          "children": <Connect(SearchInput) />,
           "className": "login-search-form",
         },
         "ref": null,
@@ -228,7 +228,7 @@ ShallowWrapper {
           <div
             className="login-search-form"
           >
-            <Connect(SearchUsers) />
+            <Connect(SearchInput) />
           </div>,
         ],
         "className": "login-container",
@@ -353,7 +353,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Connect(SearchUsers) />,
+            "children": <Connect(SearchInput) />,
             "className": "login-search-form",
           },
           "ref": null,
@@ -442,7 +442,7 @@ ShallowWrapper {
         <div
           className="login-search-form"
         >
-          <Connect(SearchUsers) />
+          <Connect(SearchInput) />
         </div>,
       ],
       "className": "login-container",
@@ -567,7 +567,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Connect(SearchUsers) />,
+          "children": <Connect(SearchInput) />,
           "className": "login-search-form",
         },
         "ref": null,
@@ -622,7 +622,7 @@ ShallowWrapper {
           <div
             className="login-search-form"
           >
-            <Connect(SearchUsers) />
+            <Connect(SearchInput) />
           </div>,
         ],
         "className": "login-container",
@@ -747,7 +747,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Connect(SearchUsers) />,
+            "children": <Connect(SearchInput) />,
             "className": "login-search-form",
           },
           "ref": null,

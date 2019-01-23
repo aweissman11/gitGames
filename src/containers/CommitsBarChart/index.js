@@ -45,7 +45,6 @@ export class CommitsBarChart extends Component {
 
   render() {
     return (
-      this.props.loadingCommits.loadingCommits ? <SliderLoading msg='Looking up average commits per week' /> :
         <div className='commits-bar-chart'>
           <h3>Commits broken down per week and per weekday</h3>
           <div className='commits-bar-box'>

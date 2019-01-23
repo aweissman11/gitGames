@@ -185,8 +185,8 @@ describe('loadingUser', () => {
     }
 
     const expected = {
-      message: 'booting up...',
-      loadingUser: true
+      message: 'search for something',
+      loadingUser: false
     }
 
     const result = loadingUser(undefined, mockAction);

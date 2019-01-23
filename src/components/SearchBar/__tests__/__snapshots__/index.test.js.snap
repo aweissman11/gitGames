@@ -30,31 +30,24 @@ ShallowWrapper {
           <div
             className="logo-box"
           >
-            <Link
-              replace={false}
-              to="/"
-            >
-              <ReactComponent
-                className="logo"
-              />
-            </Link>
-            <p
-              className="title"
-            >
-              <span
-                className="big-g"
+            <p>
+              <Link
+                replace={false}
+                to="/"
               >
-                G
-              </span>
-              it
-              <span
-                className="big-g"
-              >
-                G
-              </span>
-              ames
+                <ReactComponent
+                  className="logo"
+                />
+              </Link>
+            </p>
+            <p>
+              <Connect(SearchInput) />
             </p>
           </div>
+        </div>,
+        <div
+          className="search-bar-user-data"
+        >
           <Connect(UserData)
             loginPage={
               Object {
@@ -63,7 +56,6 @@ ShallowWrapper {
             }
           />
         </div>,
-        <Connect(SearchUsers) />,
       ],
       "className": "search-bar",
     },
@@ -74,10 +66,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <div
-              className="logo-box"
-            >
+          "children": <div
+            className="logo-box"
+          >
+            <p>
               <Link
                 replace={false}
                 to="/"
@@ -86,41 +78,21 @@ ShallowWrapper {
                   className="logo"
                 />
               </Link>
-              <p
-                className="title"
-              >
-                <span
-                  className="big-g"
-                >
-                  G
-                </span>
-                it
-                <span
-                  className="big-g"
-                >
-                  G
-                </span>
-                ames
-              </p>
-            </div>,
-            <Connect(UserData)
-              loginPage={
-                Object {
-                  "user": "me",
-                }
-              }
-            />,
-          ],
+            </p>
+            <p>
+              <Connect(SearchInput) />
+            </p>
+          </div>,
           "className": "git-games",
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
                 <Link
                   replace={false}
                   to="/"
@@ -128,29 +100,32 @@ ShallowWrapper {
                   <ReactComponent
                     className="logo"
                   />
-                </Link>,
-                <p
-                  className="title"
+                </Link>
+              </p>,
+              <p>
+                <Connect(SearchInput) />
+              </p>,
+            ],
+            "className": "logo-box",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  replace={false}
+                  to="/"
                 >
-                  <span
-                    className="big-g"
-                  >
-                    G
-                  </span>
-                  it
-                  <span
-                    className="big-g"
-                  >
-                    G
-                  </span>
-                  ames
-                </p>,
-              ],
-              "className": "logo-box",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
+                  <ReactComponent
+                    className="logo"
+                  />
+                </Link>,
+              },
+              "ref": null,
+              "rendered": Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "class",
@@ -175,85 +150,61 @@ ShallowWrapper {
                 },
                 "type": [Function],
               },
-              Object {
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(SearchInput) />,
+              },
+              "ref": null,
+              "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <span
-                      className="big-g"
-                    >
-                      G
-                    </span>,
-                    "it",
-                    <span
-                      className="big-g"
-                    >
-                      G
-                    </span>,
-                    "ames",
-                  ],
-                  "className": "title",
-                },
+                "nodeType": "class",
+                "props": Object {},
                 "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "G",
-                      "className": "big-g",
-                    },
-                    "ref": null,
-                    "rendered": "G",
-                    "type": "span",
-                  },
-                  "it",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "G",
-                      "className": "big-g",
-                    },
-                    "ref": null,
-                    "rendered": "G",
-                    "type": "span",
-                  },
-                  "ames",
-                ],
-                "type": "p",
+                "rendered": null,
+                "type": [Function],
               },
-            ],
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "loginPage": Object {
-                "user": "me",
-              },
+              "type": "p",
             },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
+          ],
+          "type": "div",
+        },
         "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
-        "props": Object {},
+        "nodeType": "host",
+        "props": Object {
+          "children": <Connect(UserData)
+            loginPage={
+              Object {
+                "user": "me",
+              }
+            }
+          />,
+          "className": "search-bar-user-data",
+        },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "loginPage": Object {
+              "user": "me",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
       },
     ],
     "type": "div",
@@ -271,31 +222,24 @@ ShallowWrapper {
             <div
               className="logo-box"
             >
-              <Link
-                replace={false}
-                to="/"
-              >
-                <ReactComponent
-                  className="logo"
-                />
-              </Link>
-              <p
-                className="title"
-              >
-                <span
-                  className="big-g"
+              <p>
+                <Link
+                  replace={false}
+                  to="/"
                 >
-                  G
-                </span>
-                it
-                <span
-                  className="big-g"
-                >
-                  G
-                </span>
-                ames
+                  <ReactComponent
+                    className="logo"
+                  />
+                </Link>
+              </p>
+              <p>
+                <Connect(SearchInput) />
               </p>
             </div>
+          </div>,
+          <div
+            className="search-bar-user-data"
+          >
             <Connect(UserData)
               loginPage={
                 Object {
@@ -304,7 +248,6 @@ ShallowWrapper {
               }
             />
           </div>,
-          <Connect(SearchUsers) />,
         ],
         "className": "search-bar",
       },
@@ -315,10 +258,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              <div
-                className="logo-box"
-              >
+            "children": <div
+              className="logo-box"
+            >
+              <p>
                 <Link
                   replace={false}
                   to="/"
@@ -327,41 +270,21 @@ ShallowWrapper {
                     className="logo"
                   />
                 </Link>
-                <p
-                  className="title"
-                >
-                  <span
-                    className="big-g"
-                  >
-                    G
-                  </span>
-                  it
-                  <span
-                    className="big-g"
-                  >
-                    G
-                  </span>
-                  ames
-                </p>
-              </div>,
-              <Connect(UserData)
-                loginPage={
-                  Object {
-                    "user": "me",
-                  }
-                }
-              />,
-            ],
+              </p>
+              <p>
+                <Connect(SearchInput) />
+              </p>
+            </div>,
             "className": "git-games",
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
                   <Link
                     replace={false}
                     to="/"
@@ -369,29 +292,32 @@ ShallowWrapper {
                     <ReactComponent
                       className="logo"
                     />
-                  </Link>,
-                  <p
-                    className="title"
+                  </Link>
+                </p>,
+                <p>
+                  <Connect(SearchInput) />
+                </p>,
+              ],
+              "className": "logo-box",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    replace={false}
+                    to="/"
                   >
-                    <span
-                      className="big-g"
-                    >
-                      G
-                    </span>
-                    it
-                    <span
-                      className="big-g"
-                    >
-                      G
-                    </span>
-                    ames
-                  </p>,
-                ],
-                "className": "logo-box",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
+                    <ReactComponent
+                      className="logo"
+                    />
+                  </Link>,
+                },
+                "ref": null,
+                "rendered": Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "class",
@@ -416,85 +342,61 @@ ShallowWrapper {
                   },
                   "type": [Function],
                 },
-                Object {
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Connect(SearchInput) />,
+                },
+                "ref": null,
+                "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <span
-                        className="big-g"
-                      >
-                        G
-                      </span>,
-                      "it",
-                      <span
-                        className="big-g"
-                      >
-                        G
-                      </span>,
-                      "ames",
-                    ],
-                    "className": "title",
-                  },
+                  "nodeType": "class",
+                  "props": Object {},
                   "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "G",
-                        "className": "big-g",
-                      },
-                      "ref": null,
-                      "rendered": "G",
-                      "type": "span",
-                    },
-                    "it",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "G",
-                        "className": "big-g",
-                      },
-                      "ref": null,
-                      "rendered": "G",
-                      "type": "span",
-                    },
-                    "ames",
-                  ],
-                  "type": "p",
+                  "rendered": null,
+                  "type": [Function],
                 },
-              ],
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "loginPage": Object {
-                  "user": "me",
-                },
+                "type": "p",
               },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
+            ],
+            "type": "div",
+          },
           "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
+          "nodeType": "host",
+          "props": Object {
+            "children": <Connect(UserData)
+              loginPage={
+                Object {
+                  "user": "me",
+                }
+              }
+            />,
+            "className": "search-bar-user-data",
+          },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "loginPage": Object {
+                "user": "me",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
         },
       ],
       "type": "div",

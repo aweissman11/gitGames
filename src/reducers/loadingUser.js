@@ -1,6 +1,6 @@
 const defaultState = {
-  loadingUser: true,
-  message: 'booting up...'
+  loadingUser: false,
+  message: 'search for something'
 }
 
 export const loadingUser = (state = defaultState, action) => {

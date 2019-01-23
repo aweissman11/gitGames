@@ -36,7 +36,6 @@ export class LanguageBarChart extends Component {
     let data = this.cleanedUpData()
 
     return (
-      this.props.loadingLanguages.loadingLanguages ? <SliderLoading msg='Looking up language usage' /> :
         <div className='bar-holder'>
           <div style={{margin: 'auto', width: '100%', height: '100%', fontSize: '1em'}}>
             <ResponsiveBar

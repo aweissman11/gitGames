@@ -1,6 +1,6 @@
 import { fetchCall } from '../../utilities/fetchCall';
 
-import { loadingUser, hasErrored, setUserData } from '../'
+import { loadingUser, loadingCommits, loadingCommunity, loadingLanguages, loadingWordCloud, hasErrored, setUserData } from '../'
 import { getCloudData } from './getCloudData';
 import { getLanguageData } from './getLanguagesData';
 import { getCommunityData } from './getCommunityData';
@@ -19,6 +19,10 @@ export const getUserData = (user) => {
       if (userData.error) {
         dispatch(hasErrored(userData.error, true))
         dispatch(loadingUser('User data has errored', false))
+        dispatch(loadingCommits('User data has errored', false))
+        dispatch(loadingCommunity('User data has errored', false))
+        dispatch(loadingLanguages('User data has errored', false))
+        dispatch(loadingWordCloud('User data has errored', false))
         return;
       }
     } catch(error) {

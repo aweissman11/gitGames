@@ -53,7 +53,8 @@ class DataSlider extends Component {
       this.props.loadingCommunity.loadingCommunity ||
       this.props.loadingWordCloud.loadingWordCloud ||
       this.props.loadingLanguages.loadingLanguages ||
-      this.props.loadingCommits.loadingCommits ?
+      this.props.loadingCommits.loadingCommits ||
+      this.props.hasErrored.hasErrored ?
       <LoadingBalls /> :
       <div className='data-slider'>
         <div style={{ textAlign: "center" }}>
@@ -129,13 +130,15 @@ export const mapStateToProps = ({
   loadingCommunity,
   loadingLanguages,
   loadingUser,
-  loadingWordCloud
+  loadingWordCloud,
+  hasErrored
 }) => ({
   loadingCommits,
   loadingCommunity,
   loadingLanguages,
   loadingUser,
-  loadingWordCloud
+  loadingWordCloud,
+  hasErrored
 })
 
 export default connect(mapStateToProps, null)(DataSlider);
