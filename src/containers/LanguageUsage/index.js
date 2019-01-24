@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 
 import LanguageBarChart from '../LanguageBarChart';
 import RepoLanguageBar from '../../components/RepoLanguageBar';
-import SliderLoading from '../../components/SliderLoading';
 
 import './LanguageUsage.scss';
 
@@ -37,11 +36,13 @@ export class LanguageUsage extends Component {
         </div>
         <div className='repo-language-bars-container'>
           {
+            this.props.languageData.Repositories ?
             this.props.languageData.Repositories.map( (repo, i) => {
               return (
                 <RepoLanguageBar key={i} repoData={this.cleanedUpData(i)}/>
               )
-            })
+            }) :
+            <div></div>
           }
         </div>
       </div>

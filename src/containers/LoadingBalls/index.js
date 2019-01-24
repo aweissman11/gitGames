@@ -17,6 +17,7 @@ export class LoadingBalls extends Component {
   }
 
   getLoadingMessage = () => {
+
     const {
       loadingCommits,
       loadingCommunity,
@@ -26,6 +27,11 @@ export class LoadingBalls extends Component {
       hasErrored
     } = this.props;
     if (loadingUser.loadingUser) {
+      if(this.state.loadingGifClass !== 'balls-loading-spinner') {
+        this.setState({
+          loadingGifClass: 'balls-loading-spinner'
+        })
+      }
       return loadingUser.message
     } else if (loadingCommunity.loadingCommunity) {
       return loadingCommunity.message

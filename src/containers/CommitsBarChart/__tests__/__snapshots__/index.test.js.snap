@@ -158,7 +158,7 @@ ShallowWrapper {
               borderColor="inherit:darker(1.6)"
               className="responsive-commits-bar"
               colorBy="id"
-              colors="set2"
+              colors="category10"
               data={
                 Array [
                   Object {
@@ -297,7 +297,7 @@ ShallowWrapper {
                 borderColor="inherit:darker(1.6)"
                 className="responsive-commits-bar"
                 colorBy="id"
-                colors="set2"
+                colors="category10"
                 data={
                   Array [
                     Object {
@@ -420,7 +420,7 @@ ShallowWrapper {
                 borderColor="inherit:darker(1.6)"
                 className="responsive-commits-bar"
                 colorBy="id"
-                colors="set2"
+                colors="category10"
                 data={
                   Array [
                     Object {
@@ -532,7 +532,7 @@ ShallowWrapper {
                 "borderColor": "inherit:darker(1.6)",
                 "className": "responsive-commits-bar",
                 "colorBy": "id",
-                "colors": "set2",
+                "colors": "category10",
                 "data": Array [
                   Object {
                     "F": 0,
@@ -671,7 +671,7 @@ ShallowWrapper {
                 borderColor="inherit:darker(1.6)"
                 className="responsive-commits-bar"
                 colorBy="id"
-                colors="set2"
+                colors="category10"
                 data={
                   Array [
                     Object {
@@ -810,7 +810,7 @@ ShallowWrapper {
                   borderColor="inherit:darker(1.6)"
                   className="responsive-commits-bar"
                   colorBy="id"
-                  colors="set2"
+                  colors="category10"
                   data={
                     Array [
                       Object {
@@ -933,7 +933,7 @@ ShallowWrapper {
                   borderColor="inherit:darker(1.6)"
                   className="responsive-commits-bar"
                   colorBy="id"
-                  colors="set2"
+                  colors="category10"
                   data={
                     Array [
                       Object {
@@ -1045,7 +1045,7 @@ ShallowWrapper {
                   "borderColor": "inherit:darker(1.6)",
                   "className": "responsive-commits-bar",
                   "colorBy": "id",
-                  "colors": "set2",
+                  "colors": "category10",
                   "data": Array [
                     Object {
                       "F": 0,

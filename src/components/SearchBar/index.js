@@ -17,9 +17,9 @@ export const SearchBar = (props) => (
             <LogoSvg className='logo' />
           </Link>
         </p>
-        <p>
+        <div>
           <SearchInput />
-        </p>
+        </div>
       </div>
     </div>
     <div className='search-bar-user-data'>

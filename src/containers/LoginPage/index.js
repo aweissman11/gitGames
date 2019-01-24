@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-// import { Route, withRouter, Switch } from 'react-router-dom';
-
-import ForceBubbles from '../../components/ForceBubbles';
-import SearchBar from '../../components/SearchBar';
 import SearchInput from '../../components/SearchInput';
 import { ReactComponent as LogoSvg } from '../../assets/Octicons-mark-github.svg';
 
