@@ -23,6 +23,14 @@ export class LoginPage extends Component {
         <div className="login-search-form">
           <SearchInput />
         </div>
+        {
+          this.props.pageNotFound ?
+          <div>
+            <p>Page not found, please use the search</p>
+          </div>
+          :
+          <div></div>
+        }
       </div>
     );
   }

@@ -17,7 +17,6 @@ export const getCloudData = (user) => {
       return;
     }
 
-    console.log(wordCloudData);
     dispatch(setCloudData(wordCloudData))
     dispatch(loadingWordCloud('Cloud data retrieved', false))
   }
