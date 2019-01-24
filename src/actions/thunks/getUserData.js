@@ -1,16 +1,16 @@
 import { fetchCall } from '../../utilities/fetchCall';
-
 import { loadingUser, loadingCommits, loadingCommunity, loadingLanguages, loadingWordCloud, hasErrored, setUserData } from '../'
 import { getCloudData } from './getCloudData';
 import { getLanguageData } from './getLanguagesData';
 import { getCommunityData } from './getCommunityData';
 import { getCommitsData } from './getCommitsData';
 
-import { mockUserData } from './__mocks__/mockUserData';
+// import { mockUserData } from './__mocks__/mockUserData';
 
 export const getUserData = (user) => {
   return async (dispatch) => {
     let userData;
+    dispatch(hasErrored('searching again', false))
     dispatch(loadingUser('Looking up user', true))
     
     try {

@@ -2,7 +2,7 @@ import { fetchCall } from '../../utilities/fetchCall';
 
 import { loadingCommunity, hasErrored, setCommunityData } from '../'
 
-import { mockCommunityData } from './__mocks__/mockCommunityData';
+// import { mockCommunityData } from './__mocks__/mockCommunityData';
 
 export const getCommunityData = (user) => {
   return async (dispatch) => {

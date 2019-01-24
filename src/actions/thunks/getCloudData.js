@@ -2,7 +2,7 @@ import { fetchCall } from '../../utilities/fetchCall';
 
 import { loadingWordCloud, hasErrored, setCloudData } from '../'
 
-import { mockWordCloudData } from './__mocks__/mockWordCloudData';
+// import { mockWordCloudData } from './__mocks__/mockWordCloudData';
 
 export const getCloudData = (user) => {
   return async (dispatch) => {
@@ -17,6 +17,7 @@ export const getCloudData = (user) => {
       return;
     }
 
+    console.log(wordCloudData);
     dispatch(setCloudData(wordCloudData))
     dispatch(loadingWordCloud('Cloud data retrieved', false))
   }
