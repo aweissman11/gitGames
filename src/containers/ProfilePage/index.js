@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { PieCircle } from '../../components/PieCircle';
-import SliderLoading from '../../components/SliderLoading';
 
 import './ProfilePage.scss';
 
@@ -12,15 +11,17 @@ export class ProfilePage extends Component {
     if (this.props.communityData) {
       const { communityData } = this.props;
       const colors = [
-        '#66c2a4',
-        '#fc8d62',
-        '#8da0cb',
-        '#a5d855',
-        '#fed92f',
-        '#e78ac3',
-        '#fdb462',
-        '#8cd3c7',
-        '#c5b0d5'
+        '#1f76b4',
+        '#ff7f0c',
+        '#2ba02c',
+        '#d62728',
+        '#9467bd',
+        '#8c554b',
+        '#e377c2',
+        '#7f7f7f',
+        '#bbbd22',
+        '#18becf',
+        '#ffeb3b'
       ]
         const newData = Object.keys(communityData).reduce( (acc, stat, i) => {
           statsArr.forEach( statName => {
@@ -37,7 +38,6 @@ export class ProfilePage extends Component {
           })
           return acc;
         }, [])
-        console.log(newData);
         return newData
       }
     }

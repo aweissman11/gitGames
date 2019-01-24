@@ -1,17 +1,10 @@
 import React, { Component } from 'react';
 import TagCloud from 'react-tag-cloud';
-import randomColor from 'randomcolor';
 import { connect } from 'react-redux';
-
-import * as d3 from 'd3';
-
-
-import SliderLoading from '../../components/SliderLoading';
 
 import './CommitsWordCloud.scss';
 
 import { CloudItem } from '../../components/CloudItem';
-
 
 export class CommitsWordCloud extends Component {
   getFontSize = (instances) => {
@@ -46,15 +39,17 @@ export class CommitsWordCloud extends Component {
 
   getWordColor = () => {
     const colorsList = [
-      '#66c2a4',
-      '#fc8d62',
-      '#8da0cb',
-      '#a5d855',
-      '#fed92f',
-      '#e78ac3',
-      '#fdb462',
-      '#8cd3c7',
-      '#c5b0d5'
+      '#1f76b4',
+      '#ff7f0c',
+      '#2ba02c',
+      '#d62728',
+      '#9467bd',
+      '#8c554b',
+      '#e377c2',
+      '#7f7f7f',
+      '#bbbd22',
+      '#18becf',
+      '#ffeb3b'
     ]
 
 

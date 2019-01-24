@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { ResponsiveBar } from '@nivo/bar';
 
 import './LanguageBarChart.scss';
-import SliderLoading from '../../components/SliderLoading';
 
 export class LanguageBarChart extends Component {
   constructor(props) {
@@ -33,7 +32,7 @@ export class LanguageBarChart extends Component {
 
 
   render() {
-    let data = this.cleanedUpData()
+    let data = this.cleanedUpData() || [];
 
     return (
         <div className='bar-holder'>
@@ -51,7 +50,7 @@ export class LanguageBarChart extends Component {
                 }}
                 padding={0.3}
                 layout="horizontal"
-                colors="set2"
+                colors="category10"
                 colorBy="id"
                 reverse={false}
                 borderColor="inherit:darker(1.6)"

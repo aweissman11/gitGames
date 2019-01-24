@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { ResponsiveBar } from '@nivo/bar'
 
-import SliderLoading from '../../components/SliderLoading';
-
 import './CommitsBarChart.scss';
 
 export class CommitsBarChart extends Component {
@@ -62,7 +60,7 @@ export class CommitsBarChart extends Component {
                       "left": 60
                   }}
                   padding={0.3}
-                  colors="set2"
+                  colors="category10"
                   colorBy="id"
                   borderColor="inherit:darker(1.6)"
                   axisTop={null}
