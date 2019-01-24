@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-// import { Route, withRouter, Switch } from 'react-router-dom';
-
-import ForceBubbles from '../../components/ForceBubbles';
-import SearchBar from '../../components/SearchBar';
 import SearchInput from '../../components/SearchInput';
 import { ReactComponent as LogoSvg } from '../../assets/Octicons-mark-github.svg';
 
@@ -27,6 +23,14 @@ export class LoginPage extends Component {
         <div className="login-search-form">
           <SearchInput />
         </div>
+        {
+          this.props.pageNotFound ?
+          <div>
+            <p>Page not found, please use the search</p>
+          </div>
+          :
+          <div></div>
+        }
       </div>
     );
   }

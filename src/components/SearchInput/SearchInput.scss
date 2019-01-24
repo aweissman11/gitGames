@@ -25,15 +25,12 @@
   border-radius: 5px;
   box-shadow: 3px 3px 5px black;
   color: $my-white;
-  font-size: 1.5em;
+  font-size: 1.1em;
   height: 40px;
   margin: 0 20px;
   width: 70%;
   max-width: 500px;
-}
-
-.input-search::placeholder {
-  padding: 0 20px;
+  text-indent: 15px;
 }
 
 .input-search-mini {
@@ -102,11 +99,9 @@
     height: 40px;
     margin: 0;
     min-width: 178px;
+    text-indent: 5px;
   }
 
-  .input-search-mini::placeholder {
-    padding: 0 3px;
-  }
 }
 
 @media (max-width: 610px) {

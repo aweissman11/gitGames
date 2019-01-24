@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-// import { Redirect } from 'react-router-dom';
-import { Redirect } from 'react-router-dom';
 
 import LoginPage from '../LoginPage';
-
-import './MainPage.css';
 import SearchBar from '../../components/SearchBar';
 import DataSlider from '../DataSlider';
-import ShareButton from '../../components/ShareButton';
 import { InfoPage } from '../../components/InfoPage';
-
-
 import { getUserData } from '../../actions/thunks/getUserData';
+
+import './MainPage.css';
 
 export class MainPage extends Component {
   componentDidMount() {
@@ -31,7 +26,6 @@ export class MainPage extends Component {
           <InfoPage />        
           <SearchBar />
           <DataSlider />
-          {/* <ShareButton username={this.props.username}/> */}
         </div>
     )
   }

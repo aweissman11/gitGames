@@ -21,7 +21,7 @@ export class RepoLanguageBar extends Component {
               }}
               padding={0.3}
               layout="vertical"
-              colors="set2"
+              colors="category10"
               colorBy="id"
               reverse={false}
               borderColor="inherit:darker(1.6)"

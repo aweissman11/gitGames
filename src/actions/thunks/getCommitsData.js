@@ -2,7 +2,7 @@ import { fetchCall } from '../../utilities/fetchCall';
 
 import { loadingCommits, hasErrored, setCommitsData } from '../'
 
-import { mockCommitsData } from './__mocks__/mockCommitsData';
+// import { mockCommitsData } from './__mocks__/mockCommitsData';
 
 export const getCommitsData = (user) => {
   return async (dispatch) => {

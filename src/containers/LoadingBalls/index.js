@@ -17,6 +17,7 @@ export class LoadingBalls extends Component {
   }
 
   getLoadingMessage = () => {
+
     const {
       loadingCommits,
       loadingCommunity,
@@ -26,6 +27,11 @@ export class LoadingBalls extends Component {
       hasErrored
     } = this.props;
     if (loadingUser.loadingUser) {
+      if(this.state.loadingGifClass !== 'balls-loading-spinner') {
+        this.setState({
+          loadingGifClass: 'balls-loading-spinner'
+        })
+      }
       return loadingUser.message
     } else if (loadingCommunity.loadingCommunity) {
       return loadingCommunity.message
@@ -58,17 +64,25 @@ export class LoadingBalls extends Component {
               {
                 this.getLoadingMessage()
               }
+
+              {
+              this.getLoadingMessage() ?
+                <span>
+                  <ReactLoading
+                    className={this.state.loadingGifClass}
+                    type={'spokes'}
+                    color={'#b7b7b7'}
+                    height={25}
+                    width={25}
+                  />
+                </span>
+                :
+                <span></span>
+              }
             </p>
-            <ReactLoading
-              className={this.state.loadingGifClass}
-              type={'spokes'}
-              color={'#b7b7b7'}
-              height={25}
-              width={25}
-            />
+            <p className='heres-the-balls'>Here, play with some balls...</p>
+            <p className={this.state.searchAgainClass}>Or search again using the input at the top</p>
           </div>
-          <p className='heres-the-balls'>Here, play with some balls...</p>
-          <p className={this.state.searchAgainClass}>Or search again using the input at the top</p>
         </div>
         <div className='loading-bubble-container'>
           <ForceBubbles customHeight={window.innerHeight} customWidth={window.innerWidth} />

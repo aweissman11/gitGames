@@ -367,7 +367,7 @@ ShallowWrapper {
           borderColor="inherit:darker(1.6)"
           className="responsive-bar"
           colorBy="id"
-          colors="set2"
+          colors="category10"
           data={
             Array [
               Object {
@@ -454,7 +454,7 @@ ShallowWrapper {
           borderColor="inherit:darker(1.6)"
           className="responsive-bar"
           colorBy="id"
-          colors="set2"
+          colors="category10"
           data={
             Array [
               Object {
@@ -544,7 +544,7 @@ ShallowWrapper {
           "borderColor": "inherit:darker(1.6)",
           "className": "responsive-bar",
           "colorBy": "id",
-          "colors": "set2",
+          "colors": "category10",
           "data": Array [
             Object {
               "CSS": "2.71",
@@ -638,7 +638,7 @@ ShallowWrapper {
             borderColor="inherit:darker(1.6)"
             className="responsive-bar"
             colorBy="id"
-            colors="set2"
+            colors="category10"
             data={
               Array [
                 Object {
@@ -725,7 +725,7 @@ ShallowWrapper {
             borderColor="inherit:darker(1.6)"
             className="responsive-bar"
             colorBy="id"
-            colors="set2"
+            colors="category10"
             data={
               Array [
                 Object {
@@ -815,7 +815,7 @@ ShallowWrapper {
             "borderColor": "inherit:darker(1.6)",
             "className": "responsive-bar",
             "colorBy": "id",
-            "colors": "set2",
+            "colors": "category10",
             "data": Array [
               Object {
                 "CSS": "2.71",

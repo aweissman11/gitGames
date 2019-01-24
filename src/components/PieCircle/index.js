@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import { ResponsivePie } from '@nivo/pie';
-
-
-// import SliderLoading from '../../components/SliderLoading';
 
 import './PieCircle.scss';
 
@@ -12,8 +8,6 @@ export class PieCircle extends Component {
   getToolTip = (tip, count) => {
     return (
       <div>
-        {/* <p className='tooltip'>{tip}:</p>
-        <p className='total-count'>{count}</p> */}
         <p className='tooltip'>testTip:</p>
         <p className='total-count'>999</p>
       </div>
@@ -38,7 +32,7 @@ export class PieCircle extends Component {
               innerRadius={0.9}
               padAngle={0}
               cornerRadius={0}
-              colors="set2"
+              colors="category10"
               colorBy={function(e){return e.color}}
               borderWidth={1}
               borderColor="inherit:darker(0.2)"

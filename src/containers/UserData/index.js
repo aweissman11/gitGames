@@ -6,20 +6,6 @@ import { Link } from 'react-router-dom'
 import './UserData.scss';
 
 export class UserData extends Component {
-  usernameDisplay = () => {
-    if (this.props.loginPage === true) {
-      return <span className='loading-span'>Please use the search</span>       
-    } else if (this.props.hasErrored.hasErrored) {
-      return <span className='loading-span'>User does not exist</span> 
-    } else if (this.props.loadingUser.loadingUser) {
-      return <span className='loading-span'>getting user data<ReactLoading className='loading-spinner-username' type={'spokes'} color={'#b7b7b7'} height={25} width={25} /></span> 
-    } else {
-      return <Link className='username-link' to={`/main/${this.props.userData.login}/#`}>
-              <span>{this.props.userData.login}</span>
-            </Link>
-    }
-  }
-
   render() {
 
     return (
@@ -37,6 +23,8 @@ export class UserData extends Component {
           </div>
         </div>
       </div> :
+      this.props.hasErrored.hasErrored ?
+      <div></div> :
       <Link className='username-link' to={`/main/${this.props.userData.login}/#`}>
         <div className="user-data">
           <h3 className="username">

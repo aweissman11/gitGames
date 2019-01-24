@@ -3,13 +3,10 @@ import Slider from "react-slick";
 import { connect } from 'react-redux';
 
 import ProfilePage from '../ProfilePage';
-import ForceBubbles from '../../components/ForceBubbles';
 import LanguageUsage from '../LanguageUsage';
 import CommitsWordCloud from '../CommitsWordCloud';
-// import LanguageBarChart from '../LanguageBarChart';
 import CommitsBarChart from '../CommitsBarChart';
 import LoadingBalls from '../LoadingBalls';
-// import PreviousPage from '../../components/LeftSlideBtn';
 
 import { ReactComponent as LeftSlideBtn } from '../../components/LeftSlideBtn/LeftSlideBtn.svg';
 import { ReactComponent as RightSlideBtn } from '../../components/RightSlideBtn/RightSlideBtn.svg';
@@ -42,11 +39,6 @@ class DataSlider extends Component {
       slidesToScroll: 1,
       slide: 'article'
     };
-
-    // return (
-    //   <LoadingBalls />
-    // )
-
 
     return (
       this.props.loadingUser.loadingUser ||
@@ -104,9 +96,6 @@ class DataSlider extends Component {
           <article className='slider-graph'>
             <ProfilePage />
           </article>
-          {/* <article className='slider-graph'>
-            <ForceBubbles customHeight={window.innerHeight} customWidth={window.innerWidth} />
-          </article> */}
           <article className='slider-graph'>
             <div className='slider-graph-1'>
               <h3>Commit Message Word Cloud</h3>

@@ -2,7 +2,7 @@ import { fetchCall } from '../../utilities/fetchCall';
 
 import { loadingLanguages, hasErrored, setLanguageData } from '..';
 
-import { mockLanguagesData } from './__mocks__/mockLanguagesData';
+// import { mockLanguagesData } from './__mocks__/mockLanguagesData';
 
 export const getLanguageData = (user) => {
   return async (dispatch) => {

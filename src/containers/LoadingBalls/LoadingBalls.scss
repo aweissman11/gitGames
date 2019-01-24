@@ -10,23 +10,23 @@
 }
 
 .balls-info-container {
-  position: relative;
-  top: 90px;
-
+  height: 0;
 }
 
 .loading-msg-box {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  max-width: max-content;
+  flex-direction: column;
   margin: auto;
-  
+  height: 320px;
+  min-width: 320px;
+  padding-top: 100px;
 }
 
 .loading-ball-msg {
   color: $my-white;
   font-size: 1.4em;
+  display: flex;
+  margin: 10px auto;
 }
 
 .balls-loading-spinner {
